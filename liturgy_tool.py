@@ -4,7 +4,8 @@ import shutil
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
+from datetime import date
 
 # Mapping from Excel column headers to (property_type, property_name)
 # property_type: 'core' for core document properties, 'custom' for custom properties
@@ -29,32 +30,112 @@ EXCEL_FILE = os.path.join(os.path.dirname(__file__), "Jadwal Liturgi.xlsx")
 SHEET_NAME = "LITURGI INDUK"
 
 
-def _cell_text(cell: ET.Element, ns: Dict[str, str]) -> str:
-    if cell.get("t") == "inlineStr":
+def _read_shared_strings(z: zipfile.ZipFile) -> List[str]:
+    """Return list of shared strings if present, else empty list."""
+    try:
+        data = z.read("xl/sharedStrings.xml")
+    except KeyError:
+        return []
+    ns = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+    root = ET.fromstring(data)
+    strings: List[str] = []
+    for si in root.findall("m:si", ns):
+        # Concatenate all text nodes to handle rich text
+        text_parts: List[str] = []
+        for t in si.findall('.//m:t', ns):
+            text_parts.append(t.text or "")
+        strings.append("".join(text_parts))
+    return strings
+
+
+def _cell_text(cell: ET.Element, ns: Dict[str, str], shared_strings: List[str]) -> str:
+    """Return the user-visible text for a cell.
+
+    Handles inline strings, shared strings, formula strings, and raw values.
+    """
+    t_attr = cell.get("t")
+    # Inline string
+    if t_attr == "inlineStr":
         is_elem = cell.find("m:is", ns)
         if is_elem is not None:
             t = is_elem.find("m:t", ns)
             if t is not None:
                 return t.text or ""
     v = cell.find("m:v", ns)
-    return v.text if v is not None else ""
+    if v is None:
+        return ""
+    # Shared string lookup
+    if t_attr == "s":
+        try:
+            idx = int(v.text) if v.text is not None else -1
+        except ValueError:
+            idx = -1
+        if 0 <= idx < len(shared_strings):
+            return shared_strings[idx]
+        return ""
+    # Formula string (already calculated value in <v>) or plain number/text
+    return v.text or ""
+
+
+def _workbook_uses_1904(z: zipfile.ZipFile) -> bool:
+    """Detect if the workbook uses the 1904 date system."""
+    try:
+        data = z.read("xl/workbook.xml")
+    except KeyError:
+        return False
+    ns = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+    root = ET.fromstring(data)
+    wbpr = root.find("m:workbookPr", ns)
+    return wbpr is not None and wbpr.get("date1904") in {"1", "true", "True"}
+
+
+def _excel_serial_from_date_str(date_str: str, use_1904: bool) -> int:
+    """Convert YYYY-MM-DD to Excel serial number (integer days)."""
+    d = date.fromisoformat(date_str)
+    if use_1904:
+        # In 1904 system, serial 0 = 1904-01-01
+        base = date(1904, 1, 1)
+        return (d - base).days
+    # 1900 system with Excel's leap-year bug (treats 1900 as leap year)
+    base = date(1899, 12, 31)
+    serial = (d - base).days
+    if d >= date(1900, 3, 1):
+        serial += 1
+    return serial
 
 
 def read_schedule_row(date_str: str, excel_path: str = EXCEL_FILE) -> Dict[str, str]:
-    """Return mapping of column header to cell value for the given date."""
+    """Return mapping of column header to cell value for the given date.
+
+    The Excel file stores dates as numeric serials; this converts the input
+    YYYY-MM-DD to the matching Excel serial and compares numerically.
+    """
     with zipfile.ZipFile(excel_path) as z:
         sheet_xml = z.read("xl/worksheets/sheet1.xml")
+        shared = _read_shared_strings(z)
+        use_1904 = _workbook_uses_1904(z)
     ns = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
     root = ET.fromstring(sheet_xml)
     rows = root.find("m:sheetData", ns).findall("m:row", ns)
-    headers = [_cell_text(c, ns) for c in rows[0].findall("m:c", ns)]
+    # Build headers using sharedStrings to resolve indices
+    headers = [_cell_text(c, ns, shared) for c in rows[0].findall("m:c", ns)]
+    # Target Excel serial
+    target_serial = _excel_serial_from_date_str(date_str, use_1904)
     for row in rows[1:]:
         cells = row.findall("m:c", ns)
-        values = [_cell_text(c, ns) for c in cells]
+        values = [_cell_text(c, ns, shared) for c in cells]
         if not values:
             continue
         row_dict = dict(zip(headers, values))
-        if row_dict.get("Tanggal") == date_str:
+        raw = row_dict.get("Tanggal")
+        if raw is None or raw == "":
+            continue
+        try:
+            cell_serial = int(float(raw))
+        except ValueError:
+            # Not numeric; skip
+            continue
+        if cell_serial == target_serial:
             return row_dict
     raise ValueError(f"Date {date_str} not found in schedule")
 
