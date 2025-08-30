@@ -23,7 +23,8 @@ COLUMN_TO_PROPERTY: Dict[str, Tuple[str, str]] = {
     "Nyanyian Pengakuan Dosa": ("custom", "@NYANYIAN_PENGAKUAN_DOSA"),
     "Nyanyian Berita Anugerah": ("custom", "@NYANYIAN_BERITA_ANUGERAH"),
     "Nyanyian Persembahan": ("custom", "@NYANYIAN_PERSEMBAHAN"),
-    "Nyanyian Peneguhan": ("custom", "@NYANYIAN PENGUTUSAN"),
+    # Note: property name uses underscore, not space
+    "Nyanyian Peneguhan": ("custom", "@NYANYIAN_PENGUTUSAN"),
 }
 
 EXCEL_FILE = os.path.join(os.path.dirname(__file__), "Jadwal Liturgi.xlsx")
@@ -143,11 +144,22 @@ def read_schedule_row(date_str: str, excel_path: str = EXCEL_FILE) -> Dict[str, 
 def get_properties_for_date(date_str: str, excel_path: str = EXCEL_FILE) -> Dict[str, Dict[str, str]]:
     row = read_schedule_row(date_str, excel_path)
     props = {"core": {}, "custom": {}}
+    def _format_tanggal(ds: str) -> str:
+        months = [
+            "JANUARI","FEBRUARI","MARET","APRIL","MEI","JUNI",
+            "JULI","AGUSTUS","SEPTEMBER","OKTOBER","NOVEMBER","DESEMBER",
+        ]
+        d = date.fromisoformat(ds)
+        return f"{d.day} {months[d.month-1]} {d.year}"
     for column, (ptype, pname) in COLUMN_TO_PROPERTY.items():
         value = row.get(column)
         if value is None:
             continue
-        props[ptype][pname] = value
+        if pname == "@TANGGAL":
+            # Use a human-readable Indonesian date string
+            props[ptype][pname] = _format_tanggal(date_str)
+        else:
+            props[ptype][pname] = value
     return props
 
 
@@ -168,7 +180,9 @@ def _update_core_properties(data: bytes, core_props: Dict[str, str]) -> bytes:
         if elem is None:
             elem = ET.SubElement(root, tag)
         elem.text = value
-    return ET.tostring(root, encoding="UTF-8", xml_declaration=True)
+    # Some Python environments don't support xml_declaration param on tostring.
+    # Return bytes without explicit XML declaration; Word handles this fine.
+    return ET.tostring(root, encoding="UTF-8")
 
 
 def _update_custom_properties(data: bytes, custom_props: Dict[str, str]) -> bytes:
@@ -197,7 +211,7 @@ def _update_custom_properties(data: bytes, custom_props: Dict[str, str]) -> byte
             prop.remove(child)
         val_elem = ET.SubElement(prop, f"{{{ns['vt']}}}lpwstr")
         val_elem.text = value
-    return ET.tostring(root, encoding="UTF-8", xml_declaration=True)
+    return ET.tostring(root, encoding="UTF-8")
 
 
 def update_word_file(template_path: str, date_str: str, props: Dict[str, Dict[str, str]]) -> str:
@@ -206,13 +220,26 @@ def update_word_file(template_path: str, date_str: str, props: Dict[str, Dict[st
     out_name = f"Liturgi {date_str}.docx"
     out_path = os.path.join(out_dir, out_name)
     shutil.copyfile(template_path, out_path)
-    with zipfile.ZipFile(out_path, "a") as z:
-        core_xml = z.read("docProps/core.xml")
-        core_xml = _update_core_properties(core_xml, props.get("core", {}))
-        z.writestr("docProps/core.xml", core_xml)
-        custom_xml = z.read("docProps/custom.xml")
-        custom_xml = _update_custom_properties(custom_xml, props.get("custom", {}))
-        z.writestr("docProps/custom.xml", custom_xml)
+
+    # Read originals
+    with zipfile.ZipFile(out_path, "r") as zr:
+        core_xml = zr.read("docProps/core.xml")
+        custom_xml = zr.read("docProps/custom.xml")
+    # Apply updates
+    core_xml = _update_core_properties(core_xml, props.get("core", {}))
+    custom_xml = _update_custom_properties(custom_xml, props.get("custom", {}))
+
+    # Rewrite the .docx without duplicate entries
+    tmp_path = out_path + ".tmp"
+    with zipfile.ZipFile(out_path, "r") as zr, zipfile.ZipFile(tmp_path, "w", compression=zipfile.ZIP_DEFLATED) as zw:
+        for item in zr.infolist():
+            if item.filename in {"docProps/core.xml", "docProps/custom.xml"}:
+                continue  # replaced below
+            data = zr.read(item.filename)
+            zw.writestr(item, data)
+        zw.writestr("docProps/core.xml", core_xml)
+        zw.writestr("docProps/custom.xml", custom_xml)
+    os.replace(tmp_path, out_path)
     return out_path
 
 
