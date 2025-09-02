@@ -2,7 +2,7 @@ import os
 import zipfile
 import xml.etree.ElementTree as ET
 
-import liturgy_tool as lt
+import src.liturgi.liturgy_tool as lt
 
 
 def test_update_word_properties():

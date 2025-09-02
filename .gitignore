@@ -1,2 +1,23 @@
+# Ignore Microsoft Excel files
 *.xlsx
+
+# Ignore Microsoft Word files
 *.docx
+
+# Ignore Python virtual environment directory
+.venv/
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code workspace settings
+.vscode/
