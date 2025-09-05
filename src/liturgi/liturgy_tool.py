@@ -6,6 +6,8 @@ import zipfile
 import xml.etree.ElementTree as ET
 from typing import Dict, Tuple, List
 from datetime import date
+import re
+import sqlite3
 
 # Mapping from Excel column headers to (property_type, property_name)
 # property_type: 'core' for core document properties, 'custom' for custom properties
@@ -27,7 +29,7 @@ COLUMN_TO_PROPERTY: Dict[str, Tuple[str, str]] = {
     "Nyanyian Peneguhan": ("custom", "_NYANYIAN_PENGUTUSAN"),
 }
 
-EXCEL_FILE = os.path.join(os.path.dirname(__file__), "Jadwal Liturgi.xlsx")
+EXCEL_FILE = os.path.join(os.path.dirname(__file__), "..\..\Jadwal Liturgi.xlsx")
 SHEET_NAME = "LITURGI INDUK"
 
 
@@ -151,15 +153,63 @@ def get_properties_for_date(date_str: str, excel_path: str = EXCEL_FILE) -> Dict
         ]
         d = date.fromisoformat(ds)
         return f"{d.day} {months[d.month-1]} {d.year}"
+    def _parse_buku_no(text: str):
+        if not text:
+            return None
+        m = re.search(r"([A-Za-z]+)\s*0*([0-9]+)", text)
+        if not m:
+            return None
+        buku = m.group(1).upper()
+        try:
+            no = int(m.group(2))
+        except ValueError:
+            return None
+        return buku, no
     for column, (ptype, pname) in COLUMN_TO_PROPERTY.items():
         value = row.get(column)
         if value is None:
             continue
-        if pname == "@TANGGAL":
-            # Use a human-readable Indonesian date string
+        if pname == "_TANGGAL":
+            # Convert Excel serial date to Indonesian long date (from input date_str)
             props[ptype][pname] = _format_tanggal(date_str)
         else:
             props[ptype][pname] = value
+    # Augment with _KETERANGAN_NYANYIAN_* from hymns DB
+    # DB path relative to this file: ..\db\hymns_OK.sqlite3
+    db_path = os.path.join(os.path.dirname(__file__), "..", "db", "hymns_OK.sqlite3")
+    if os.path.exists(db_path):
+        try:
+            con = sqlite3.connect(db_path)
+            cur = con.cursor()
+            # Iterate over NYANYIAN custom properties and populate corresponding KETERANGAN
+            for prop_name, prop_val in list(props["custom"].items()):
+                if not prop_name.startswith("_NYANYIAN_"):
+                    continue
+                parsed = _parse_buku_no(prop_val)
+                if not parsed:
+                    continue
+                buku, no_lagu = parsed
+                cur.execute(
+                    "SELECT info FROM hymns WHERE buku = ? AND no_lagu = ? LIMIT 1",
+                    (buku, no_lagu),
+                )
+                row_info = cur.fetchone()
+                if row_info and row_info[0]:
+                    ket_name = prop_name.replace("_NYANYIAN_", "_KETERANGAN_NYANYIAN_")
+                    info_text = row_info[0]
+                    # Normalize multi-line info to a single line, joining with commas
+                    info_text = re.sub(r"\s*\r?\n\s*", ", ", info_text).strip()
+                    # Collapse any duplicate commas/spaces from messy inputs
+                    info_text = re.sub(r"(,\s*){2,}", ", ", info_text)
+                    props["custom"][ket_name] = info_text
+        except Exception:
+            # Silently ignore DB issues; core behavior still works
+            pass
+        finally:
+            try:
+                con.close()
+            except Exception:
+                pass
     return props
 
 
