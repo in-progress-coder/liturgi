@@ -1,0 +1,1193 @@
+2025-09-05 19:05:21,304 [INFO] Fetching https://alkitab.app/KPPK/1
+2025-09-05 19:05:21,870 [INFO] PARSED KPPK/1 - OK (no_lagu=1, judul_text='Tuhan Berada di Bait Suci-Nya')
+2025-09-05 19:05:22,470 [INFO] Fetching https://alkitab.app/KPPK/2
+2025-09-05 19:05:23,705 [INFO] PARSED KPPK/2 - OK (no_lagu=2, judul_text='Hormat Diberi')
+2025-09-05 19:05:24,306 [INFO] Fetching https://alkitab.app/KPPK/3
+2025-09-05 19:05:24,572 [INFO] PARSED KPPK/3 - OK (no_lagu=3, judul_text='Walau Seribu Lidahku')
+2025-09-05 19:05:25,174 [INFO] Fetching https://alkitab.app/KPPK/4
+2025-09-05 19:05:26,056 [INFO] PARSED KPPK/4 - OK (no_lagu=4, judul_text='Yang Cinta pada Tuhan, Datanglah')
+2025-09-05 19:05:26,656 [INFO] Fetching https://alkitab.app/KPPK/5
+2025-09-05 19:05:29,242 [INFO] PARSED KPPK/5 - OK (no_lagu=5, judul_text='Kemuliaan dan Hormat')
+2025-09-05 19:05:29,843 [INFO] Fetching https://alkitab.app/KPPK/6
+2025-09-05 19:05:30,893 [INFO] PARSED KPPK/6 - OK (no_lagu=6, judul_text='Hosana! Puji Tuhan')
+2025-09-05 19:05:31,495 [INFO] Fetching https://alkitab.app/KPPK/7
+2025-09-05 19:05:31,735 [INFO] PARSED KPPK/7 - OK (no_lagu=7, judul_text='Domba Allah, Aku Datang')
+2025-09-05 19:05:32,336 [INFO] Fetching https://alkitab.app/KPPK/8
+2025-09-05 19:05:32,613 [INFO] PARSED KPPK/8 - OK (no_lagu=8, judul_text='Masyurkan Rajamu!')
+2025-09-05 19:05:33,214 [INFO] Fetching https://alkitab.app/KPPK/9
+2025-09-05 19:05:34,191 [INFO] PARSED KPPK/9 - OK (no_lagu=9, judul_text='Umat-Nya, Pujilah!')
+2025-09-05 19:05:34,792 [INFO] Fetching https://alkitab.app/KPPK/10
+2025-09-05 19:05:35,051 [INFO] PARSED KPPK/10 - OK (no_lagu=10, judul_text='Nobatkanlah Raja!')
+2025-09-05 19:05:35,653 [INFO] Fetching https://alkitab.app/KPPK/11
+2025-09-05 19:05:36,987 [INFO] PARSED KPPK/11 - OK (no_lagu=11, judul_text='Terpujilah Nama Allah')
+2025-09-05 19:05:37,598 [INFO] Fetching https://alkitab.app/KPPK/12
+2025-09-05 19:05:39,683 [INFO] PARSED KPPK/12 - OK (no_lagu=12, judul_text='Hatiku Memuji Nama-Nya')
+2025-09-05 19:05:40,283 [INFO] Fetching https://alkitab.app/KPPK/13
+2025-09-05 19:05:40,533 [INFO] PARSED KPPK/13 - OK (no_lagu=13, judul_text='Allah Bapa Hadir dalam Bait Suci-Nya')
+2025-09-05 19:05:41,134 [INFO] Fetching https://alkitab.app/KPPK/14
+2025-09-05 19:05:41,392 [INFO] PARSED KPPK/14 - OK (no_lagu=14, judul_text='Sungguh Besar Kau Allahku')
+2025-09-05 19:05:41,992 [INFO] Fetching https://alkitab.app/KPPK/15
+2025-09-05 19:05:42,279 [INFO] PARSED KPPK/15 - OK (no_lagu=15, judul_text='Kupuji-Mu, Tuhan')
+2025-09-05 19:05:42,881 [INFO] Fetching https://alkitab.app/KPPK/16
+2025-09-05 19:05:43,757 [INFO] PARSED KPPK/16 - OK (no_lagu=16, judul_text='B'rilah Hormat pada-Nya')
+2025-09-05 19:05:44,357 [INFO] Fetching https://alkitab.app/KPPK/17
+2025-09-05 19:05:45,750 [INFO] PARSED KPPK/17 - OK (no_lagu=17, judul_text='Marilah Puji')
+2025-09-05 19:05:46,350 [INFO] Fetching https://alkitab.app/KPPK/18
+2025-09-05 19:05:49,434 [INFO] PARSED KPPK/18 - OK (no_lagu=18, judul_text='Mulia bagi Nama-Nya')
+2025-09-05 19:05:50,035 [INFO] Fetching https://alkitab.app/KPPK/19
+2025-09-05 19:05:56,397 [INFO] PARSED KPPK/19 - OK (no_lagu=19, judul_text='Datang Menyembah Raja yang Mulia')
+2025-09-05 19:05:56,998 [INFO] Fetching https://alkitab.app/KPPK/20
+2025-09-05 19:05:57,239 [INFO] PARSED KPPK/20 - OK (no_lagu=20, judul_text=''Ku Memuji Nama-Mu')
+2025-09-05 19:05:57,840 [INFO] Fetching https://alkitab.app/KPPK/21
+2025-09-05 19:05:58,095 [INFO] PARSED KPPK/21 - OK (no_lagu=21, judul_text='Puji Tuhan, Allah Mahakuasa')
+2025-09-05 19:05:58,696 [INFO] Fetching https://alkitab.app/KPPK/22
+2025-09-05 19:05:58,997 [INFO] PARSED KPPK/22 - OK (no_lagu=22, judul_text='Sukacita Kusembahkan')
+2025-09-05 19:05:59,599 [INFO] Fetching https://alkitab.app/KPPK/23
+2025-09-05 19:06:01,438 [INFO] PARSED KPPK/23 - OK (no_lagu=23, judul_text=''Ku Bersyukur')
+2025-09-05 19:06:02,039 [INFO] Fetching https://alkitab.app/KPPK/24
+2025-09-05 19:06:04,989 [INFO] PARSED KPPK/24 - OK (no_lagu=24, judul_text='Juruselamat yang Ajaib')
+2025-09-05 19:06:05,591 [INFO] Fetching https://alkitab.app/KPPK/25
+2025-09-05 19:06:07,278 [INFO] PARSED KPPK/25 - OK (no_lagu=25, judul_text='Allah Mahakuasa')
+2025-09-05 19:06:07,878 [INFO] Fetching https://alkitab.app/KPPK/26
+2025-09-05 19:06:08,131 [INFO] PARSED KPPK/26 - OK (no_lagu=26, judul_text='Mulia bagi Allah')
+2025-09-05 19:06:08,733 [INFO] Fetching https://alkitab.app/KPPK/27
+2025-09-05 19:06:08,988 [INFO] PARSED KPPK/27 - OK (no_lagu=27, judul_text='Kasih Allah')
+2025-09-05 19:06:09,589 [INFO] Fetching https://alkitab.app/KPPK/28
+2025-09-05 19:06:09,857 [INFO] PARSED KPPK/28 - OK (no_lagu=28, judul_text='Mulia')
+2025-09-05 19:06:10,459 [INFO] Fetching https://alkitab.app/KPPK/29
+2025-09-05 19:06:12,695 [INFO] PARSED KPPK/29 - OK (no_lagu=29, judul_text='Nama-Nya Ajaib')
+2025-09-05 19:06:13,295 [INFO] Fetching https://alkitab.app/KPPK/30
+2025-09-05 19:06:15,193 [INFO] PARSED KPPK/30 - OK (no_lagu=30, judul_text='Yesus, Pengasih Jiwaku')
+2025-09-05 19:06:15,793 [INFO] Fetching https://alkitab.app/KPPK/31
+2025-09-05 19:06:16,950 [INFO] PARSED KPPK/31 - OK (no_lagu=31, judul_text='Sewaktu Kuingat Yesus')
+2025-09-05 19:06:17,551 [INFO] Fetching https://alkitab.app/KPPK/32
+2025-09-05 19:06:17,824 [INFO] PARSED KPPK/32 - OK (no_lagu=32, judul_text='Dialah Juruselamatku')
+2025-09-05 19:06:18,424 [INFO] Fetching https://alkitab.app/KPPK/33
+2025-09-05 19:06:19,293 [INFO] PARSED KPPK/33 - OK (no_lagu=33, judul_text='Kristus Tuhan, Raja Dunia')
+2025-09-05 19:06:19,893 [INFO] Fetching https://alkitab.app/KPPK/34
+2025-09-05 19:06:20,837 [INFO] PARSED KPPK/34 - OK (no_lagu=34, judul_text='Yesus yang Ajaib')
+2025-09-05 19:06:21,438 [INFO] Fetching https://alkitab.app/KPPK/35
+2025-09-05 19:06:22,657 [INFO] PARSED KPPK/35 - OK (no_lagu=35, judul_text='Yesus, Tuhanku')
+2025-09-05 19:06:23,258 [INFO] Fetching https://alkitab.app/KPPK/36
+2025-09-05 19:06:24,293 [INFO] PARSED KPPK/36 - OK (no_lagu=36, judul_text='Indahlah Yesus')
+2025-09-05 19:06:24,895 [INFO] Fetching https://alkitab.app/KPPK/37
+2025-09-05 19:06:26,029 [INFO] PARSED KPPK/37 - OK (no_lagu=37, judul_text='Tuhan yang Kukasihi')
+2025-09-05 19:06:26,629 [INFO] Fetching https://alkitab.app/KPPK/38
+2025-09-05 19:06:26,879 [INFO] PARSED KPPK/38 - OK (no_lagu=38, judul_text='Nama-Nya Yesus')
+2025-09-05 19:06:27,480 [INFO] Fetching https://alkitab.app/KPPK/39
+2025-09-05 19:06:27,791 [INFO] PARSED KPPK/39 - OK (no_lagu=39, judul_text='Nama Yesus')
+2025-09-05 19:06:28,392 [INFO] Fetching https://alkitab.app/KPPK/40
+2025-09-05 19:06:29,381 [INFO] PARSED KPPK/40 - OK (no_lagu=40, judul_text='Yesus Anak Allah')
+2025-09-05 19:06:29,981 [INFO] Fetching https://alkitab.app/KPPK/41
+2025-09-05 19:06:30,990 [INFO] PARSED KPPK/41 - OK (no_lagu=41, judul_text='Nama Yesus yang Ajaib')
+2025-09-05 19:06:31,591 [INFO] Fetching https://alkitab.app/KPPK/42
+2025-09-05 19:06:31,828 [INFO] PARSED KPPK/42 - OK (no_lagu=42, judul_text='Puji Nama Yesus')
+2025-09-05 19:06:32,428 [INFO] Fetching https://alkitab.app/KPPK/43
+2025-09-05 19:06:33,339 [INFO] PARSED KPPK/43 - OK (no_lagu=43, judul_text='Puji Tuhan, Allah Penebusku')
+2025-09-05 19:06:33,943 [INFO] Fetching https://alkitab.app/KPPK/44
+2025-09-05 19:06:35,032 [INFO] PARSED KPPK/44 - OK (no_lagu=44, judul_text='Tuhanku yang Ajaib')
+2025-09-05 19:06:35,633 [INFO] Fetching https://alkitab.app/KPPK/45
+2025-09-05 19:06:36,589 [INFO] PARSED KPPK/45 - OK (no_lagu=45, judul_text=''Ku Bernyanyi Puji Yesus')
+2025-09-05 19:06:37,190 [INFO] Fetching https://alkitab.app/KPPK/46
+2025-09-05 19:06:38,695 [INFO] PARSED KPPK/46 - OK (no_lagu=46, judul_text=''Ku Memuji Penebusku')
+2025-09-05 19:06:39,297 [INFO] Fetching https://alkitab.app/KPPK/47
+2025-09-05 19:06:40,346 [INFO] PARSED KPPK/47 - OK (no_lagu=47, judul_text='Yesus, Nama Mahamulia')
+2025-09-05 19:06:40,948 [INFO] Fetching https://alkitab.app/KPPK/48
+2025-09-05 19:06:42,001 [INFO] PARSED KPPK/48 - OK (no_lagu=48, judul_text='Anug'rah Kristus Besarlah!')
+2025-09-05 19:06:42,602 [INFO] Fetching https://alkitab.app/KPPK/49
+2025-09-05 19:06:43,507 [INFO] PARSED KPPK/49 - OK (no_lagu=49, judul_text=''Ku Bersyukur Ia Tebusku')
+2025-09-05 19:06:44,109 [INFO] Fetching https://alkitab.app/KPPK/50
+2025-09-05 19:06:44,423 [INFO] PARSED KPPK/50 - OK (no_lagu=50, judul_text='Hitung Berkatmu')
+2025-09-05 19:06:45,024 [INFO] Fetching https://alkitab.app/KPPK/51
+2025-09-05 19:06:46,432 [INFO] PARSED KPPK/51 - OK (no_lagu=51, judul_text=''Ku Mau Serahkan Semua Milikku')
+2025-09-05 19:06:47,032 [INFO] Fetching https://alkitab.app/KPPK/52
+2025-09-05 19:06:47,296 [INFO] PARSED KPPK/52 - OK (no_lagu=52, judul_text=''Ku Berserah pada Yesus')
+2025-09-05 19:06:47,897 [INFO] Fetching https://alkitab.app/KPPK/53
+2025-09-05 19:06:48,158 [INFO] PARSED KPPK/53 - OK (no_lagu=53, judul_text='Doxology')
+2025-09-05 19:06:48,758 [INFO] Fetching https://alkitab.app/KPPK/54
+2025-09-05 19:06:49,021 [INFO] PARSED KPPK/54 - OK (no_lagu=54, judul_text='Kini Kami akan Berpisah - I')
+2025-09-05 19:06:49,622 [INFO] Fetching https://alkitab.app/KPPK/55
+2025-09-05 19:06:52,626 [INFO] PARSED KPPK/55 - OK (no_lagu=55, judul_text='Tibalah Saat Berpisah- II')
+2025-09-05 19:06:53,227 [INFO] Fetching https://alkitab.app/KPPK/56
+2025-09-05 19:06:54,129 [INFO] PARSED KPPK/56 - OK (no_lagu=56, judul_text='Hai, Semua Ciptaan-Nya')
+2025-09-05 19:06:54,730 [INFO] Fetching https://alkitab.app/KPPK/57
+2025-09-05 19:06:54,979 [INFO] PARSED KPPK/57 - OK (no_lagu=57, judul_text='Tuhan Yesus Memanggilku')
+2025-09-05 19:06:55,579 [INFO] Fetching https://alkitab.app/KPPK/58
+2025-09-05 19:06:56,905 [INFO] PARSED KPPK/58 - OK (no_lagu=58, judul_text='Alam Semesta Memuliakan Allah')
+2025-09-05 19:06:57,507 [INFO] Fetching https://alkitab.app/KPPK/59
+2025-09-05 19:06:57,770 [INFO] PARSED KPPK/59 - OK (no_lagu=59, judul_text='Kau Termulia')
+2025-09-05 19:06:58,372 [INFO] Fetching https://alkitab.app/KPPK/60
+2025-09-05 19:06:58,622 [INFO] PARSED KPPK/60 - OK (no_lagu=60, judul_text='Suci, Suci, Suci')
+2025-09-05 19:06:59,223 [INFO] Fetching https://alkitab.app/KPPK/61
+2025-09-05 19:07:01,538 [INFO] PARSED KPPK/61 - OK (no_lagu=61, judul_text='Mahakasih yang Ilahi')
+2025-09-05 19:07:02,139 [INFO] Fetching https://alkitab.app/KPPK/62
+2025-09-05 19:07:02,390 [INFO] PARSED KPPK/62 - OK (no_lagu=62, judul_text=''Ku Mau Puji tentang Rahmat-Mu')
+2025-09-05 19:07:02,992 [INFO] Fetching https://alkitab.app/KPPK/63
+2025-09-05 19:07:04,968 [INFO] PARSED KPPK/63 - OK (no_lagu=63, judul_text='Bila Bukan Kasih Tuhanku')
+2025-09-05 19:07:05,569 [INFO] Fetching https://alkitab.app/KPPK/64
+2025-09-05 19:07:06,933 [INFO] PARSED KPPK/64 - OK (no_lagu=64, judul_text='Inilah Dunia Bapa')
+2025-09-05 19:07:07,533 [INFO] Fetching https://alkitab.app/KPPK/65
+2025-09-05 19:07:08,638 [INFO] PARSED KPPK/65 - OK (no_lagu=65, judul_text='O Ajaib, Sungguh Ajaib')
+2025-09-05 19:07:09,240 [INFO] Fetching https://alkitab.app/KPPK/66
+2025-09-05 19:07:09,509 [INFO] PARSED KPPK/66 - OK (no_lagu=66, judul_text='Besar Setia-Mu')
+2025-09-05 19:07:10,109 [INFO] Fetching https://alkitab.app/KPPK/67
+2025-09-05 19:07:11,151 [INFO] PARSED KPPK/67 - OK (no_lagu=67, judul_text='Bila Fajar Datang')
+2025-09-05 19:07:11,751 [INFO] Fetching https://alkitab.app/KPPK/68
+2025-09-05 19:07:12,950 [INFO] PARSED KPPK/68 - OK (no_lagu=68, judul_text='Terpujilah Nama Yesus - I')
+2025-09-05 19:07:13,552 [INFO] Fetching https://alkitab.app/KPPK/69
+2025-09-05 19:07:14,451 [INFO] PARSED KPPK/69 - OK (no_lagu=69, judul_text='Allahku Baik')
+2025-09-05 19:07:15,053 [INFO] Fetching https://alkitab.app/KPPK/70
+2025-09-05 19:07:17,024 [INFO] PARSED KPPK/70 - OK (no_lagu=70, judul_text='Terpujilah Nama Yesus - II')
+2025-09-05 19:07:17,625 [INFO] Fetching https://alkitab.app/KPPK/71
+2025-09-05 19:07:17,920 [INFO] PARSED KPPK/71 - OK (no_lagu=71, judul_text='Terpujiah Nama Yesus - III')
+2025-09-05 19:07:18,521 [INFO] Fetching https://alkitab.app/KPPK/72
+2025-09-05 19:07:18,767 [INFO] PARSED KPPK/72 - OK (no_lagu=72, judul_text='Sorga Penuh Kemuliaan-Nya')
+2025-09-05 19:07:19,367 [INFO] Fetching https://alkitab.app/KPPK/73
+2025-09-05 19:07:20,338 [INFO] PARSED KPPK/73 - OK (no_lagu=73, judul_text='Mari Kita Puji Tuhan Mulia')
+2025-09-05 19:07:20,938 [INFO] Fetching https://alkitab.app/KPPK/74
+2025-09-05 19:07:21,851 [INFO] PARSED KPPK/74 - OK (no_lagu=74, judul_text='O 'Ku Cinta Yesus')
+2025-09-05 19:07:22,451 [INFO] Fetching https://alkitab.app/KPPK/75
+2025-09-05 19:07:24,320 [INFO] PARSED KPPK/75 - OK (no_lagu=75, judul_text=''Ku Mau Puji Tuhan')
+2025-09-05 19:07:24,920 [INFO] Fetching https://alkitab.app/KPPK/76
+2025-09-05 19:07:25,826 [INFO] PARSED KPPK/76 - OK (no_lagu=76, judul_text='Di Hatiku Ada Kidung Indah')
+2025-09-05 19:07:26,427 [INFO] Fetching https://alkitab.app/KPPK/77
+2025-09-05 19:07:26,669 [INFO] PARSED KPPK/77 - OK (no_lagu=77, judul_text='Puji Yesus')
+2025-09-05 19:07:27,270 [INFO] Fetching https://alkitab.app/KPPK/78
+2025-09-05 19:07:28,340 [INFO] PARSED KPPK/78 - OK (no_lagu=78, judul_text='Kasih Yesus yang Dalam')
+2025-09-05 19:07:28,941 [INFO] Fetching https://alkitab.app/KPPK/79
+2025-09-05 19:07:30,444 [INFO] PARSED KPPK/79 - OK (no_lagu=79, judul_text='Puji Tuhan yang Mulia')
+2025-09-05 19:07:31,044 [INFO] Fetching https://alkitab.app/KPPK/80
+2025-09-05 19:07:32,908 [INFO] PARSED KPPK/80 - OK (no_lagu=80, judul_text='O, Pujilah Juruselamat')
+2025-09-05 19:07:33,510 [INFO] Fetching https://alkitab.app/KPPK/81
+2025-09-05 19:07:35,400 [INFO] PARSED KPPK/81 - OK (no_lagu=81, judul_text='Seru Haleluya Puji Dia')
+2025-09-05 19:07:36,002 [INFO] Fetching https://alkitab.app/KPPK/82
+2025-09-05 19:07:36,278 [INFO] PARSED KPPK/82 - OK (no_lagu=82, judul_text='Bebaskan Rohku')
+2025-09-05 19:07:36,878 [INFO] Fetching https://alkitab.app/KPPK/83
+2025-09-05 19:07:37,910 [INFO] PARSED KPPK/83 - OK (no_lagu=83, judul_text='Di Atas Salib di Kalvari')
+2025-09-05 19:07:38,510 [INFO] Fetching https://alkitab.app/KPPK/84
+2025-09-05 19:07:38,795 [INFO] PARSED KPPK/84 - OK (no_lagu=84, judul_text='Batu Zaman yang Teguh')
+2025-09-05 19:07:39,395 [INFO] Fetching https://alkitab.app/KPPK/85
+2025-09-05 19:07:41,227 [INFO] PARSED KPPK/85 - OK (no_lagu=85, judul_text='Anug'rah, Kasih, dan Penggerakan-Nya')
+2025-09-05 19:07:41,827 [INFO] Fetching https://alkitab.app/KPPK/86
+2025-09-05 19:07:42,792 [INFO] PARSED KPPK/86 - OK (no_lagu=86, judul_text='O, Datang Imanuel')
+2025-09-05 19:07:43,392 [INFO] Fetching https://alkitab.app/KPPK/87
+2025-09-05 19:07:44,497 [INFO] PARSED KPPK/87 - OK (no_lagu=87, judul_text='Betapa Besar Girangnya')
+2025-09-05 19:07:45,098 [INFO] Fetching https://alkitab.app/KPPK/88
+2025-09-05 19:07:45,994 [INFO] PARSED KPPK/88 - OK (no_lagu=88, judul_text='Dunia Gemar dan Soraklah')
+2025-09-05 19:07:46,595 [INFO] Fetching https://alkitab.app/KPPK/89
+2025-09-05 19:07:47,709 [INFO] PARSED KPPK/89 - OK (no_lagu=89, judul_text='Kau Telah Tinggalkan Sorga Mulia')
+2025-09-05 19:07:48,309 [INFO] Fetching https://alkitab.app/KPPK/90
+2025-09-05 19:07:50,210 [INFO] PARSED KPPK/90 - OK (no_lagu=90, judul_text='Dengar Malaikat Nyanyi')
+2025-09-05 19:07:50,811 [INFO] Fetching https://alkitab.app/KPPK/91
+2025-09-05 19:07:51,945 [INFO] PARSED KPPK/91 - OK (no_lagu=91, judul_text='Dengar Malak Memuji')
+2025-09-05 19:07:52,546 [INFO] Fetching https://alkitab.app/KPPK/92
+2025-09-05 19:07:53,620 [INFO] PARSED KPPK/92 - OK (no_lagu=92, judul_text='Hai, Malaikat dari Sorga')
+2025-09-05 19:07:54,220 [INFO] Fetching https://alkitab.app/KPPK/93
+2025-09-05 19:07:55,541 [INFO] PARSED KPPK/93 - OK (no_lagu=93, judul_text='Hai Bangkitlah! Sambut Hari Mulia')
+2025-09-05 19:07:56,142 [INFO] Fetching https://alkitab.app/KPPK/94
+2025-09-05 19:07:57,261 [INFO] PARSED KPPK/94 - OK (no_lagu=94, judul_text='Di Dalam Palungan - I')
+2025-09-05 19:07:57,863 [INFO] Fetching https://alkitab.app/KPPK/95
+2025-09-05 19:07:58,776 [INFO] PARSED KPPK/95 - OK (no_lagu=95, judul_text='Di Dalam Palungan - II')
+2025-09-05 19:07:59,377 [INFO] Fetching https://alkitab.app/KPPK/96
+2025-09-05 19:08:00,422 [INFO] PARSED KPPK/96 - OK (no_lagu=96, judul_text='Tuhanku di Palungan')
+2025-09-05 19:08:01,022 [INFO] Fetching https://alkitab.app/KPPK/97
+2025-09-05 19:08:03,441 [INFO] PARSED KPPK/97 - OK (no_lagu=97, judul_text='Siapa yang di Palungan')
+2025-09-05 19:08:04,042 [INFO] Fetching https://alkitab.app/KPPK/98
+2025-09-05 19:08:06,052 [INFO] PARSED KPPK/98 - OK (no_lagu=98, judul_text='Siapakah Bayi yang Tertidur')
+2025-09-05 19:08:06,653 [INFO] Fetching https://alkitab.app/KPPK/99
+2025-09-05 19:08:07,902 [INFO] PARSED KPPK/99 - OK (no_lagu=99, judul_text='Bayi Kudus, Bayi Lembut')
+2025-09-05 19:08:08,503 [INFO] Fetching https://alkitab.app/KPPK/100
+2025-09-05 19:08:10,868 [INFO] PARSED KPPK/100 - OK (no_lagu=100, judul_text='Kota Kecil Betlehem')
+2025-09-05 19:08:11,469 [INFO] Fetching https://alkitab.app/KPPK/101
+2025-09-05 19:08:13,574 [INFO] PARSED KPPK/101 - OK (no_lagu=101, judul_text='Dahulu di Kota Daud')
+2025-09-05 19:08:14,175 [INFO] Fetching https://alkitab.app/KPPK/102
+2025-09-05 19:08:17,849 [INFO] PARSED KPPK/102 - OK (no_lagu=102, judul_text='Tidur Lelap Bethlehem')
+2025-09-05 19:08:18,450 [INFO] Fetching https://alkitab.app/KPPK/103
+2025-09-05 19:08:19,528 [INFO] PARSED KPPK/103 - OK (no_lagu=103, judul_text='Kami Majus dari Timur')
+2025-09-05 19:08:20,130 [INFO] Fetching https://alkitab.app/KPPK/104
+2025-09-05 19:08:21,360 [INFO] PARSED KPPK/104 - OK (no_lagu=104, judul_text='Lahirnya Seorang Raja')
+2025-09-05 19:08:21,962 [INFO] Fetching https://alkitab.app/KPPK/105
+2025-09-05 19:08:24,228 [INFO] PARSED KPPK/105 - OK (no_lagu=105, judul_text='Di Malam Sunyi Nan Cerah')
+2025-09-05 19:08:24,830 [INFO] Fetching https://alkitab.app/KPPK/106
+2025-09-05 19:08:29,164 [INFO] PARSED KPPK/106 - OK (no_lagu=106, judul_text='Beritakanlah Di Gunung')
+2025-09-05 19:08:29,765 [INFO] Fetching https://alkitab.app/KPPK/107
+2025-09-05 19:08:30,029 [INFO] PARSED KPPK/107 - OK (no_lagu=107, judul_text='Berita Natal Yang Pertama')
+2025-09-05 19:08:30,631 [INFO] Fetching https://alkitab.app/KPPK/108
+2025-09-05 19:08:31,827 [INFO] PARSED KPPK/108 - OK (no_lagu=108, judul_text='Hai, Mari Berhimpun')
+2025-09-05 19:08:32,427 [INFO] Fetching https://alkitab.app/KPPK/109
+2025-09-05 19:08:35,964 [INFO] PARSED KPPK/109 - OK (no_lagu=109, judul_text='Mari Tuturkan Kisah Yesus')
+2025-09-05 19:08:36,564 [INFO] Fetching https://alkitab.app/KPPK/110
+2025-09-05 19:08:39,841 [INFO] PARSED KPPK/110 - OK (no_lagu=110, judul_text='Aku Tak Tahu')
+2025-09-05 19:08:40,442 [INFO] Fetching https://alkitab.app/KPPK/111
+2025-09-05 19:08:42,991 [INFO] PARSED KPPK/111 - OK (no_lagu=111, judul_text='Bunyi Bel')
+2025-09-05 19:08:43,592 [INFO] Fetching https://alkitab.app/KPPK/112
+2025-09-05 19:08:44,688 [INFO] PARSED KPPK/112 - OK (no_lagu=112, judul_text='O Malam Kudus')
+2025-09-05 19:08:45,290 [INFO] Fetching https://alkitab.app/KPPK/113
+2025-09-05 19:08:46,211 [INFO] PARSED KPPK/113 - OK (no_lagu=113, judul_text='Malam Kudus')
+2025-09-05 19:08:46,812 [INFO] Fetching https://alkitab.app/KPPK/114
+2025-09-05 19:08:47,697 [INFO] PARSED KPPK/114 - OK (no_lagu=114, judul_text='Imanuel')
+2025-09-05 19:08:48,297 [INFO] Fetching https://alkitab.app/KPPK/115
+2025-09-05 19:08:50,522 [INFO] PARSED KPPK/115 - OK (no_lagu=115, judul_text='Gembala Menjaga Dombanya')
+2025-09-05 19:08:51,124 [INFO] Fetching https://alkitab.app/KPPK/116
+2025-09-05 19:08:52,238 [INFO] PARSED KPPK/116 - OK (no_lagu=116, judul_text='Kasih Penebusan')
+2025-09-05 19:08:52,839 [INFO] Fetching https://alkitab.app/KPPK/117
+2025-09-05 19:08:54,752 [INFO] PARSED KPPK/117 - OK (no_lagu=117, judul_text='Nama Yang Terindah')
+2025-09-05 19:08:55,354 [INFO] Fetching https://alkitab.app/KPPK/118
+2025-09-05 19:08:56,985 [INFO] PARSED KPPK/118 - OK (no_lagu=118, judul_text='Yesus Mencariku')
+2025-09-05 19:08:57,586 [INFO] Fetching https://alkitab.app/KPPK/119
+2025-09-05 19:08:58,538 [INFO] PARSED KPPK/119 - OK (no_lagu=119, judul_text='Ribuan Malaikat')
+2025-09-05 19:08:59,139 [INFO] Fetching https://alkitab.app/KPPK/120
+2025-09-05 19:09:00,128 [INFO] PARSED KPPK/120 - OK (no_lagu=120, judul_text='Pimpin Ke Kalvari')
+2025-09-05 19:09:00,729 [INFO] Fetching https://alkitab.app/KPPK/121
+2025-09-05 19:09:00,990 [INFO] PARSED KPPK/121 - OK (no_lagu=121, judul_text='Kepala Yang Tertunduk')
+2025-09-05 19:09:01,591 [INFO] Fetching https://alkitab.app/KPPK/122
+2025-09-05 19:09:04,064 [INFO] PARSED KPPK/122 - OK (no_lagu=122, judul_text='Ia Terluka Bagiku')
+2025-09-05 19:09:04,664 [INFO] Fetching https://alkitab.app/KPPK/123
+2025-09-05 19:09:05,546 [INFO] PARSED KPPK/123 - OK (no_lagu=123, judul_text='Sungguh Heran Penebusku')
+2025-09-05 19:09:06,147 [INFO] Fetching https://alkitab.app/KPPK/124
+2025-09-05 19:09:06,427 [INFO] PARSED KPPK/124 - OK (no_lagu=124, judul_text='Yesus Bayar Semua')
+2025-09-05 19:09:07,027 [INFO] Fetching https://alkitab.app/KPPK/125
+2025-09-05 19:09:07,894 [INFO] PARSED KPPK/125 - OK (no_lagu=125, judul_text='Penebus Kasih')
+2025-09-05 19:09:08,496 [INFO] Fetching https://alkitab.app/KPPK/126
+2025-09-05 19:09:09,493 [INFO] PARSED KPPK/126 - OK (no_lagu=126, judul_text='Anak Domba Yang Disembelih')
+2025-09-05 19:09:10,094 [INFO] Fetching https://alkitab.app/KPPK/127
+2025-09-05 19:09:10,339 [INFO] PARSED KPPK/127 - OK (no_lagu=127, judul_text='Hadir Kau?')
+2025-09-05 19:09:10,941 [INFO] Fetching https://alkitab.app/KPPK/128
+2025-09-05 19:09:13,093 [INFO] PARSED KPPK/128 - OK (no_lagu=128, judul_text='Mulia Bagi Tuhan Yang Bangkit')
+2025-09-05 19:09:13,695 [INFO] Fetching https://alkitab.app/KPPK/129
+2025-09-05 19:09:15,363 [INFO] PARSED KPPK/129 - OK (no_lagu=129, judul_text='Haleluya! Kristus Bangkit')
+2025-09-05 19:09:15,965 [INFO] Fetching https://alkitab.app/KPPK/130
+2025-09-05 19:09:18,150 [INFO] PARSED KPPK/130 - OK (no_lagu=130, judul_text='Kristus Tuhan Telah Bangkit')
+2025-09-05 19:09:18,752 [INFO] Fetching https://alkitab.app/KPPK/131
+2025-09-05 19:09:21,541 [INFO] PARSED KPPK/131 - OK (no_lagu=131, judul_text='Kristus Yesus Telah Bangkit')
+2025-09-05 19:09:22,142 [INFO] Fetching https://alkitab.app/KPPK/132
+2025-09-05 19:09:25,244 [INFO] PARSED KPPK/132 - OK (no_lagu=132, judul_text='Kristus Bangkit')
+2025-09-05 19:09:25,845 [INFO] Fetching https://alkitab.app/KPPK/133
+2025-09-05 19:09:26,109 [INFO] PARSED KPPK/133 - OK (no_lagu=133, judul_text='Karena Dia Hidup')
+2025-09-05 19:09:26,709 [INFO] Fetching https://alkitab.app/KPPK/134
+2025-09-05 19:09:28,880 [INFO] PARSED KPPK/134 - OK (no_lagu=134, judul_text='Kristus Hidup')
+2025-09-05 19:09:29,481 [INFO] Fetching https://alkitab.app/KPPK/135
+2025-09-05 19:09:31,784 [INFO] PARSED KPPK/135 - OK (no_lagu=135, judul_text='Dia Allah')
+2025-09-05 19:09:32,384 [INFO] Fetching https://alkitab.app/KPPK/136
+2025-09-05 19:09:35,964 [INFO] PARSED KPPK/136 - OK (no_lagu=136, judul_text='Saat Ia Kembali')
+2025-09-05 19:09:36,565 [INFO] Fetching https://alkitab.app/KPPK/137
+2025-09-05 19:09:40,187 [INFO] PARSED KPPK/137 - OK (no_lagu=137, judul_text='Ia 'Kan Datang Kembali')
+2025-09-05 19:09:40,787 [INFO] Fetching https://alkitab.app/KPPK/138
+2025-09-05 19:09:46,049 [INFO] PARSED KPPK/138 - OK (no_lagu=138, judul_text='Bilamana S'karang?')
+2025-09-05 19:09:46,650 [INFO] Fetching https://alkitab.app/KPPK/139
+2025-09-05 19:09:46,913 [INFO] PARSED KPPK/139 - OK (no_lagu=139, judul_text='Suara Dentang Lonceng Berbunyi')
+2025-09-05 19:09:47,514 [INFO] Fetching https://alkitab.app/KPPK/140
+2025-09-05 19:09:48,546 [INFO] PARSED KPPK/140 - OK (no_lagu=140, judul_text='Kidung Roh Kudus')
+2025-09-05 19:09:49,147 [INFO] Fetching https://alkitab.app/KPPK/141
+2025-09-05 19:09:50,688 [INFO] PARSED KPPK/141 - OK (no_lagu=141, judul_text='Roh Allah Maha Hidup')
+2025-09-05 19:09:51,290 [INFO] Fetching https://alkitab.app/KPPK/142
+2025-09-05 19:09:52,264 [INFO] PARSED KPPK/142 - OK (no_lagu=142, judul_text='Kini Penuhi Hatiku')
+2025-09-05 19:09:52,864 [INFO] Fetching https://alkitab.app/KPPK/143
+2025-09-05 19:09:53,089 [INFO] PARSED KPPK/143 - OK (no_lagu=143, judul_text='Kitab Ajaib FirmanNya')
+2025-09-05 19:09:53,690 [INFO] Fetching https://alkitab.app/KPPK/144
+2025-09-05 19:09:53,957 [INFO] PARSED KPPK/144 - OK (no_lagu=144, judul_text='Firman Hidup')
+2025-09-05 19:09:54,557 [INFO] Fetching https://alkitab.app/KPPK/145
+2025-09-05 19:09:54,810 [INFO] PARSED KPPK/145 - OK (no_lagu=145, judul_text='Jangan Sedih Dan Kecewa')
+2025-09-05 19:09:55,411 [INFO] Fetching https://alkitab.app/KPPK/146
+2025-09-05 19:09:55,650 [INFO] PARSED KPPK/146 - OK (no_lagu=146, judul_text='Beri Tahu Yesus')
+2025-09-05 19:09:56,250 [INFO] Fetching https://alkitab.app/KPPK/147
+2025-09-05 19:09:59,181 [INFO] PARSED KPPK/147 - OK (no_lagu=147, judul_text='Beri Tahu Yesus')
+2025-09-05 19:09:59,783 [INFO] Fetching https://alkitab.app/KPPK/148
+2025-09-05 19:10:02,693 [INFO] PARSED KPPK/148 - OK (no_lagu=148, judul_text='Tak Seorang Seperti Yesus')
+2025-09-05 19:10:03,294 [INFO] Fetching https://alkitab.app/KPPK/149
+2025-09-05 19:10:05,255 [INFO] PARSED KPPK/149 - OK (no_lagu=149, judul_text='Penjala')
+2025-09-05 19:10:05,855 [INFO] Fetching https://alkitab.app/KPPK/150
+2025-09-05 19:10:06,120 [INFO] PARSED KPPK/150 - OK (no_lagu=150, judul_text='Yesus Sobat Yang Sejati')
+2025-09-05 19:10:06,720 [INFO] Fetching https://alkitab.app/KPPK/151
+2025-09-05 19:10:08,378 [INFO] PARSED KPPK/151 - OK (no_lagu=151, judul_text='Pastilah Anugrah-Nya')
+2025-09-05 19:10:08,979 [INFO] Fetching https://alkitab.app/KPPK/152
+2025-09-05 19:10:09,237 [INFO] PARSED KPPK/152 - OK (no_lagu=152, judul_text='Dekat Pelukan Allah')
+2025-09-05 19:10:09,839 [INFO] Fetching https://alkitab.app/KPPK/153
+2025-09-05 19:10:11,175 [INFO] PARSED KPPK/153 - OK (no_lagu=153, judul_text='Yesus Mengasihimu, Juga Kepadaku')
+2025-09-05 19:10:11,776 [INFO] Fetching https://alkitab.app/KPPK/154
+2025-09-05 19:10:12,047 [INFO] PARSED KPPK/154 - OK (no_lagu=154, judul_text='Dia Peliharakan Burung')
+2025-09-05 19:10:12,648 [INFO] Fetching https://alkitab.app/KPPK/155
+2025-09-05 19:10:13,605 [INFO] PARSED KPPK/155 - OK (no_lagu=155, judul_text='Kupercaya Di Bukit Kalvari')
+2025-09-05 19:10:14,207 [INFO] Fetching https://alkitab.app/KPPK/156
+2025-09-05 19:10:15,296 [INFO] PARSED KPPK/156 - OK (no_lagu=156, judul_text='Di Bawah Salib Yesus')
+2025-09-05 19:10:15,897 [INFO] Fetching https://alkitab.app/KPPK/157
+2025-09-05 19:10:16,147 [INFO] PARSED KPPK/157 - OK (no_lagu=157, judul_text='O, Yesus Kasih-Mu')
+2025-09-05 19:10:16,749 [INFO] Fetching https://alkitab.app/KPPK/158
+2025-09-05 19:10:17,016 [INFO] PARSED KPPK/158 - OK (no_lagu=158, judul_text='Mungkinkah Aku Beruntung')
+2025-09-05 19:10:17,617 [INFO] Fetching https://alkitab.app/KPPK/159
+2025-09-05 19:10:18,767 [INFO] PARSED KPPK/159 - OK (no_lagu=159, judul_text='Haleluya Buat Salib')
+2025-09-05 19:10:19,367 [INFO] Fetching https://alkitab.app/KPPK/160
+2025-09-05 19:10:20,282 [INFO] PARSED KPPK/160 - OK (no_lagu=160, judul_text='Pernah Kau Dengar Kisah Salib?')
+2025-09-05 19:10:20,882 [INFO] Fetching https://alkitab.app/KPPK/161
+2025-09-05 19:10:22,160 [INFO] PARSED KPPK/161 - OK (no_lagu=161, judul_text='Ada Sumber Dipenuhi Darah-Nya')
+2025-09-05 19:10:22,760 [INFO] Fetching https://alkitab.app/KPPK/162
+2025-09-05 19:10:23,319 [INFO] PARSED KPPK/162 - OK (no_lagu=162, judul_text='Kasih Yang Ajaib')
+2025-09-05 19:10:23,923 [INFO] Fetching https://alkitab.app/KPPK/163
+2025-09-05 19:10:24,796 [INFO] PARSED KPPK/163 - OK (no_lagu=163, judul_text='Bila Kuingat Salib-Nya')
+2025-09-05 19:10:25,397 [INFO] Fetching https://alkitab.app/KPPK/164
+2025-09-05 19:10:25,636 [INFO] PARSED KPPK/164 - OK (no_lagu=164, judul_text='Dekat Ke Salib-Mu')
+2025-09-05 19:10:26,238 [INFO] Fetching https://alkitab.app/KPPK/165
+2025-09-05 19:10:26,468 [INFO] PARSED KPPK/165 - OK (no_lagu=165, judul_text='Sudahkah Kau Disucikan Darah-Nya?')
+2025-09-05 19:10:27,070 [INFO] Fetching https://alkitab.app/KPPK/166
+2025-09-05 19:10:27,375 [INFO] PARSED KPPK/166 - OK (no_lagu=166, judul_text='Salib Hina')
+2025-09-05 19:10:27,975 [INFO] Fetching https://alkitab.app/KPPK/167
+2025-09-05 19:10:28,899 [INFO] PARSED KPPK/167 - OK (no_lagu=167, judul_text='Ada Suatu Bukit Nan Jauh')
+2025-09-05 19:10:29,499 [INFO] Fetching https://alkitab.app/KPPK/168
+2025-09-05 19:10:30,394 [INFO] PARSED KPPK/168 - OK (no_lagu=168, judul_text='Ia Selamatkanku')
+2025-09-05 19:10:30,995 [INFO] Fetching https://alkitab.app/KPPK/169
+2025-09-05 19:10:32,106 [INFO] PARSED KPPK/169 - OK (no_lagu=169, judul_text='Darah Dan Kebenaran-Mu')
+2025-09-05 19:10:32,707 [INFO] Fetching https://alkitab.app/KPPK/170
+2025-09-05 19:10:33,037 [INFO] PARSED KPPK/170 - OK (no_lagu=170, judul_text='Ada Kuasa Dalam Darah-Nya')
+2025-09-05 19:10:33,639 [INFO] Fetching https://alkitab.app/KPPK/171
+2025-09-05 19:10:34,531 [INFO] PARSED KPPK/171 - OK (no_lagu=171, judul_text='Jalan Salib Perlu Berkorban')
+2025-09-05 19:10:35,131 [INFO] Fetching https://alkitab.app/KPPK/172
+2025-09-05 19:10:35,387 [INFO] PARSED KPPK/172 - OK (no_lagu=172, judul_text='Hanyalah Darah-Nya Yesus')
+2025-09-05 19:10:35,987 [INFO] Fetching https://alkitab.app/KPPK/173
+2025-09-05 19:10:36,232 [INFO] PARSED KPPK/173 - OK (no_lagu=173, judul_text='Di Salib')
+2025-09-05 19:10:36,834 [INFO] Fetching https://alkitab.app/KPPK/174
+2025-09-05 19:10:37,084 [INFO] PARSED KPPK/174 - OK (no_lagu=174, judul_text='Pandanglah Pada Yesus')
+2025-09-05 19:10:37,685 [INFO] Fetching https://alkitab.app/KPPK/175
+2025-09-05 19:10:38,589 [INFO] PARSED KPPK/175 - OK (no_lagu=175, judul_text='Yesus Cinta Padaku')
+2025-09-05 19:10:39,190 [INFO] Fetching https://alkitab.app/KPPK/176
+2025-09-05 19:10:40,173 [INFO] PARSED KPPK/176 - OK (no_lagu=176, judul_text='Sorga Turun Penuhi Hatiku')
+2025-09-05 19:10:40,774 [INFO] Fetching https://alkitab.app/KPPK/177
+2025-09-05 19:10:42,594 [INFO] PARSED KPPK/177 - OK (no_lagu=177, judul_text='Tuhan, 'Ku Mau Pulang')
+2025-09-05 19:10:43,194 [INFO] Fetching https://alkitab.app/KPPK/178
+2025-09-05 19:10:44,687 [INFO] PARSED KPPK/178 - OK (no_lagu=178, judul_text=''Ku Perlu Yesus')
+2025-09-05 19:10:45,288 [INFO] Fetching https://alkitab.app/KPPK/179
+2025-09-05 19:10:46,841 [INFO] PARSED KPPK/179 - OK (no_lagu=179, judul_text='Kini 'Ku Milik Yesus')
+2025-09-05 19:10:47,442 [INFO] Fetching https://alkitab.app/KPPK/180
+2025-09-05 19:10:48,250 [INFO] PARSED KPPK/180 - OK (no_lagu=180, judul_text='Padaku Ada Sahabat')
+2025-09-05 19:10:48,851 [INFO] Fetching https://alkitab.app/KPPK/181
+2025-09-05 19:10:49,652 [INFO] PARSED KPPK/181 - OK (no_lagu=181, judul_text='Yesus! Sobat Kaum Berdosa')
+2025-09-05 19:10:50,253 [INFO] Fetching https://alkitab.app/KPPK/182
+2025-09-05 19:10:51,106 [INFO] PARSED KPPK/182 - OK (no_lagu=182, judul_text='Yesus Sobat Kaum Berdosa')
+2025-09-05 19:10:51,707 [INFO] Fetching https://alkitab.app/KPPK/183
+2025-09-05 19:10:51,949 [INFO] PARSED KPPK/183 - OK (no_lagu=183, judul_text='Yesus Aku Milik-Mu, O Tuhan')
+2025-09-05 19:10:52,550 [INFO] Fetching https://alkitab.app/KPPK/184
+2025-09-05 19:10:53,635 [INFO] PARSED KPPK/184 - OK (no_lagu=184, judul_text='Yesus Tuhan, Aku Datang')
+2025-09-05 19:10:54,237 [INFO] Fetching https://alkitab.app/KPPK/185
+2025-09-05 19:10:54,509 [INFO] PARSED KPPK/185 - OK (no_lagu=185, judul_text='Kutinggalkan Dosaku')
+2025-09-05 19:10:55,111 [INFO] Fetching https://alkitab.app/KPPK/186
+2025-09-05 19:10:56,050 [INFO] PARSED KPPK/186 - OK (no_lagu=186, judul_text='Pintu Sorga Terbukalah')
+2025-09-05 19:10:56,652 [INFO] Fetching https://alkitab.app/KPPK/187
+2025-09-05 19:10:57,497 [INFO] PARSED KPPK/187 - OK (no_lagu=187, judul_text='Dengan Lembut Tuhan Yesus Memanggil')
+2025-09-05 19:10:58,097 [INFO] Fetching https://alkitab.app/KPPK/188
+2025-09-05 19:10:58,995 [INFO] PARSED KPPK/188 - OK (no_lagu=188, judul_text='Yesus Dari Galilea')
+2025-09-05 19:10:59,596 [INFO] Fetching https://alkitab.app/KPPK/189
+2025-09-05 19:11:00,642 [INFO] PARSED KPPK/189 - OK (no_lagu=189, judul_text='Sembilan Puluh Sembilan Domba-Nya')
+2025-09-05 19:11:01,243 [INFO] Fetching https://alkitab.app/KPPK/190
+2025-09-05 19:11:02,099 [INFO] PARSED KPPK/190 - OK (no_lagu=190, judul_text='Tuhan Yesus Memanggilmu')
+2025-09-05 19:11:02,699 [INFO] Fetching https://alkitab.app/KPPK/191
+2025-09-05 19:11:03,656 [INFO] PARSED KPPK/191 - OK (no_lagu=191, judul_text='Biar Yesus Masuk Hatiku')
+2025-09-05 19:11:04,257 [INFO] Fetching https://alkitab.app/KPPK/192
+2025-09-05 19:11:05,138 [INFO] PARSED KPPK/192 - OK (no_lagu=192, judul_text='Yesus Memanggil')
+2025-09-05 19:11:05,739 [INFO] Fetching https://alkitab.app/KPPK/193
+2025-09-05 19:11:06,000 [INFO] PARSED KPPK/193 - OK (no_lagu=193, judul_text='Tuhan Kini Kudatang')
+2025-09-05 19:11:06,601 [INFO] Fetching https://alkitab.app/KPPK/194
+2025-09-05 19:11:07,686 [INFO] PARSED KPPK/194 - OK (no_lagu=194, judul_text='Pada Yesus, Percayalah')
+2025-09-05 19:11:08,288 [INFO] Fetching https://alkitab.app/KPPK/195
+2025-09-05 19:11:08,530 [INFO] PARSED KPPK/195 - OK (no_lagu=195, judul_text='Anugerah-Nya Limpah')
+2025-09-05 19:11:09,131 [INFO] Fetching https://alkitab.app/KPPK/196
+2025-09-05 19:11:10,562 [INFO] PARSED KPPK/196 - OK (no_lagu=196, judul_text='Sebenarnya 'Ku Tak Layak')
+2025-09-05 19:11:11,164 [INFO] Fetching https://alkitab.app/KPPK/197
+2025-09-05 19:11:14,441 [INFO] PARSED KPPK/197 - OK (no_lagu=197, judul_text='Adakah Tempat Bagi-Nya?')
+2025-09-05 19:11:15,043 [INFO] Fetching https://alkitab.app/KPPK/198
+2025-09-05 19:11:15,922 [INFO] PARSED KPPK/198 - OK (no_lagu=198, judul_text='Yesus Datang')
+2025-09-05 19:11:16,523 [INFO] Fetching https://alkitab.app/KPPK/199
+2025-09-05 19:11:16,771 [INFO] PARSED KPPK/199 - OK (no_lagu=199, judul_text='Jaminan Mulia')
+2025-09-05 19:11:17,372 [INFO] Fetching https://alkitab.app/KPPK/200
+2025-09-05 19:11:19,361 [INFO] PARSED KPPK/200 - OK (no_lagu=200, judul_text='Hidup Bagi-Nya, Senanglah')
+2025-09-05 19:11:19,962 [INFO] Fetching https://alkitab.app/KPPK/201
+2025-09-05 19:11:20,812 [INFO] PARSED KPPK/201 - OK (no_lagu=201, judul_text='Tak Seorang Pun Mirip Tuhan Yesus')
+2025-09-05 19:11:21,413 [INFO] Fetching https://alkitab.app/KPPK/202
+2025-09-05 19:11:22,220 [INFO] PARSED KPPK/202 - OK (no_lagu=202, judul_text='Jalan-Nya')
+2025-09-05 19:11:22,821 [INFO] Fetching https://alkitab.app/KPPK/203
+2025-09-05 19:11:23,256 [INFO] PARSED KPPK/203 - OK (no_lagu=203, judul_text='Bunga Bakung di Lembah')
+2025-09-05 19:11:23,858 [INFO] Fetching https://alkitab.app/KPPK/204
+2025-09-05 19:11:24,872 [INFO] PARSED KPPK/204 - OK (no_lagu=204, judul_text='O Tuhanku, Sucikan Hatiku')
+2025-09-05 19:11:25,474 [INFO] Fetching https://alkitab.app/KPPK/205
+2025-09-05 19:11:26,335 [INFO] PARSED KPPK/205 - OK (no_lagu=205, judul_text=''Ku Mau Jalan Beserta-Mu')
+2025-09-05 19:11:26,935 [INFO] Fetching https://alkitab.app/KPPK/206
+2025-09-05 19:11:28,597 [INFO] PARSED KPPK/206 - OK (no_lagu=206, judul_text=''Ku Giranglah, Yesus Cinta 'Ku')
+2025-09-05 19:11:29,198 [INFO] Fetching https://alkitab.app/KPPK/207
+2025-09-05 19:11:30,746 [INFO] PARSED KPPK/207 - OK (no_lagu=207, judul_text='Penebusan')
+2025-09-05 19:11:31,347 [INFO] Fetching https://alkitab.app/KPPK/208
+2025-09-05 19:11:34,689 [INFO] PARSED KPPK/208 - OK (no_lagu=208, judul_text=''Ku telah Ditebus-Nya')
+2025-09-05 19:11:35,291 [INFO] Fetching https://alkitab.app/KPPK/209
+2025-09-05 19:11:36,645 [INFO] PARSED KPPK/209 - OK (no_lagu=209, judul_text='Yesus Segala-galanya')
+2025-09-05 19:11:37,247 [INFO] Fetching https://alkitab.app/KPPK/210
+2025-09-05 19:11:38,939 [INFO] PARSED KPPK/210 - OK (no_lagu=210, judul_text='Tempat Teduh')
+2025-09-05 19:11:39,541 [INFO] Fetching https://alkitab.app/KPPK/211
+2025-09-05 19:11:40,873 [INFO] PARSED KPPK/211 - OK (no_lagu=211, judul_text='Tuhan Yesus Sandaranku')
+2025-09-05 19:11:41,474 [INFO] Fetching https://alkitab.app/KPPK/212
+2025-09-05 19:11:41,854 [INFO] PARSED KPPK/212 - OK (no_lagu=212, judul_text='Hidup Bagi-Mu')
+2025-09-05 19:11:42,455 [INFO] Fetching https://alkitab.app/KPPK/213
+2025-09-05 19:11:44,091 [INFO] PARSED KPPK/213 - OK (no_lagu=213, judul_text='Hidupku Ini Indahlah')
+2025-09-05 19:11:44,693 [INFO] Fetching https://alkitab.app/KPPK/214
+2025-09-05 19:11:46,688 [INFO] PARSED KPPK/214 - OK (no_lagu=214, judul_text='Mengikut Yesus, Keputusanku')
+2025-09-05 19:11:47,289 [INFO] Fetching https://alkitab.app/KPPK/215
+2025-09-05 19:11:50,651 [INFO] PARSED KPPK/215 - OK (no_lagu=215, judul_text='Ke Mana Saja')
+2025-09-05 19:11:51,252 [INFO] Fetching https://alkitab.app/KPPK/216
+2025-09-05 19:11:54,365 [INFO] PARSED KPPK/216 - OK (no_lagu=216, judul_text='Kupandang Salib-Mu')
+2025-09-05 19:11:54,966 [INFO] Fetching https://alkitab.app/KPPK/217
+2025-09-05 19:11:56,225 [INFO] PARSED KPPK/217 - OK (no_lagu=217, judul_text='Ingat Akan Nama Yesus')
+2025-09-05 19:11:56,826 [INFO] Fetching https://alkitab.app/KPPK/218
+2025-09-05 19:11:58,546 [INFO] PARSED KPPK/218 - OK (no_lagu=218, judul_text=''Ku Bersandar Tuhanku')
+2025-09-05 19:11:59,147 [INFO] Fetching https://alkitab.app/KPPK/219
+2025-09-05 19:11:59,463 [INFO] PARSED KPPK/219 - OK (no_lagu=219, judul_text='Kita Bersatu dalam Kasih-Nya')
+2025-09-05 19:12:00,063 [INFO] Fetching https://alkitab.app/KPPK/220
+2025-09-05 19:12:00,371 [INFO] PARSED KPPK/220 - OK (no_lagu=220, judul_text='Kutahu yang Kupercaya')
+2025-09-05 19:12:00,973 [INFO] Fetching https://alkitab.app/KPPK/221
+2025-09-05 19:12:01,284 [INFO] PARSED KPPK/221 - OK (no_lagu=221, judul_text='Sandar pada Lengan yang Kekal')
+2025-09-05 19:12:01,885 [INFO] Fetching https://alkitab.app/KPPK/222
+2025-09-05 19:12:02,175 [INFO] PARSED KPPK/222 - OK (no_lagu=222, judul_text='Kupercaya pada Yesus')
+2025-09-05 19:12:02,776 [INFO] Fetching https://alkitab.app/KPPK/223
+2025-09-05 19:12:03,043 [INFO] PARSED KPPK/223 - OK (no_lagu=223, judul_text='Aku Tahu Tuhan Menguasai Hari Esok')
+2025-09-05 19:12:03,644 [INFO] Fetching https://alkitab.app/KPPK/224
+2025-09-05 19:12:05,295 [INFO] PARSED KPPK/224 - OK (no_lagu=224, judul_text='Tuhan, 'Ku Mau Serahkan')
+2025-09-05 19:12:05,897 [INFO] Fetching https://alkitab.app/KPPK/225
+2025-09-05 19:12:07,871 [INFO] PARSED KPPK/225 - OK (no_lagu=225, judul_text='Aku Domba-Nya')
+2025-09-05 19:12:08,473 [INFO] Fetching https://alkitab.app/KPPK/226
+2025-09-05 19:12:13,011 [INFO] PARSED KPPK/226 - OK (no_lagu=226, judul_text=''Ku Sesal akan Diriku')
+2025-09-05 19:12:13,612 [INFO] Fetching https://alkitab.app/KPPK/227
+2025-09-05 19:12:17,392 [INFO] PARSED KPPK/227 - OK (no_lagu=227, judul_text='Iman Umat-Nya yang Hidup')
+2025-09-05 19:12:17,994 [INFO] Fetching https://alkitab.app/KPPK/228
+2025-09-05 19:12:21,316 [INFO] PARSED KPPK/228 - OK (no_lagu=228, judul_text='Ia Melindungi Jiwaku')
+2025-09-05 19:12:21,917 [INFO] Fetching https://alkitab.app/KPPK/229
+2025-09-05 19:12:22,878 [INFO] PARSED KPPK/229 - OK (no_lagu=229, judul_text='Pimpin Aku')
+2025-09-05 19:12:23,479 [INFO] Fetching https://alkitab.app/KPPK/230
+2025-09-05 19:12:25,282 [INFO] PARSED KPPK/230 - OK (no_lagu=230, judul_text='Kutahu Ia Sedia Jalan Bagiku')
+2025-09-05 19:12:25,882 [INFO] Fetching https://alkitab.app/KPPK/231
+2025-09-05 19:12:27,520 [INFO] PARSED KPPK/231 - OK (no_lagu=231, judul_text='Ikut Yesus')
+2025-09-05 19:12:28,121 [INFO] Fetching https://alkitab.app/KPPK/232
+2025-09-05 19:12:28,378 [INFO] PARSED KPPK/232 - OK (no_lagu=232, judul_text='Kekuatan serta Penghiburan')
+2025-09-05 19:12:28,979 [INFO] Fetching https://alkitab.app/KPPK/233
+2025-09-05 19:12:29,228 [INFO] PARSED KPPK/233 - OK (no_lagu=233, judul_text='Aku Percaya pada-Nya')
+2025-09-05 19:12:29,829 [INFO] Fetching https://alkitab.app/KPPK/234
+2025-09-05 19:12:32,351 [INFO] PARSED KPPK/234 - OK (no_lagu=234, judul_text='O Tuhan, Pimpin Jalanku')
+2025-09-05 19:12:32,952 [INFO] Fetching https://alkitab.app/KPPK/235
+2025-09-05 19:12:33,954 [INFO] PARSED KPPK/235 - OK (no_lagu=235, judul_text='Saat-Nya')
+2025-09-05 19:12:34,555 [INFO] Fetching https://alkitab.app/KPPK/236
+2025-09-05 19:12:35,515 [INFO] PARSED KPPK/236 - OK (no_lagu=236, judul_text='Tiada Hal yang Mustahil')
+2025-09-05 19:12:36,116 [INFO] Fetching https://alkitab.app/KPPK/237
+2025-09-05 19:12:37,050 [INFO] PARSED KPPK/237 - OK (no_lagu=237, judul_text='Ke Mana pun Ia Sertaku')
+2025-09-05 19:12:37,653 [INFO] Fetching https://alkitab.app/KPPK/238
+2025-09-05 19:12:38,501 [INFO] PARSED KPPK/238 - OK (no_lagu=238, judul_text='Yesus, Juruselamat dan Pemanduku')
+2025-09-05 19:12:39,102 [INFO] Fetching https://alkitab.app/KPPK/239
+2025-09-05 19:12:39,978 [INFO] PARSED KPPK/239 - OK (no_lagu=239, judul_text='Orang yang Menanti Tuhan')
+2025-09-05 19:12:40,579 [INFO] Fetching https://alkitab.app/KPPK/240
+2025-09-05 19:12:40,842 [INFO] PARSED KPPK/240 - OK (no_lagu=240, judul_text='Percaya dan Patuh')
+2025-09-05 19:12:41,443 [INFO] Fetching https://alkitab.app/KPPK/241
+2025-09-05 19:12:42,785 [INFO] PARSED KPPK/241 - OK (no_lagu=241, judul_text='Tuhan yang Pimpin Jalanku')
+2025-09-05 19:12:43,386 [INFO] Fetching https://alkitab.app/KPPK/242
+2025-09-05 19:12:44,247 [INFO] PARSED KPPK/242 - OK (no_lagu=242, judul_text='Yesus, Tuhan Gembalaku')
+2025-09-05 19:12:44,849 [INFO] Fetching https://alkitab.app/KPPK/243
+2025-09-05 19:12:50,896 [INFO] PARSED KPPK/243 - OK (no_lagu=243, judul_text=''Ku Datang Memuji-Mu')
+2025-09-05 19:12:51,533 [INFO] Fetching https://alkitab.app/KPPK/244
+2025-09-05 19:13:00,047 [INFO] PARSED KPPK/244 - OK (no_lagu=244, judul_text='Pimpin Aku Pulang ke Rumahnya Bapa')
+2025-09-05 19:13:00,648 [INFO] Fetching https://alkitab.app/KPPK/245
+2025-09-05 19:13:09,371 [INFO] PARSED KPPK/245 - OK (no_lagu=245, judul_text='Ajarlah Aku Membawa Jiwa pada-Mu')
+2025-09-05 19:13:09,973 [INFO] Fetching https://alkitab.app/KPPK/246
+2025-09-05 19:13:10,242 [INFO] PARSED KPPK/246 - OK (no_lagu=246, judul_text='Setiap Langkahku')
+2025-09-05 19:13:10,843 [INFO] Fetching https://alkitab.app/KPPK/247
+2025-09-05 19:13:11,101 [INFO] PARSED KPPK/247 - OK (no_lagu=247, judul_text='Limpahlah Pialamu')
+2025-09-05 19:13:11,702 [INFO] Fetching https://alkitab.app/KPPK/248
+2025-09-05 19:13:11,963 [INFO] PARSED KPPK/248 - OK (no_lagu=248, judul_text='Kehendak-Mu O, Genaplah')
+2025-09-05 19:13:12,564 [INFO] Fetching https://alkitab.app/KPPK/249
+2025-09-05 19:13:13,502 [INFO] PARSED KPPK/249 - OK (no_lagu=249, judul_text='Yesus Menuntun Hidupku')
+2025-09-05 19:13:14,103 [INFO] Fetching https://alkitab.app/KPPK/250
+2025-09-05 19:13:17,284 [INFO] PARSED KPPK/250 - OK (no_lagu=250, judul_text='Tuhan Mengingatku')
+2025-09-05 19:13:17,885 [INFO] Fetching https://alkitab.app/KPPK/251
+2025-09-05 19:13:18,758 [INFO] PARSED KPPK/251 - OK (no_lagu=251, judul_text='Salib Tak Melebihi Rahmat-Nya')
+2025-09-05 19:13:19,359 [INFO] Fetching https://alkitab.app/KPPK/252
+2025-09-05 19:13:19,647 [INFO] PARSED KPPK/252 - OK (no_lagu=252, judul_text='Adakah Ia Melindungi?')
+2025-09-05 19:13:20,248 [INFO] Fetching https://alkitab.app/KPPK/253
+2025-09-05 19:13:20,499 [INFO] PARSED KPPK/253 - OK (no_lagu=253, judul_text='Di Bawah Sayap Tuhan')
+2025-09-05 19:13:21,100 [INFO] Fetching https://alkitab.app/KPPK/254
+2025-09-05 19:13:21,329 [INFO] PARSED KPPK/254 - OK (no_lagu=254, judul_text='Kuperlukan Juruselamat')
+2025-09-05 19:13:21,930 [INFO] Fetching https://alkitab.app/KPPK/255
+2025-09-05 19:13:24,367 [INFO] PARSED KPPK/255 - OK (no_lagu=255, judul_text='Di Dalam Kasih Tuhan')
+2025-09-05 19:13:24,985 [INFO] Fetching https://alkitab.app/KPPK/256
+2025-09-05 19:13:25,294 [INFO] PARSED KPPK/256 - OK (no_lagu=256, judul_text='Sejak Yesus di Hatiku')
+2025-09-05 19:13:25,896 [INFO] Fetching https://alkitab.app/KPPK/257
+2025-09-05 19:13:33,479 [INFO] PARSED KPPK/257 - OK (no_lagu=257, judul_text='Kenal Yesus, Hatiku Senang')
+2025-09-05 19:13:34,080 [INFO] Fetching https://alkitab.app/KPPK/258
+2025-09-05 19:13:38,010 [INFO] PARSED KPPK/258 - OK (no_lagu=258, judul_text='Serahkan Bebanmu pada-Nya')
+2025-09-05 19:13:38,611 [INFO] Fetching https://alkitab.app/KPPK/259
+2025-09-05 19:13:39,782 [INFO] PARSED KPPK/259 - OK (no_lagu=259, judul_text='Demikian Allah Mengasihi Dunia')
+2025-09-05 19:13:40,382 [INFO] Fetching https://alkitab.app/KPPK/260
+2025-09-05 19:13:41,301 [INFO] PARSED KPPK/260 - OK (no_lagu=260, judul_text='Tempatku Berlindung')
+2025-09-05 19:13:41,901 [INFO] Fetching https://alkitab.app/KPPK/261
+2025-09-05 19:13:42,967 [INFO] PARSED KPPK/261 - OK (no_lagu=261, judul_text='Gunung Batu Perlindungan')
+2025-09-05 19:13:43,567 [INFO] Fetching https://alkitab.app/KPPK/262
+2025-09-05 19:13:44,552 [INFO] PARSED KPPK/262 - OK (no_lagu=262, judul_text='Kau, Allah, Benteng yang Baka')
+2025-09-05 19:13:45,152 [INFO] Fetching https://alkitab.app/KPPK/263
+2025-09-05 19:13:45,418 [INFO] PARSED KPPK/263 - OK (no_lagu=263, judul_text='Beban Terlepas di Kalvari')
+2025-09-05 19:13:46,019 [INFO] Fetching https://alkitab.app/KPPK/264
+2025-09-05 19:13:47,544 [INFO] PARSED KPPK/264 - OK (no_lagu=264, judul_text='Kau 'Kan Peliharanya')
+2025-09-05 19:13:48,145 [INFO] Fetching https://alkitab.app/KPPK/265
+2025-09-05 19:13:49,164 [INFO] PARSED KPPK/265 - OK (no_lagu=265, judul_text='Damai di Hatiku')
+2025-09-05 19:13:49,765 [INFO] Fetching https://alkitab.app/KPPK/266
+2025-09-05 19:13:51,040 [INFO] PARSED KPPK/266 - OK (no_lagu=266, judul_text='Damai Ajaib')
+2025-09-05 19:13:51,642 [INFO] Fetching https://alkitab.app/KPPK/267
+2025-09-05 19:13:52,852 [INFO] PARSED KPPK/267 - OK (no_lagu=267, judul_text='Yang Letih Datanglah pada-Nya')
+2025-09-05 19:13:53,453 [INFO] Fetching https://alkitab.app/KPPK/268
+2025-09-05 19:13:54,746 [INFO] PARSED KPPK/268 - OK (no_lagu=268, judul_text='Adakah Namaku di Buku Hayat-Mu?')
+2025-09-05 19:13:55,348 [INFO] Fetching https://alkitab.app/KPPK/269
+2025-09-05 19:13:56,279 [INFO] PARSED KPPK/269 - OK (no_lagu=269, judul_text='Kehendak Tuhan Jadilah')
+2025-09-05 19:13:56,881 [INFO] Fetching https://alkitab.app/KPPK/270
+2025-09-05 19:13:57,821 [INFO] PARSED KPPK/270 - OK (no_lagu=270, judul_text='Penuhiku dengan Firman-Mu')
+2025-09-05 19:13:58,423 [INFO] Fetching https://alkitab.app/KPPK/271
+2025-09-05 19:13:58,664 [INFO] PARSED KPPK/271 - OK (no_lagu=271, judul_text='Lebih Kasihi-Mu, O Tuhanku')
+2025-09-05 19:13:59,266 [INFO] Fetching https://alkitab.app/KPPK/272
+2025-09-05 19:14:00,123 [INFO] PARSED KPPK/272 - OK (no_lagu=272, judul_text='Penuhilah Pialaku')
+2025-09-05 19:14:00,724 [INFO] Fetching https://alkitab.app/KPPK/273
+2025-09-05 19:14:00,957 [INFO] PARSED KPPK/273 - OK (no_lagu=273, judul_text='Doa Bapa Kami')
+2025-09-05 19:14:01,558 [INFO] Fetching https://alkitab.app/KPPK/274
+2025-09-05 19:14:01,802 [INFO] PARSED KPPK/274 - OK (no_lagu=274, judul_text='Sucikan Hatiku, O Tuhanku')
+2025-09-05 19:14:02,404 [INFO] Fetching https://alkitab.app/KPPK/275
+2025-09-05 19:14:03,351 [INFO] PARSED KPPK/275 - OK (no_lagu=275, judul_text='Tunjukkan Jalan-Mu O, Tuhanku')
+2025-09-05 19:14:03,953 [INFO] Fetching https://alkitab.app/KPPK/276
+2025-09-05 19:14:07,179 [INFO] PARSED KPPK/276 - OK (no_lagu=276, judul_text=''Ku Mau Setia')
+2025-09-05 19:14:07,780 [INFO] Fetching https://alkitab.app/KPPK/277
+2025-09-05 19:14:09,360 [INFO] PARSED KPPK/277 - OK (no_lagu=277, judul_text='Kumohon Bagimu')
+2025-09-05 19:14:09,960 [INFO] Fetching https://alkitab.app/KPPK/278
+2025-09-05 19:14:12,868 [INFO] PARSED KPPK/278 - OK (no_lagu=278, judul_text='Saat Kau Berdoa')
+2025-09-05 19:14:13,468 [INFO] Fetching https://alkitab.app/KPPK/279
+2025-09-05 19:14:13,731 [INFO] PARSED KPPK/279 - OK (no_lagu=279, judul_text='Memperkenankan Hati Tuhan')
+2025-09-05 19:14:14,338 [INFO] Fetching https://alkitab.app/KPPK/280
+2025-09-05 19:14:17,084 [INFO] PARSED KPPK/280 - OK (no_lagu=280, judul_text='Dengar Doa Anak-Mu, Tuhan')
+2025-09-05 19:14:17,685 [INFO] Fetching https://alkitab.app/KPPK/281
+2025-09-05 19:14:17,922 [INFO] PARSED KPPK/281 - OK (no_lagu=281, judul_text='Sandar pada Tuhan, Menang 'kan Seteru')
+2025-09-05 19:14:18,524 [INFO] Fetching https://alkitab.app/KPPK/282
+2025-09-05 19:14:21,881 [INFO] PARSED KPPK/282 - OK (no_lagu=282, judul_text='Bukan Aku, Namun Kristus Tuhanku')
+2025-09-05 19:14:22,498 [INFO] Fetching https://alkitab.app/KPPK/283
+2025-09-05 19:14:23,359 [INFO] PARSED KPPK/283 - OK (no_lagu=283, judul_text='Lebih Dekat pada-Mu')
+2025-09-05 19:14:23,960 [INFO] Fetching https://alkitab.app/KPPK/284
+2025-09-05 19:14:28,295 [INFO] PARSED KPPK/284 - OK (no_lagu=284, judul_text='Tuhan, Kucinta-Mu')
+2025-09-05 19:14:28,897 [INFO] Fetching https://alkitab.app/KPPK/285
+2025-09-05 19:14:29,216 [INFO] PARSED KPPK/285 - OK (no_lagu=285, judul_text='Domba Allah, Ajarkanlah Firman-Mu')
+2025-09-05 19:14:29,816 [INFO] Fetching https://alkitab.app/KPPK/286
+2025-09-05 19:14:34,320 [INFO] PARSED KPPK/286 - OK (no_lagu=286, judul_text='Janganlah Kau Tinggalkanku')
+2025-09-05 19:14:34,921 [INFO] Fetching https://alkitab.app/KPPK/287
+2025-09-05 19:14:35,145 [INFO] PARSED KPPK/287 - OK (no_lagu=287, judul_text='Indahnya Saat Berdoa')
+2025-09-05 19:14:35,747 [INFO] Fetching https://alkitab.app/KPPK/288
+2025-09-05 19:14:36,678 [INFO] PARSED KPPK/288 - OK (no_lagu=288, judul_text='Setiap Saat')
+2025-09-05 19:14:37,279 [INFO] Fetching https://alkitab.app/KPPK/289
+2025-09-05 19:14:41,535 [INFO] PARSED KPPK/289 - OK (no_lagu=289, judul_text='Semoga 'Ku Memuji Dia')
+2025-09-05 19:14:42,135 [INFO] Fetching https://alkitab.app/KPPK/290
+2025-09-05 19:14:44,329 [INFO] PARSED KPPK/290 - OK (no_lagu=290, judul_text='Buka Mataku, Tuhan')
+2025-09-05 19:14:44,930 [INFO] Fetching https://alkitab.app/KPPK/291
+2025-09-05 19:14:45,187 [INFO] PARSED KPPK/291 - OK (no_lagu=291, judul_text=''Ku Mau Serupa Tuhan')
+2025-09-05 19:14:45,789 [INFO] Fetching https://alkitab.app/KPPK/292
+2025-09-05 19:14:47,255 [INFO] PARSED KPPK/292 - OK (no_lagu=292, judul_text='Seperti Yesus')
+2025-09-05 19:14:47,855 [INFO] Fetching https://alkitab.app/KPPK/293
+2025-09-05 19:14:48,701 [INFO] PARSED KPPK/293 - OK (no_lagu=293, judul_text='Hatiku Merindukan Yesus')
+2025-09-05 19:14:49,302 [INFO] Fetching https://alkitab.app/KPPK/294
+2025-09-05 19:14:50,141 [INFO] PARSED KPPK/294 - OK (no_lagu=294, judul_text='Bukakan Mataku, Tuhan')
+2025-09-05 19:14:50,742 [INFO] Fetching https://alkitab.app/KPPK/295
+2025-09-05 19:14:53,222 [INFO] PARSED KPPK/295 - OK (no_lagu=295, judul_text='Kupancarkan Keindahan-Mu')
+2025-09-05 19:14:53,823 [INFO] Fetching https://alkitab.app/KPPK/296
+2025-09-05 19:14:55,271 [INFO] PARSED KPPK/296 - OK (no_lagu=296, judul_text='Ada Pengertian Bersama')
+2025-09-05 19:14:55,873 [INFO] Fetching https://alkitab.app/KPPK/297
+2025-09-05 19:14:57,545 [INFO] PARSED KPPK/297 - OK (no_lagu=297, judul_text='Kini 'Ku dalam Keluarga-Nya')
+2025-09-05 19:14:58,146 [INFO] Fetching https://alkitab.app/KPPK/298
+2025-09-05 19:14:59,212 [INFO] PARSED KPPK/298 - OK (no_lagu=298, judul_text='Di Taman')
+2025-09-05 19:14:59,812 [INFO] Fetching https://alkitab.app/KPPK/299
+2025-09-05 19:15:00,889 [INFO] PARSED KPPK/299 - OK (no_lagu=299, judul_text='Bila Kuingat Yesus')
+2025-09-05 19:15:01,490 [INFO] Fetching https://alkitab.app/KPPK/300
+2025-09-05 19:15:03,244 [INFO] PARSED KPPK/300 - OK (no_lagu=300, judul_text='Indahlah Ikatan dalam Kasih-Nya')
+2025-09-05 19:15:03,844 [INFO] Fetching https://alkitab.app/KPPK/301
+2025-09-05 19:15:05,507 [INFO] PARSED KPPK/301 - OK (no_lagu=301, judul_text='Tuhan Tak Janji')
+2025-09-05 19:15:06,109 [INFO] Fetching https://alkitab.app/KPPK/302
+2025-09-05 19:15:08,984 [INFO] PARSED KPPK/302 - OK (no_lagu=302, judul_text='O, Betapa Mulia Bagiku')
+2025-09-05 19:15:09,584 [INFO] Fetching https://alkitab.app/KPPK/303
+2025-09-05 19:15:11,090 [INFO] PARSED KPPK/303 - OK (no_lagu=303, judul_text=''Ku tak akan Meninggalkanmu')
+2025-09-05 19:15:11,692 [INFO] Fetching https://alkitab.app/KPPK/304
+2025-09-05 19:15:14,455 [INFO] PARSED KPPK/304 - OK (no_lagu=304, judul_text='Rohku Tenang, Tuhan Besertaku')
+2025-09-05 19:15:15,057 [INFO] Fetching https://alkitab.app/KPPK/305
+2025-09-05 19:15:17,670 [INFO] PARSED KPPK/305 - OK (no_lagu=305, judul_text='Hari yang Penuh Mulia')
+2025-09-05 19:15:18,271 [INFO] Fetching https://alkitab.app/KPPK/306
+2025-09-05 19:15:21,752 [INFO] PARSED KPPK/306 - OK (no_lagu=306, judul_text='Datang Bersyukurlah')
+2025-09-05 19:15:22,353 [INFO] Fetching https://alkitab.app/KPPK/307
+2025-09-05 19:15:23,611 [INFO] PARSED KPPK/307 - OK (no_lagu=307, judul_text='Hari yang Bahagia')
+2025-09-05 19:15:24,212 [INFO] Fetching https://alkitab.app/KPPK/308
+2025-09-05 19:15:26,739 [INFO] PARSED KPPK/308 - OK (no_lagu=308, judul_text='Ada Terang dalam Hatiku')
+2025-09-05 19:15:27,341 [INFO] Fetching https://alkitab.app/KPPK/309
+2025-09-05 19:15:29,863 [INFO] PARSED KPPK/309 - OK (no_lagu=309, judul_text='Bapa di Sorga, Hatiku bersyukur')
+2025-09-05 19:15:30,464 [INFO] Fetching https://alkitab.app/KPPK/310
+2025-09-05 19:15:31,925 [INFO] PARSED KPPK/310 - OK (no_lagu=310, judul_text=''Ku Hanya Seorang Berdosa')
+2025-09-05 19:15:32,527 [INFO] Fetching https://alkitab.app/KPPK/311
+2025-09-05 19:15:33,511 [INFO] PARSED KPPK/311 - OK (no_lagu=311, judul_text='Yesus Kucinta-Mu')
+2025-09-05 19:15:34,111 [INFO] Fetching https://alkitab.app/KPPK/312
+2025-09-05 19:15:35,189 [INFO] PARSED KPPK/312 - OK (no_lagu=312, judul_text='Di Mana Ada Roh Kudus')
+2025-09-05 19:15:35,791 [INFO] Fetching https://alkitab.app/KPPK/313
+2025-09-05 19:15:36,975 [INFO] PARSED KPPK/313 - OK (no_lagu=313, judul_text='Puji Haleluya')
+2025-09-05 19:15:37,576 [INFO] Fetching https://alkitab.app/KPPK/314
+2025-09-05 19:15:38,457 [INFO] PARSED KPPK/314 - OK (no_lagu=314, judul_text='Penghormatanku')
+2025-09-05 19:15:39,057 [INFO] Fetching https://alkitab.app/KPPK/315
+2025-09-05 19:15:39,809 [INFO] PARSED KPPK/315 - OK (no_lagu=315, judul_text='Haleluya')
+2025-09-05 19:15:40,410 [INFO] Fetching https://alkitab.app/KPPK/316
+2025-09-05 19:15:42,383 [INFO] PARSED KPPK/316 - OK (no_lagu=316, judul_text='Rahmat Yesus yang Indah')
+2025-09-05 19:15:42,984 [INFO] Fetching https://alkitab.app/KPPK/317
+2025-09-05 19:15:43,969 [INFO] PARSED KPPK/317 - OK (no_lagu=317, judul_text='Yesus, 'Ku Hendak Bersyukur kepada-Mu')
+2025-09-05 19:15:44,571 [INFO] Fetching https://alkitab.app/KPPK/318
+2025-09-05 19:15:44,928 [INFO] PARSED KPPK/318 - OK (no_lagu=318, judul_text='Yesuslah Hidupku')
+2025-09-05 19:15:45,528 [INFO] Fetching https://alkitab.app/KPPK/319
+2025-09-05 19:15:46,888 [INFO] PARSED KPPK/319 - OK (no_lagu=319, judul_text='Tak Hentinya Kupuji Dia')
+2025-09-05 19:15:47,489 [INFO] Fetching https://alkitab.app/KPPK/320
+2025-09-05 19:15:49,963 [INFO] PARSED KPPK/320 - OK (no_lagu=320, judul_text='Semakin Dalam')
+2025-09-05 19:15:50,564 [INFO] Fetching https://alkitab.app/KPPK/321
+2025-09-05 19:15:50,954 [INFO] PARSED KPPK/321 - OK (no_lagu=321, judul_text='Tuhan Aku Perlu, Setiap Waktu')
+2025-09-05 19:15:51,556 [INFO] Fetching https://alkitab.app/KPPK/322
+2025-09-05 19:15:52,963 [INFO] PARSED KPPK/322 - OK (no_lagu=322, judul_text='Ke Tempat Lebih Tinggi')
+2025-09-05 19:15:53,564 [INFO] Fetching https://alkitab.app/KPPK/323
+2025-09-05 19:15:56,361 [INFO] PARSED KPPK/323 - OK (no_lagu=323, judul_text=''Ku Mau Jadi Murid Yesus')
+2025-09-05 19:15:56,961 [INFO] Fetching https://alkitab.app/KPPK/324
+2025-09-05 19:15:59,162 [INFO] PARSED KPPK/324 - OK (no_lagu=324, judul_text='Dekat pada-Nya')
+2025-09-05 19:15:59,763 [INFO] Fetching https://alkitab.app/KPPK/325
+2025-09-05 19:16:02,952 [INFO] PARSED KPPK/325 - OK (no_lagu=325, judul_text=''Ku Memilih Yesus')
+2025-09-05 19:16:03,552 [INFO] Fetching https://alkitab.app/KPPK/326
+2025-09-05 19:16:03,806 [INFO] PARSED KPPK/326 - OK (no_lagu=326, judul_text='Jadikan Aku Saluran Berkat')
+2025-09-05 19:16:04,407 [INFO] Fetching https://alkitab.app/KPPK/327
+2025-09-05 19:16:05,350 [INFO] PARSED KPPK/327 - OK (no_lagu=327, judul_text='Seputih Salju')
+2025-09-05 19:16:05,951 [INFO] Fetching https://alkitab.app/KPPK/328
+2025-09-05 19:16:06,205 [INFO] PARSED KPPK/328 - OK (no_lagu=328, judul_text='Jiwaku Tenanglah')
+2025-09-05 19:16:06,806 [INFO] Fetching https://alkitab.app/KPPK/329
+2025-09-05 19:16:07,063 [INFO] PARSED KPPK/329 - OK (no_lagu=329, judul_text='Yesus Pimpin, 'Ku Mau Ikut')
+2025-09-05 19:16:07,663 [INFO] Fetching https://alkitab.app/KPPK/330
+2025-09-05 19:16:10,039 [INFO] PARSED KPPK/330 - OK (no_lagu=330, judul_text='Kini 'Ku Mau Tuhan')
+2025-09-05 19:16:10,640 [INFO] Fetching https://alkitab.app/KPPK/331
+2025-09-05 19:16:10,866 [INFO] PARSED KPPK/331 - OK (no_lagu=331, judul_text='Kasih Tuhan Selamatkanku')
+2025-09-05 19:16:11,468 [INFO] Fetching https://alkitab.app/KPPK/332
+2025-09-05 19:16:12,528 [INFO] PARSED KPPK/332 - OK (no_lagu=332, judul_text='Tuhan Selamatkanku')
+2025-09-05 19:16:13,129 [INFO] Fetching https://alkitab.app/KPPK/333
+2025-09-05 19:16:14,495 [INFO] PARSED KPPK/333 - OK (no_lagu=333, judul_text=''Ku Tak Pernah Rendah Hati')
+2025-09-05 19:16:15,097 [INFO] Fetching https://alkitab.app/KPPK/334
+2025-09-05 19:16:15,993 [INFO] PARSED KPPK/334 - OK (no_lagu=334, judul_text='Pintu Sorga 'kan Dibuka')
+2025-09-05 19:16:16,595 [INFO] Fetching https://alkitab.app/KPPK/335
+2025-09-05 19:16:16,843 [INFO] PARSED KPPK/335 - OK (no_lagu=335, judul_text='Sangat Besar Anug'rah-Nya')
+2025-09-05 19:16:17,444 [INFO] Fetching https://alkitab.app/KPPK/336
+2025-09-05 19:16:18,679 [INFO] PARSED KPPK/336 - OK (no_lagu=336, judul_text='Pakailah Waktumu')
+2025-09-05 19:16:19,279 [INFO] Fetching https://alkitab.app/KPPK/337
+2025-09-05 19:16:20,190 [INFO] PARSED KPPK/337 - OK (no_lagu=337, judul_text='Karena Kasih, Orang Tahu Aku Umat-Nya')
+2025-09-05 19:16:20,791 [INFO] Fetching https://alkitab.app/KPPK/338
+2025-09-05 19:16:22,279 [INFO] PARSED KPPK/338 - OK (no_lagu=338, judul_text='Sungguh Heran')
+2025-09-05 19:16:22,880 [INFO] Fetching https://alkitab.app/KPPK/339
+2025-09-05 19:16:25,164 [INFO] PARSED KPPK/339 - OK (no_lagu=339, judul_text=''Ku Giranglah Karena Tuhan')
+2025-09-05 19:16:25,765 [INFO] Fetching https://alkitab.app/KPPK/340
+2025-09-05 19:16:26,017 [INFO] PARSED KPPK/340 - OK (no_lagu=340, judul_text='Bila Kau Pernah Cinta Yesus')
+2025-09-05 19:16:26,618 [INFO] Fetching https://alkitab.app/KPPK/341
+2025-09-05 19:16:27,935 [INFO] PARSED KPPK/341 - OK (no_lagu=341, judul_text='Sampai ke Ujung Bumi')
+2025-09-05 19:16:28,536 [INFO] Fetching https://alkitab.app/KPPK/342
+2025-09-05 19:16:29,603 [INFO] PARSED KPPK/342 - OK (no_lagu=342, judul_text='Beri Terbaikmu')
+2025-09-05 19:16:30,205 [INFO] Fetching https://alkitab.app/KPPK/343
+2025-09-05 19:16:30,521 [INFO] PARSED KPPK/343 - OK (no_lagu=343, judul_text='Di Mezbah-Nya Sembahkanlah Korbanmu')
+2025-09-05 19:16:31,122 [INFO] Fetching https://alkitab.app/KPPK/344
+2025-09-05 19:16:32,363 [INFO] PARSED KPPK/344 - OK (no_lagu=344, judul_text='Serahkan yang Terbaik pada-Nya')
+2025-09-05 19:16:32,964 [INFO] Fetching https://alkitab.app/KPPK/345
+2025-09-05 19:16:34,253 [INFO] PARSED KPPK/345 - OK (no_lagu=345, judul_text='Meski Sedikit, Ia Berkenan')
+2025-09-05 19:16:34,854 [INFO] Fetching https://alkitab.app/KPPK/346
+2025-09-05 19:16:36,988 [INFO] PARSED KPPK/346 - OK (no_lagu=346, judul_text='O Yesus, Aku Berjanji')
+2025-09-05 19:16:37,589 [INFO] Fetching https://alkitab.app/KPPK/347
+2025-09-05 19:16:38,752 [INFO] PARSED KPPK/347 - OK (no_lagu=347, judul_text='Yang Pandai Sembah Ilmu')
+2025-09-05 19:16:39,353 [INFO] Fetching https://alkitab.app/KPPK/348
+2025-09-05 19:16:39,600 [INFO] PARSED KPPK/348 - OK (no_lagu=348, judul_text='Yang Kupersembahkan, Berasal Dari-Mu')
+2025-09-05 19:16:40,200 [INFO] Fetching https://alkitab.app/KPPK/349
+2025-09-05 19:16:40,454 [INFO] PARSED KPPK/349 - OK (no_lagu=349, judul_text='Bagi Yesus Tuhanku')
+2025-09-05 19:16:41,056 [INFO] Fetching https://alkitab.app/KPPK/350
+2025-09-05 19:16:43,588 [INFO] PARSED KPPK/350 - OK (no_lagu=350, judul_text='Pakai Hidupku Ini')
+2025-09-05 19:16:44,188 [INFO] Fetching https://alkitab.app/KPPK/351
+2025-09-05 19:16:45,653 [INFO] PARSED KPPK/351 - OK (no_lagu=351, judul_text='Pakai Hidupku Ini')
+2025-09-05 19:16:46,253 [INFO] Fetching https://alkitab.app/KPPK/352
+2025-09-05 19:16:50,508 [INFO] PARSED KPPK/352 - OK (no_lagu=352, judul_text='Kusembahkan Hidupku')
+2025-09-05 19:16:51,109 [INFO] Fetching https://alkitab.app/KPPK/353
+2025-09-05 19:16:55,906 [INFO] PARSED KPPK/353 - OK (no_lagu=353, judul_text='Hidupku Ini Kuserahkan')
+2025-09-05 19:16:56,507 [INFO] Fetching https://alkitab.app/KPPK/354
+2025-09-05 19:16:56,754 [INFO] PARSED KPPK/354 - OK (no_lagu=354, judul_text=''Ku Bersukacita Kerja Bagi-Nya')
+2025-09-05 19:16:57,354 [INFO] Fetching https://alkitab.app/KPPK/355
+2025-09-05 19:17:00,065 [INFO] PARSED KPPK/355 - OK (no_lagu=355, judul_text='Apa yang Kaubuat bagi Yesus')
+2025-09-05 19:17:00,666 [INFO] Fetching https://alkitab.app/KPPK/356
+2025-09-05 19:17:04,145 [INFO] PARSED KPPK/356 - OK (no_lagu=356, judul_text='Siap')
+2025-09-05 19:17:04,747 [INFO] Fetching https://alkitab.app/KPPK/357
+2025-09-05 19:17:05,020 [INFO] PARSED KPPK/357 - OK (no_lagu=357, judul_text='Bangunkan Jiwaku yang Lesu')
+2025-09-05 19:17:05,620 [INFO] Fetching https://alkitab.app/KPPK/358
+2025-09-05 19:17:09,001 [INFO] PARSED KPPK/358 - OK (no_lagu=358, judul_text='Angkat Suara-Mu dan Bersoraklah')
+2025-09-05 19:17:09,602 [INFO] Fetching https://alkitab.app/KPPK/359
+2025-09-05 19:17:14,681 [INFO] PARSED KPPK/359 - OK (no_lagu=359, judul_text='Ketika Cobaan Datang')
+2025-09-05 19:17:15,282 [INFO] Fetching https://alkitab.app/KPPK/360
+2025-09-05 19:17:15,522 [INFO] PARSED KPPK/360 - OK (no_lagu=360, judul_text='Konfik Zaman')
+2025-09-05 19:17:16,123 [INFO] Fetching https://alkitab.app/KPPK/361
+2025-09-05 19:17:17,895 [INFO] PARSED KPPK/361 - OK (no_lagu=361, judul_text='Hai, Bangkit Bagi Yesus')
+2025-09-05 19:17:18,496 [INFO] Fetching https://alkitab.app/KPPK/362
+2025-09-05 19:17:19,829 [INFO] PARSED KPPK/362 - OK (no_lagu=362, judul_text='Haruskah Ia Pikul Salib?')
+2025-09-05 19:17:20,429 [INFO] Fetching https://alkitab.app/KPPK/363
+2025-09-05 19:17:21,411 [INFO] PARSED KPPK/363 - OK (no_lagu=363, judul_text='Maju Laskar Kristus')
+2025-09-05 19:17:22,012 [INFO] Fetching https://alkitab.app/KPPK/364
+2025-09-05 19:17:23,209 [INFO] PARSED KPPK/364 - OK (no_lagu=364, judul_text='Gejolak Hidup')
+2025-09-05 19:17:23,810 [INFO] Fetching https://alkitab.app/KPPK/365
+2025-09-05 19:17:25,168 [INFO] PARSED KPPK/365 - OK (no_lagu=365, judul_text='Yesuslah Terang Dunia')
+2025-09-05 19:17:25,770 [INFO] Fetching https://alkitab.app/KPPK/366
+2025-09-05 19:17:26,651 [INFO] PARSED KPPK/366 - OK (no_lagu=366, judul_text='Dari Ladang ke Gunung')
+2025-09-05 19:17:27,252 [INFO] Fetching https://alkitab.app/KPPK/367
+2025-09-05 19:17:29,471 [INFO] PARSED KPPK/367 - OK (no_lagu=367, judul_text='Yesus Selamatkanmu')
+2025-09-05 19:17:30,071 [INFO] Fetching https://alkitab.app/KPPK/368
+2025-09-05 19:17:33,028 [INFO] PARSED KPPK/368 - OK (no_lagu=368, judul_text='Bagikan kepada Semua Orang')
+2025-09-05 19:17:33,629 [INFO] Fetching https://alkitab.app/KPPK/369
+2025-09-05 19:17:33,884 [INFO] PARSED KPPK/369 - OK (no_lagu=369, judul_text='Kirimlah Terangmu!')
+2025-09-05 19:17:34,485 [INFO] Fetching https://alkitab.app/KPPK/370
+2025-09-05 19:17:34,729 [INFO] PARSED KPPK/370 - OK (no_lagu=370, judul_text='Kuutus Kau')
+2025-09-05 19:17:35,330 [INFO] Fetching https://alkitab.app/KPPK/371
+2025-09-05 19:17:38,550 [INFO] PARSED KPPK/371 - OK (no_lagu=371, judul_text='Kusuka Mengabarkan')
+2025-09-05 19:17:39,151 [INFO] Fetching https://alkitab.app/KPPK/372
+2025-09-05 19:17:39,984 [INFO] PARSED KPPK/372 - OK (no_lagu=372, judul_text='O Bangkitlah, Kabarkan Injil-Nya')
+2025-09-05 19:17:40,585 [INFO] Fetching https://alkitab.app/KPPK/373
+2025-09-05 19:17:40,820 [INFO] PARSED KPPK/373 - OK (no_lagu=373, judul_text='Ke Mana pun 'Ku Diutus-Nya')
+2025-09-05 19:17:41,421 [INFO] Fetching https://alkitab.app/KPPK/374
+2025-09-05 19:17:42,587 [INFO] PARSED KPPK/374 - OK (no_lagu=374, judul_text='Nun Jauh di Sana Gelap Dosa Mengurung')
+2025-09-05 19:17:43,187 [INFO] Fetching https://alkitab.app/KPPK/375
+2025-09-05 19:17:44,338 [INFO] PARSED KPPK/375 - OK (no_lagu=375, judul_text='Layakkah 'Ku Pergi dengan Tangan Hampa')
+2025-09-05 19:17:44,940 [INFO] Fetching https://alkitab.app/KPPK/376
+2025-09-05 19:17:45,215 [INFO] PARSED KPPK/376 - OK (no_lagu=376, judul_text='Ada Kisah untuk Bangsa-Bangsa')
+2025-09-05 19:17:45,817 [INFO] Fetching https://alkitab.app/KPPK/377
+2025-09-05 19:17:46,726 [INFO] PARSED KPPK/377 - OK (no_lagu=377, judul_text='Ceritakan Kisah Lama')
+2025-09-05 19:17:47,326 [INFO] Fetching https://alkitab.app/KPPK/378
+2025-09-05 19:17:48,439 [INFO] PARSED KPPK/378 - OK (no_lagu=378, judul_text='Kabarkanlah akan Rahmat-Nya')
+2025-09-05 19:17:49,041 [INFO] Fetching https://alkitab.app/KPPK/379
+2025-09-05 19:17:49,506 [INFO] PARSED KPPK/379 - OK (no_lagu=379, judul_text='Terlalu Manise')
+2025-09-05 19:17:50,107 [INFO] Fetching https://alkitab.app/KPPK/380
+2025-09-05 19:17:51,468 [INFO] PARSED KPPK/380 - OK (no_lagu=380, judul_text='Bangunkan Kami')
+2025-09-05 19:17:52,070 [INFO] Fetching https://alkitab.app/KPPK/381
+2025-09-05 19:17:55,462 [INFO] PARSED KPPK/381 - OK (no_lagu=381, judul_text='Setia')
+2025-09-05 19:17:56,063 [INFO] Fetching https://alkitab.app/KPPK/382
+2025-09-05 19:17:57,546 [INFO] PARSED KPPK/382 - OK (no_lagu=382, judul_text='Api Zaman')
+2025-09-05 19:17:58,147 [INFO] Fetching https://alkitab.app/KPPK/383
+2025-09-05 19:18:01,543 [INFO] PARSED KPPK/383 - OK (no_lagu=383, judul_text='Kumohon Pimpinan-Mu')
+2025-09-05 19:18:02,143 [INFO] Fetching https://alkitab.app/KPPK/384
+2025-09-05 19:18:04,344 [INFO] PARSED KPPK/384 - OK (no_lagu=384, judul_text='Turunkan Hujan Berkat-Mu')
+2025-09-05 19:18:04,945 [INFO] Fetching https://alkitab.app/KPPK/385
+2025-09-05 19:18:05,941 [INFO] PARSED KPPK/385 - OK (no_lagu=385, judul_text='Kupuji Nama-Mu')
+2025-09-05 19:18:06,541 [INFO] Fetching https://alkitab.app/KPPK/386
+2025-09-05 19:18:08,870 [INFO] PARSED KPPK/386 - OK (no_lagu=386, judul_text='Dasar Gereja yang Esa')
+2025-09-05 19:18:09,470 [INFO] Fetching https://alkitab.app/KPPK/387
+2025-09-05 19:18:10,710 [INFO] PARSED KPPK/387 - OK (no_lagu=387, judul_text='Allah Bentengku yang Teguh')
+2025-09-05 19:18:11,311 [INFO] Fetching https://alkitab.app/KPPK/388
+2025-09-05 19:18:12,199 [INFO] PARSED KPPK/388 - OK (no_lagu=388, judul_text='Bersinarlah Roh Kudus')
+2025-09-05 19:18:12,800 [INFO] Fetching https://alkitab.app/KPPK/389
+2025-09-05 19:18:13,050 [INFO] PARSED KPPK/389 - OK (no_lagu=389, judul_text='Batu Karang yang Kukuh')
+2025-09-05 19:18:13,651 [INFO] Fetching https://alkitab.app/KPPK/390
+2025-09-05 19:18:15,065 [INFO] PARSED KPPK/390 - OK (no_lagu=390, judul_text='Bangkitlah Umat-Nya')
+2025-09-05 19:18:15,665 [INFO] Fetching https://alkitab.app/KPPK/391
+2025-09-05 19:18:15,909 [INFO] PARSED KPPK/391 - OK (no_lagu=391, judul_text='Hormat Bagi Allah Bapa')
+2025-09-05 19:18:16,511 [INFO] Fetching https://alkitab.app/KPPK/392
+2025-09-05 19:18:16,747 [INFO] PARSED KPPK/392 - OK (no_lagu=392, judul_text='Aku Membangun Umat Perkasa')
+2025-09-05 19:18:17,347 [INFO] Fetching https://alkitab.app/KPPK/393
+2025-09-05 19:18:17,566 [INFO] PARSED KPPK/393 - OK (no_lagu=393, judul_text='Mengenang Tuhan')
+2025-09-05 19:18:18,167 [INFO] Fetching https://alkitab.app/KPPK/394
+2025-09-05 19:18:19,189 [INFO] PARSED KPPK/394 - OK (no_lagu=394, judul_text='Mengenang Kasih-Nya')
+2025-09-05 19:18:19,789 [INFO] Fetching https://alkitab.app/KPPK/395
+2025-09-05 19:18:20,407 [INFO] PARSED KPPK/395 - OK (no_lagu=395, judul_text='Tubuh Kristus Dikorbankan')
+2025-09-05 19:18:21,008 [INFO] Fetching https://alkitab.app/KPPK/396
+2025-09-05 19:18:23,053 [INFO] PARSED KPPK/396 - OK (no_lagu=396, judul_text='Kita Pecahkan Roti')
+2025-09-05 19:18:23,655 [INFO] Fetching https://alkitab.app/KPPK/397
+2025-09-05 19:18:24,585 [INFO] PARSED KPPK/397 - OK (no_lagu=397, judul_text='Di Sini 'Ku Menghadap Wajah-Mu')
+2025-09-05 19:18:25,186 [INFO] Fetching https://alkitab.app/KPPK/398
+2025-09-05 19:18:27,683 [INFO] PARSED KPPK/398 - OK (no_lagu=398, judul_text='Tuhan Pecahkan Roti Hidup')
+2025-09-05 19:18:28,284 [INFO] Fetching https://alkitab.app/KPPK/399
+2025-09-05 19:18:29,196 [INFO] PARSED KPPK/399 - OK (no_lagu=399, judul_text='Nyawa-Ku Diberikan')
+2025-09-05 19:18:29,797 [INFO] Fetching https://alkitab.app/KPPK/400
+2025-09-05 19:18:30,794 [INFO] PARSED KPPK/400 - OK (no_lagu=400, judul_text='Kidung Berkat')
+2025-09-05 19:18:31,396 [INFO] Fetching https://alkitab.app/KPPK/401
+2025-09-05 19:18:32,287 [INFO] PARSED KPPK/401 - OK (no_lagu=401, judul_text='Mars Nikah')
+2025-09-05 19:18:32,888 [INFO] Fetching https://alkitab.app/KPPK/402
+2025-09-05 19:18:34,234 [INFO] PARSED KPPK/402 - OK (no_lagu=402, judul_text='Kasih Sempurna')
+2025-09-05 19:18:34,834 [INFO] Fetching https://alkitab.app/KPPK/403
+2025-09-05 19:18:35,693 [INFO] PARSED KPPK/403 - OK (no_lagu=403, judul_text='Insan Dua Menikahlah')
+2025-09-05 19:18:36,294 [INFO] Fetching https://alkitab.app/KPPK/404
+2025-09-05 19:18:37,737 [INFO] PARSED KPPK/404 - OK (no_lagu=404, judul_text='Muka dengan Muka')
+2025-09-05 19:18:38,337 [INFO] Fetching https://alkitab.app/KPPK/405
+2025-09-05 19:18:39,197 [INFO] PARSED KPPK/405 - OK (no_lagu=405, judul_text='Dekat Kepada-Mu, O Tuhanku')
+2025-09-05 19:18:39,797 [INFO] Fetching https://alkitab.app/KPPK/406
+2025-09-05 19:18:40,703 [INFO] PARSED KPPK/406 - OK (no_lagu=406, judul_text='Tinggal Sertaku')
+2025-09-05 19:18:41,304 [INFO] Fetching https://alkitab.app/KPPK/407
+2025-09-05 19:18:42,503 [INFO] PARSED KPPK/407 - OK (no_lagu=407, judul_text='Ada Tempat yang Lebih Terang')
+2025-09-05 19:18:43,103 [INFO] Fetching https://alkitab.app/KPPK/408
+2025-09-05 19:18:43,342 [INFO] PARSED KPPK/408 - OK (no_lagu=408, judul_text='Waktu Namaku Dipanggil')
+2025-09-05 19:18:43,944 [INFO] Fetching https://alkitab.app/KPPK/409
+2025-09-05 19:18:44,187 [INFO] PARSED KPPK/409 - OK (no_lagu=409, judul_text='Di Seberang Sana')
+2025-09-05 19:18:44,787 [INFO] Fetching https://alkitab.app/KPPK/410
+2025-09-05 19:18:46,451 [INFO] PARSED KPPK/410 - OK (no_lagu=410, judul_text='Kasih Setia-Mu')
+2025-09-05 19:18:47,052 [INFO] Fetching https://alkitab.app/KPPK/411
+2025-09-05 19:18:48,048 [INFO] PARSED KPPK/411 - OK (no_lagu=411, judul_text='Mazmur 1')
+2025-09-05 19:18:48,649 [INFO] Fetching https://alkitab.app/KPPK/412
+2025-09-05 19:18:49,729 [INFO] PARSED KPPK/412 - OK (no_lagu=412, judul_text='Hari Ini Harinya Tuhan')
+2025-09-05 19:18:50,329 [INFO] Fetching https://alkitab.app/KPPK/413
+2025-09-05 19:18:50,579 [INFO] PARSED KPPK/413 - OK (no_lagu=413, judul_text='Pujilah Hai Jiwaku')
+2025-09-05 19:18:51,180 [INFO] Fetching https://alkitab.app/KPPK/414
+2025-09-05 19:18:52,046 [INFO] PARSED KPPK/414 - OK (no_lagu=414, judul_text='Kidung Agung')
+2025-09-05 19:18:52,647 [INFO] Fetching https://alkitab.app/KPPK/415
+2025-09-05 19:18:53,573 [INFO] PARSED KPPK/415 - OK (no_lagu=415, judul_text='Kidung Pagi')
+2025-09-05 19:18:54,186 [INFO] Fetching https://alkitab.app/KPPK/416
+2025-09-05 19:18:55,632 [INFO] PARSED KPPK/416 - OK (no_lagu=416, judul_text='Haleluya')
+2025-09-05 19:18:56,234 [INFO] Fetching https://alkitab.app/KPPK/417
+2025-09-05 19:18:57,186 [INFO] PARSED KPPK/417 - OK (no_lagu=417, judul_text='Seperti Rusa Rindu Air')
+2025-09-05 19:18:57,787 [INFO] Fetching https://alkitab.app/KPPK/418
+2025-09-05 19:18:58,687 [INFO] PARSED KPPK/418 - OK (no_lagu=418, judul_text='Tuhan Adalah Gembalaku - I')
+2025-09-05 19:18:59,289 [INFO] Fetching https://alkitab.app/KPPK/419
+2025-09-05 19:18:59,546 [INFO] PARSED KPPK/419 - OK (no_lagu=419, judul_text='Tuhan Adalah Gembalaku - II')
+2025-09-05 19:19:00,147 [INFO] Fetching https://alkitab.app/KPPK/420
+2025-09-05 19:19:00,396 [INFO] PARSED KPPK/420 - OK (no_lagu=420, judul_text='Aku Menyambutmu')
+2025-09-05 19:19:00,997 [INFO] Fetching https://alkitab.app/KPPK/421
+2025-09-05 19:19:01,240 [INFO] PARSED KPPK/421 - OK (no_lagu=421, judul_text='Kau Tak Kulupakan')
+2025-09-05 19:19:01,841 [INFO] Fetching https://alkitab.app/KPPK/422
+2025-09-05 19:19:03,014 [INFO] PARSED KPPK/422 - OK (no_lagu=422, judul_text='Tuhan P'liharamu')
+2025-09-05 19:19:03,614 [INFO] Fetching https://alkitab.app/KPPK/423
+2025-09-05 19:19:03,879 [INFO] PARSED KPPK/423 - OK (no_lagu=423, judul_text='Bapa Sorgawi Memeliharaku')
+2025-09-05 19:19:04,480 [INFO] Fetching https://alkitab.app/KPPK/424
+2025-09-05 19:19:05,422 [INFO] PARSED KPPK/424 - OK (no_lagu=424, judul_text='Tuhan Memberkati Kau')
+2025-09-05 19:19:06,023 [INFO] Fetching https://alkitab.app/KPPK/425
+2025-09-05 19:19:06,303 [INFO] PARSED KPPK/425 - OK (no_lagu=425, judul_text='Amin')
+2025-09-05 19:19:06,904 [INFO] Fetching https://alkitab.app/KPRI/1
+2025-09-05 19:19:07,132 [INFO] PARSED KPRI/1 - OK (no_lagu=1, judul_text='B’rilah Hormat Pada Hu')
+2025-09-05 19:19:07,737 [INFO] Fetching https://alkitab.app/KPRI/2
+2025-09-05 19:19:07,980 [INFO] PARSED KPRI/2 - OK (no_lagu=2, judul_text='Besarlah Allahku')
+2025-09-05 19:19:08,581 [INFO] Fetching https://alkitab.app/KPRI/3
+2025-09-05 19:19:09,497 [INFO] PARSED KPRI/3 - OK (no_lagu=3, judul_text='Mulia')
+2025-09-05 19:19:10,098 [INFO] Fetching https://alkitab.app/KPRI/4
+2025-09-05 19:19:10,971 [INFO] PARSED KPRI/4 - OK (no_lagu=4, judul_text='Agungkan Kuasa Nama-Nya')
+2025-09-05 19:19:11,572 [INFO] Fetching https://alkitab.app/KPRI/5
+2025-09-05 19:19:12,744 [INFO] PARSED KPRI/5 - OK (no_lagu=5, judul_text='Terpujilah Nama Yesus')
+2025-09-05 19:19:13,346 [INFO] Fetching https://alkitab.app/KPRI/6
+2025-09-05 19:19:15,971 [INFO] PARSED KPRI/6 - OK (no_lagu=6, judul_text='Rajakanlah Yesus')
+2025-09-05 19:19:16,573 [INFO] Fetching https://alkitab.app/KPRI/7
+2025-09-05 19:19:18,914 [INFO] PARSED KPRI/7 - OK (no_lagu=7, judul_text='Glorify Thy Name')
+2025-09-05 19:19:19,514 [INFO] Fetching https://alkitab.app/KPRI/8
+2025-09-05 19:19:20,256 [INFO] PARSED KPRI/8 - OK (no_lagu=8, judul_text='Puji! Puji!')
+2025-09-05 19:19:20,857 [INFO] Fetching https://alkitab.app/KPRI/9
+2025-09-05 19:19:21,093 [INFO] PARSED KPRI/9 - OK (no_lagu=9, judul_text='Worthy of Worship')
+2025-09-05 19:19:21,694 [INFO] Fetching https://alkitab.app/KPRI/10
+2025-09-05 19:19:21,946 [INFO] PARSED KPRI/10 - OK (no_lagu=10, judul_text='Walau Seribu Lidahku')
+2025-09-05 19:19:22,546 [INFO] Fetching https://alkitab.app/KPRI/11
+2025-09-05 19:19:22,780 [INFO] PARSED KPRI/11 - OK (no_lagu=11, judul_text='Terpujilah Allah')
+2025-09-05 19:19:23,381 [INFO] Fetching https://alkitab.app/KPRI/12
+2025-09-05 19:19:24,364 [INFO] PARSED KPRI/12 - OK (no_lagu=12, judul_text='Atas Bumi Nan Permai')
+2025-09-05 19:19:24,964 [INFO] Fetching https://alkitab.app/KPRI/13
+2025-09-05 19:19:25,250 [INFO] PARSED KPRI/13 - OK (no_lagu=13, judul_text='Inilah Dunia Hu')
+2025-09-05 19:19:25,852 [INFO] Fetching https://alkitab.app/KPRI/14
+2025-09-05 19:19:26,839 [INFO] PARSED KPRI/14 - OK (no_lagu=14, judul_text='I Stand In Awe')
+2025-09-05 19:19:27,440 [INFO] Fetching https://alkitab.app/KPRI/15
+2025-09-05 19:19:28,254 [INFO] PARSED KPRI/15 - OK (no_lagu=15, judul_text='Allah Baik')
+2025-09-05 19:19:28,854 [INFO] Fetching https://alkitab.app/KPRI/16
+2025-09-05 19:19:29,723 [INFO] PARSED KPRI/16 - OK (no_lagu=16, judul_text='God Is Our Refuge And Our Strength')
+2025-09-05 19:19:30,325 [INFO] Fetching https://alkitab.app/KPRI/17
+2025-09-05 19:19:31,446 [INFO] PARSED KPRI/17 - OK (no_lagu=17, judul_text='Allah Jadi Benteng Kukuh')
+2025-09-05 19:19:32,048 [INFO] Fetching https://alkitab.app/KPRI/18
+2025-09-05 19:19:32,262 [INFO] PARSED KPRI/18 - OK (no_lagu=18, judul_text='You Are My Hiding Place')
+2025-09-05 19:19:32,862 [INFO] Fetching https://alkitab.app/KPRI/19
+2025-09-05 19:19:33,095 [INFO] PARSED KPRI/19 - OK (no_lagu=19, judul_text='Besar Setia-Mu')
+2025-09-05 19:19:33,697 [INFO] Fetching https://alkitab.app/KPRI/20
+2025-09-05 19:19:37,614 [INFO] PARSED KPRI/20 - OK (no_lagu=20, judul_text='Engkau Milikku Abadi')
+2025-09-05 19:19:38,215 [INFO] Fetching https://alkitab.app/KPRI/21
+2025-09-05 19:19:38,476 [INFO] PARSED KPRI/21 - OK (no_lagu=21, judul_text='Nyamanlah Jiwaku')
+2025-09-05 19:19:39,076 [INFO] Fetching https://alkitab.app/KPRI/22
+2025-09-05 19:19:39,287 [INFO] PARSED KPRI/22 - OK (no_lagu=22, judul_text='Semua Karena Anugerah-Nya')
+2025-09-05 19:19:39,887 [INFO] Fetching https://alkitab.app/KPRI/23
+2025-09-05 19:19:41,201 [INFO] PARSED KPRI/23 - OK (no_lagu=23, judul_text='Ku Bersandar pada yang Kekal')
+2025-09-05 19:19:41,803 [INFO] Fetching https://alkitab.app/KPRI/24
+2025-09-05 19:19:43,566 [INFO] PARSED KPRI/24 - OK (no_lagu=24, judul_text='Tak Kulupakan Engkau')
+2025-09-05 19:19:44,168 [INFO] Fetching https://alkitab.app/KPRI/25
+2025-09-05 19:19:45,034 [INFO] PARSED KPRI/25 - OK (no_lagu=25, judul_text='Tuhan Yang Pegang')
+2025-09-05 19:19:45,635 [INFO] Fetching https://alkitab.app/KPRI/26
+2025-09-05 19:19:46,330 [INFO] PARSED KPRI/26 - OK (no_lagu=26, judul_text='Tuntun Aku, Tuhan Allah')
+2025-09-05 19:19:46,930 [INFO] Fetching https://alkitab.app/KPRI/27
+2025-09-05 19:19:48,060 [INFO] PARSED KPRI/27 - OK (no_lagu=27, judul_text='Be Strong In The Lord')
+2025-09-05 19:19:48,660 [INFO] Fetching https://alkitab.app/KPRI/28
+2025-09-05 19:19:48,899 [INFO] PARSED KPRI/28 - OK (no_lagu=28, judul_text='Ku Tahu Siapa Yang Kupercaya')
+2025-09-05 19:19:49,500 [INFO] Fetching https://alkitab.app/KPRI/29
+2025-09-05 19:19:49,735 [INFO] PARSED KPRI/29 - OK (no_lagu=29, judul_text='Jaminan Mulia')
+2025-09-05 19:19:50,337 [INFO] Fetching https://alkitab.app/KPRI/30
+2025-09-05 19:19:50,572 [INFO] PARSED KPRI/30 - OK (no_lagu=30, judul_text='Sepanjang Jalan Tuhan Pimpin')
+2025-09-05 19:19:51,174 [INFO] Fetching https://alkitab.app/KPRI/31
+2025-09-05 19:19:52,051 [INFO] PARSED KPRI/31 - OK (no_lagu=31, judul_text='Seek Ye First')
+2025-09-05 19:19:52,651 [INFO] Fetching https://alkitab.app/KPRI/32
+2025-09-05 19:19:53,773 [INFO] PARSED KPRI/32 - OK (no_lagu=32, judul_text='Bapa Surgawi Mem’liharaku')
+2025-09-05 19:19:54,374 [INFO] Fetching https://alkitab.app/KPRI/33
+2025-09-05 19:19:56,742 [INFO] PARSED KPRI/33 - OK (no_lagu=33, judul_text='Malam Kudus')
+2025-09-05 19:19:57,343 [INFO] Fetching https://alkitab.app/KPRI/34
+2025-09-05 19:19:58,174 [INFO] PARSED KPRI/34 - OK (no_lagu=34, judul_text='Dunia Gemar dan Soraklah')
+2025-09-05 19:19:58,780 [INFO] Fetching https://alkitab.app/KPRI/35
+2025-09-05 19:19:59,699 [INFO] PARSED KPRI/35 - OK (no_lagu=35, judul_text='Ajaiblah Nama-Nya')
+2025-09-05 19:20:00,299 [INFO] Fetching https://alkitab.app/KPRI/36
+2025-09-05 19:20:04,137 [INFO] PARSED KPRI/36 - OK (no_lagu=36, judul_text='Dengarlah Malak Menyanyi')
+2025-09-05 19:20:04,737 [INFO] Fetching https://alkitab.app/KPRI/37
+2025-09-05 19:20:05,618 [INFO] PARSED KPRI/37 - OK (no_lagu=37, judul_text='All Hail King Jesus')
+2025-09-05 19:20:06,218 [INFO] Fetching https://alkitab.app/KPRI/38
+2025-09-05 19:20:07,586 [INFO] PARSED KPRI/38 - OK (no_lagu=38, judul_text='Di Malam Sunyi Betlehem')
+2025-09-05 19:20:08,187 [INFO] Fetching https://alkitab.app/KPRI/39
+2025-09-05 19:20:09,055 [INFO] PARSED KPRI/39 - OK (no_lagu=39, judul_text='Jesus, Name Above All Names')
+2025-09-05 19:20:09,656 [INFO] Fetching https://alkitab.app/KPRI/40
+2025-09-05 19:20:09,899 [INFO] PARSED KPRI/40 - OK (no_lagu=40, judul_text='Pada Tengah Malam Terdengar Pujian')
+2025-09-05 19:20:10,499 [INFO] Fetching https://alkitab.app/KPRI/41
+2025-09-05 19:20:16,430 [INFO] PARSED KPRI/41 - OK (no_lagu=41, judul_text='Karena Allah Cinta')
+2025-09-05 19:20:17,031 [INFO] Fetching https://alkitab.app/KPRI/42
+2025-09-05 19:20:17,981 [INFO] PARSED KPRI/42 - OK (no_lagu=42, judul_text='Oh, Malam Kudus')
+2025-09-05 19:20:18,581 [INFO] Fetching https://alkitab.app/KPRI/43
+2025-09-05 19:20:19,461 [INFO] PARSED KPRI/43 - OK (no_lagu=43, judul_text='Jesus, The Very Thought of Thee')
+2025-09-05 19:20:20,062 [INFO] Fetching https://alkitab.app/KPRI/44
+2025-09-05 19:20:21,803 [INFO] PARSED KPRI/44 - OK (no_lagu=44, judul_text='Adalah di Kota Daud')
+2025-09-05 19:20:22,405 [INFO] Fetching https://alkitab.app/KPRI/45
+2025-09-05 19:20:23,232 [INFO] PARSED KPRI/45 - OK (no_lagu=45, judul_text='Kasih Yang Ajaib')
+2025-09-05 19:20:23,834 [INFO] Fetching https://alkitab.app/KPRI/46
+2025-09-05 19:20:24,723 [INFO] PARSED KPRI/46 - OK (no_lagu=46, judul_text='Di Bukit Golgota')
+2025-09-05 19:20:25,324 [INFO] Fetching https://alkitab.app/KPRI/47
+2025-09-05 19:20:28,363 [INFO] PARSED KPRI/47 - OK (no_lagu=47, judul_text='I Believe In A Hill Called Mount Calvary')
+2025-09-05 19:20:28,965 [INFO] Fetching https://alkitab.app/KPRI/48
+2025-09-05 19:20:29,762 [INFO] PARSED KPRI/48 - OK (no_lagu=48, judul_text='Kisah Salib Tuhan Yesus')
+2025-09-05 19:20:30,362 [INFO] Fetching https://alkitab.app/KPRI/49
+2025-09-05 19:20:31,985 [INFO] PARSED KPRI/49 - OK (no_lagu=49, judul_text='Memandang Salib Rajaku')
+2025-09-05 19:20:32,587 [INFO] Fetching https://alkitab.app/KPRI/50
+2025-09-05 19:20:35,212 [INFO] PARSED KPRI/50 - OK (no_lagu=50, judul_text='Menjulang Nyata Atas Bukit Kala')
+2025-09-05 19:20:35,813 [INFO] Fetching https://alkitab.app/KPRI/51
+2025-09-05 19:20:36,079 [INFO] PARSED KPRI/51 - OK (no_lagu=51, judul_text='Pimpin ke Kalvari')
+2025-09-05 19:20:36,682 [INFO] Fetching https://alkitab.app/KPRI/52
+2025-09-05 19:20:37,521 [INFO] PARSED KPRI/52 - OK (no_lagu=52, judul_text='Di Bawah Salib Yesus')
+2025-09-05 19:20:38,121 [INFO] Fetching https://alkitab.app/KPRI/53
+2025-09-05 19:20:40,708 [INFO] PARSED KPRI/53 - OK (no_lagu=53, judul_text='Only Jesus')
+2025-09-05 19:20:41,310 [INFO] Fetching https://alkitab.app/KPRI/54
+2025-09-05 19:20:41,569 [INFO] PARSED KPRI/54 - OK (no_lagu=54, judul_text='Bawalah Aku Yesus Dekat Ke Salib')
+2025-09-05 19:20:42,187 [INFO] Fetching https://alkitab.app/KPRI/55
+2025-09-05 19:20:43,452 [INFO] PARSED KPRI/55 - OK (no_lagu=55, judul_text='O How He Loves You and Me!')
+2025-09-05 19:20:44,052 [INFO] Fetching https://alkitab.app/KPRI/56
+2025-09-05 19:20:46,037 [INFO] PARSED KPRI/56 - OK (no_lagu=56, judul_text='O Mighty Cross')
+2025-09-05 19:20:46,637 [INFO] Fetching https://alkitab.app/KPRI/57
+2025-09-05 19:20:46,882 [INFO] PARSED KPRI/57 - OK (no_lagu=57, judul_text='Hanya Oleh Darah Yesus')
+2025-09-05 19:20:47,482 [INFO] Fetching https://alkitab.app/KPRI/58
+2025-09-05 19:20:48,372 [INFO] PARSED KPRI/58 - OK (no_lagu=58, judul_text='Mulia dan Menang')
+2025-09-05 19:20:48,973 [INFO] Fetching https://alkitab.app/KPRI/59
+2025-09-05 19:20:50,418 [INFO] PARSED KPRI/59 - OK (no_lagu=59, judul_text='Dalam Taman')
+2025-09-05 19:20:51,019 [INFO] Fetching https://alkitab.app/KPRI/60
+2025-09-05 19:20:51,818 [INFO] PARSED KPRI/60 - OK (no_lagu=60, judul_text='Karena Dia Hidup')
+2025-09-05 19:20:52,419 [INFO] Fetching https://alkitab.app/KPRI/61
+2025-09-05 19:20:53,771 [INFO] PARSED KPRI/61 - OK (no_lagu=61, judul_text='Kristus Hidup')
+2025-09-05 19:20:54,385 [INFO] Fetching https://alkitab.app/KPRI/62
+2025-09-05 19:20:55,561 [INFO] PARSED KPRI/62 - OK (no_lagu=62, judul_text='Kristus Bangkit')
+2025-09-05 19:20:56,163 [INFO] Fetching https://alkitab.app/KPRI/63
+2025-09-05 19:20:57,213 [INFO] PARSED KPRI/63 - OK (no_lagu=63, judul_text='Menanglah Dalam Yesus')
+2025-09-05 19:20:57,814 [INFO] Fetching https://alkitab.app/KPRI/64
+2025-09-05 19:20:59,856 [INFO] PARSED KPRI/64 - OK (no_lagu=64, judul_text='There is a Redeemer')
+2025-09-05 19:21:00,458 [INFO] Fetching https://alkitab.app/KPRI/65
+2025-09-05 19:21:01,221 [INFO] PARSED KPRI/65 - OK (no_lagu=65, judul_text='Ada Lagu Dalam Hatiku')
+2025-09-05 19:21:01,822 [INFO] Fetching https://alkitab.app/KPRI/66
+2025-09-05 19:21:03,313 [INFO] PARSED KPRI/66 - OK (no_lagu=66, judul_text='Sukacita Tuhan Penuhiku')
+2025-09-05 19:21:03,914 [INFO] Fetching https://alkitab.app/KPRI/67
+2025-09-05 19:21:04,769 [INFO] PARSED KPRI/67 - OK (no_lagu=67, judul_text='Ku Bernyanyi Tentang Yesus')
+2025-09-05 19:21:05,369 [INFO] Fetching https://alkitab.app/KPRI/68
+2025-09-05 19:21:06,730 [INFO] PARSED KPRI/68 - OK (no_lagu=68, judul_text='Dosaku Dihapus')
+2025-09-05 19:21:07,331 [INFO] Fetching https://alkitab.app/KPRI/69
+2025-09-05 19:21:08,703 [INFO] PARSED KPRI/69 - OK (no_lagu=69, judul_text='Sejak Yesus di Hatiku')
+2025-09-05 19:21:09,304 [INFO] Fetching https://alkitab.app/KPRI/70
+2025-09-05 19:21:10,181 [INFO] PARSED KPRI/70 - OK (no_lagu=70, judul_text='Dahulu Ku Tersesatlah')
+2025-09-05 19:21:10,782 [INFO] Fetching https://alkitab.app/KPRI/71
+2025-09-05 19:21:11,761 [INFO] PARSED KPRI/71 - OK (no_lagu=71, judul_text='Surga Turun')
+2025-09-05 19:21:12,361 [INFO] Fetching https://alkitab.app/KPRI/72
+2025-09-05 19:21:14,018 [INFO] PARSED KPRI/72 - OK (no_lagu=72, judul_text='Aku Sedang Berjalan')
+2025-09-05 19:21:14,619 [INFO] Fetching https://alkitab.app/KPRI/73
+2025-09-05 19:21:16,804 [INFO] PARSED KPRI/73 - OK (no_lagu=73, judul_text='Oh, Kasih Hu Ajaib Indah')
+2025-09-05 19:21:17,404 [INFO] Fetching https://alkitab.app/KPRI/74
+2025-09-05 19:21:19,093 [INFO] PARSED KPRI/74 - OK (no_lagu=74, judul_text='Behold, What Manner Of Love')
+2025-09-05 19:21:19,694 [INFO] Fetching https://alkitab.app/KPRI/75
+2025-09-05 19:21:20,744 [INFO] PARSED KPRI/75 - OK (no_lagu=75, judul_text='S’karang Ku Milik Yesus')
+2025-09-05 19:21:21,345 [INFO] Fetching https://alkitab.app/KPRI/76
+2025-09-05 19:21:22,466 [INFO] PARSED KPRI/76 - OK (no_lagu=76, judul_text='Sangat Besar Anug’rah-Mu')
+2025-09-05 19:21:23,068 [INFO] Fetching https://alkitab.app/KPRI/77
+2025-09-05 19:21:23,894 [INFO] PARSED KPRI/77 - OK (no_lagu=77, judul_text='Grace Alone')
+2025-09-05 19:21:24,496 [INFO] Fetching https://alkitab.app/KPRI/78
+2025-09-05 19:21:25,381 [INFO] PARSED KPRI/78 - OK (no_lagu=78, judul_text='Kar’na Kasih-Nya')
+2025-09-05 19:21:25,999 [INFO] Fetching https://alkitab.app/KPRI/79
+2025-09-05 19:21:27,357 [INFO] PARSED KPRI/79 - OK (no_lagu=79, judul_text='Not What My Hands Have Done')
+2025-09-05 19:21:27,959 [INFO] Fetching https://alkitab.app/KPRI/80
+2025-09-05 19:21:33,580 [INFO] PARSED KPRI/80 - OK (no_lagu=80, judul_text='Jesus, Thou Joy Of Loving Hearts')
+2025-09-05 19:21:34,180 [INFO] Fetching https://alkitab.app/KPRI/81
+2025-09-05 19:21:37,727 [INFO] PARSED KPRI/81 - OK (no_lagu=81, judul_text='Kaulah, Ya Tuhan, Surya Hidupku')
+2025-09-05 19:21:38,328 [INFO] Fetching https://alkitab.app/KPRI/82
+2025-09-05 19:21:39,252 [INFO] PARSED KPRI/82 - OK (no_lagu=82, judul_text='Happiness Is The Lord')
+2025-09-05 19:21:39,853 [INFO] Fetching https://alkitab.app/KPRI/83
+2025-09-05 19:21:40,710 [INFO] PARSED KPRI/83 - OK (no_lagu=83, judul_text='Kidung Agung')
+2025-09-05 19:21:41,312 [INFO] Fetching https://alkitab.app/KPRI/84
+2025-09-05 19:21:41,549 [INFO] PARSED KPRI/84 - OK (no_lagu=84, judul_text='Aku Berubah')
+2025-09-05 19:21:42,151 [INFO] Fetching https://alkitab.app/KPRI/85
+2025-09-05 19:21:43,187 [INFO] PARSED KPRI/85 - OK (no_lagu=85, judul_text='Yesus Kristus Juruselamat Dunia')
+2025-09-05 19:21:43,789 [INFO] Fetching https://alkitab.app/KPRI/86
+2025-09-05 19:21:44,809 [INFO] PARSED KPRI/86 - OK (no_lagu=86, judul_text='Yesus Segala-galanya')
+2025-09-05 19:21:45,409 [INFO] Fetching https://alkitab.app/KPRI/87
+2025-09-05 19:21:46,304 [INFO] PARSED KPRI/87 - OK (no_lagu=87, judul_text='Ingat Akan Nama Yesus')
+2025-09-05 19:21:46,905 [INFO] Fetching https://alkitab.app/KPRI/88
+2025-09-05 19:21:47,953 [INFO] PARSED KPRI/88 - OK (no_lagu=88, judul_text='Bukan Aku')
+2025-09-05 19:21:48,555 [INFO] Fetching https://alkitab.app/KPRI/89
+2025-09-05 19:21:48,761 [INFO] PARSED KPRI/89 - OK (no_lagu=89, judul_text='Why Have You Chosen Me')
+2025-09-05 19:21:49,361 [INFO] Fetching https://alkitab.app/KPRI/90
+2025-09-05 19:21:50,212 [INFO] PARSED KPRI/90 - OK (no_lagu=90, judul_text='Berjalan Ke Sion')
+2025-09-05 19:21:50,814 [INFO] Fetching https://alkitab.app/KPRI/91
+2025-09-05 19:21:51,759 [INFO] PARSED KPRI/91 - OK (no_lagu=91, judul_text='Seperti Tuhanku')
+2025-09-05 19:21:52,361 [INFO] Fetching https://alkitab.app/KPRI/92
+2025-09-05 19:21:54,035 [INFO] PARSED KPRI/92 - OK (no_lagu=92, judul_text='From Glory To Glory')
+2025-09-05 19:21:54,636 [INFO] Fetching https://alkitab.app/KPRI/93
+2025-09-05 19:21:55,838 [INFO] PARSED KPRI/93 - OK (no_lagu=93, judul_text='Ku Mau Setia')
+2025-09-05 19:21:56,439 [INFO] Fetching https://alkitab.app/KPRI/94
+2025-09-05 19:21:58,592 [INFO] PARSED KPRI/94 - OK (no_lagu=94, judul_text='May The Mind Of Christ, My Savior')
+2025-09-05 19:21:59,197 [INFO] Fetching https://alkitab.app/KPRI/95
+2025-09-05 19:21:59,443 [INFO] PARSED KPRI/95 - OK (no_lagu=95, judul_text='Belum Pernah Ku Rendah Hati')
+2025-09-05 19:22:00,043 [INFO] Fetching https://alkitab.app/KPRI/96
+2025-09-05 19:22:01,443 [INFO] PARSED KPRI/96 - OK (no_lagu=96, judul_text='Dosa K’luar')
+2025-09-05 19:22:02,044 [INFO] Fetching https://alkitab.app/KPRI/97
+2025-09-05 19:22:02,257 [INFO] PARSED KPRI/97 - OK (no_lagu=97, judul_text='Pujilah Hai Jiwaku')
+2025-09-05 19:22:02,859 [INFO] Fetching https://alkitab.app/KPRI/98
+2025-09-05 19:22:03,834 [INFO] PARSED KPRI/98 - OK (no_lagu=98, judul_text='Allah Nyata')
+2025-09-05 19:22:04,435 [INFO] Fetching https://alkitab.app/KPRI/99
+2025-09-05 19:22:05,932 [INFO] PARSED KPRI/99 - OK (no_lagu=99, judul_text='Dia Pusat Hidupku')
+2025-09-05 19:22:06,533 [INFO] Fetching https://alkitab.app/KPRI/100
+2025-09-05 19:22:06,771 [INFO] PARSED KPRI/100 - OK (no_lagu=100, judul_text='Ada Kuasa dalam Darah-Nya')
+2025-09-05 19:22:07,373 [INFO] Fetching https://alkitab.app/KPRI/101
+2025-09-05 19:22:08,280 [INFO] PARSED KPRI/101 - OK (no_lagu=101, judul_text='Siapakah Juruselamat?')
+2025-09-05 19:22:08,882 [INFO] Fetching https://alkitab.app/KPRI/102
+2025-09-05 19:22:10,820 [INFO] PARSED KPRI/102 - OK (no_lagu=102, judul_text='Sebuah Nama yang Indah')
+2025-09-05 19:22:11,421 [INFO] Fetching https://alkitab.app/KPRI/103
+2025-09-05 19:22:11,657 [INFO] PARSED KPRI/103 - OK (no_lagu=103, judul_text='Mengikut Yesus Keputusanku')
+2025-09-05 19:22:12,259 [INFO] Fetching https://alkitab.app/KPRI/104
+2025-09-05 19:22:13,221 [INFO] PARSED KPRI/104 - OK (no_lagu=104, judul_text='Di Atas Satu Alas')
+2025-09-05 19:22:13,822 [INFO] Fetching https://alkitab.app/KPRI/105
+2025-09-05 19:22:16,570 [INFO] PARSED KPRI/105 - OK (no_lagu=105, judul_text='Give Thanks')
+2025-09-05 19:22:17,170 [INFO] Fetching https://alkitab.app/KPRI/106
+2025-09-05 19:22:18,077 [INFO] PARSED KPRI/106 - OK (no_lagu=106, judul_text='Puji Hu!')
+2025-09-05 19:22:18,678 [INFO] Fetching https://alkitab.app/KPRI/107
+2025-09-05 19:22:19,485 [INFO] PARSED KPRI/107 - OK (no_lagu=107, judul_text='Kubersyukur Pada-Mu')
+2025-09-05 19:22:20,086 [INFO] Fetching https://alkitab.app/KPRI/108
+2025-09-05 19:22:20,976 [INFO] PARSED KPRI/108 - OK (no_lagu=108, judul_text='Indahlah Saat Berdoa')
+2025-09-05 19:22:21,576 [INFO] Fetching https://alkitab.app/KPRI/109
+2025-09-05 19:22:23,745 [INFO] PARSED KPRI/109 - OK (no_lagu=109, judul_text='O Love That Will Not Let Me Go')
+2025-09-05 19:22:24,345 [INFO] Fetching https://alkitab.app/KPRI/110
+2025-09-05 19:22:25,159 [INFO] PARSED KPRI/110 - OK (no_lagu=110, judul_text='Kuberdoa Bagimu')
+2025-09-05 19:22:25,760 [INFO] Fetching https://alkitab.app/KPRI/111
+2025-09-05 19:22:28,776 [INFO] PARSED KPRI/111 - OK (no_lagu=111, judul_text='Nyatakan Kehendak-Mu')
+2025-09-05 19:22:29,377 [INFO] Fetching https://alkitab.app/KPRI/112
+2025-09-05 19:22:30,614 [INFO] PARSED KPRI/112 - OK (no_lagu=112, judul_text='Yesus Berdoa Bagi Daku')
+2025-09-05 19:22:31,216 [INFO] Fetching https://alkitab.app/KPRI/113
+2025-09-05 19:22:33,407 [INFO] PARSED KPRI/113 - OK (no_lagu=113, judul_text='Ke Tempat yang Tertinggilah')
+2025-09-05 19:22:34,007 [INFO] Fetching https://alkitab.app/KPRI/114
+2025-09-05 19:22:34,868 [INFO] PARSED KPRI/114 - OK (no_lagu=114, judul_text='Tuhan Ajarlah Aku Berdoa')
+2025-09-05 19:22:35,469 [INFO] Fetching https://alkitab.app/KPRI/115
+2025-09-05 19:22:35,687 [INFO] PARSED KPRI/115 - OK (no_lagu=115, judul_text='Saat-Nya')
+2025-09-05 19:22:36,288 [INFO] Fetching https://alkitab.app/KPRI/116
+2025-09-05 19:22:36,556 [INFO] PARSED KPRI/116 - OK (no_lagu=116, judul_text='Ya Tuhan Tiap Jam')
+2025-09-05 19:22:37,157 [INFO] Fetching https://alkitab.app/KPRI/117
+2025-09-05 19:22:38,335 [INFO] PARSED KPRI/117 - OK (no_lagu=117, judul_text='Berdoalah')
+2025-09-05 19:22:38,935 [INFO] Fetching https://alkitab.app/KPRI/118
+2025-09-05 19:22:39,143 [INFO] PARSED KPRI/118 - OK (no_lagu=118, judul_text='Thy Loving Kindness')
+2025-09-05 19:22:39,745 [INFO] Fetching https://alkitab.app/KPRI/119
+2025-09-05 19:22:40,517 [INFO] PARSED KPRI/119 - OK (no_lagu=119, judul_text='Mazmur 42')
+2025-09-05 19:22:41,117 [INFO] Fetching https://alkitab.app/KPRI/120
+2025-09-05 19:22:41,357 [INFO] PARSED KPRI/120 - OK (no_lagu=120, judul_text='S’perti Rusa Rindu Sungai-Mu')
+2025-09-05 19:22:41,959 [INFO] Fetching https://alkitab.app/KPRI/121
+2025-09-05 19:22:44,363 [INFO] PARSED KPRI/121 - OK (no_lagu=121, judul_text='Near To The Heart Of God')
+2025-09-05 19:22:44,964 [INFO] Fetching https://alkitab.app/KPRI/122
+2025-09-05 19:22:47,489 [INFO] PARSED KPRI/122 - OK (no_lagu=122, judul_text='Change My Heart, O God')
+2025-09-05 19:22:48,091 [INFO] Fetching https://alkitab.app/KPRI/123
+2025-09-05 19:22:51,221 [INFO] PARSED KPRI/123 - OK (no_lagu=123, judul_text='Be Still, My Soul')
+2025-09-05 19:22:51,821 [INFO] Fetching https://alkitab.app/KPRI/124
+2025-09-05 19:22:52,931 [INFO] PARSED KPRI/124 - OK (no_lagu=124, judul_text='Kehendak Tuhan Jadikanlah')
+2025-09-05 19:22:53,536 [INFO] Fetching https://alkitab.app/KPRI/125
+2025-09-05 19:22:56,463 [INFO] PARSED KPRI/125 - OK (no_lagu=125, judul_text='Pandanglah Pada Yesus')
+2025-09-05 19:22:57,064 [INFO] Fetching https://alkitab.app/KPRI/126
+2025-09-05 19:22:58,023 [INFO] PARSED KPRI/126 - OK (no_lagu=126, judul_text='Tak Tersembunyi Kuasa Allah')
+2025-09-05 19:22:58,624 [INFO] Fetching https://alkitab.app/KPRI/127
+2025-09-05 19:22:58,890 [INFO] PARSED KPRI/127 - OK (no_lagu=127, judul_text='Ada Waktu Di Hidupku')
+2025-09-05 19:22:59,491 [INFO] Fetching https://alkitab.app/KPRI/128
+2025-09-05 19:23:00,784 [INFO] PARSED KPRI/128 - OK (no_lagu=128, judul_text='Mazmur 84')
+2025-09-05 19:23:01,385 [INFO] Fetching https://alkitab.app/KPRI/129
+2025-09-05 19:23:02,770 [INFO] PARSED KPRI/129 - OK (no_lagu=129, judul_text='Kenal Kau ‘Kan Yesus')
+2025-09-05 19:23:03,371 [INFO] Fetching https://alkitab.app/KPRI/130
+2025-09-05 19:23:03,634 [INFO] PARSED KPRI/130 - OK (no_lagu=130, judul_text='Sebenarnya Ku Tak Layak')
+2025-09-05 19:23:04,236 [INFO] Fetching https://alkitab.app/KPRI/131
+2025-09-05 19:23:05,446 [INFO] PARSED KPRI/131 - OK (no_lagu=131, judul_text='Jangan Engkau Lalu')
+2025-09-05 19:23:06,046 [INFO] Fetching https://alkitab.app/KPRI/132
+2025-09-05 19:23:06,970 [INFO] PARSED KPRI/132 - OK (no_lagu=132, judul_text='Pada Yesus Ku Berserah')
+2025-09-05 19:23:07,571 [INFO] Fetching https://alkitab.app/KPRI/133
+2025-09-05 19:23:08,836 [INFO] PARSED KPRI/133 - OK (no_lagu=133, judul_text='Bukakan Mataku, Tuhan')
+2025-09-05 19:23:09,437 [INFO] Fetching https://alkitab.app/KPRI/134
+2025-09-05 19:23:10,760 [INFO] PARSED KPRI/134 - OK (no_lagu=134, judul_text='Ajaiblah Firman Hidup')
+2025-09-05 19:23:11,361 [INFO] Fetching https://alkitab.app/KPRI/135
+2025-09-05 19:23:12,549 [INFO] PARSED KPRI/135 - OK (no_lagu=135, judul_text='Roh Kebenaran Penuhi Daku')
+2025-09-05 19:23:13,150 [INFO] Fetching https://alkitab.app/KPRI/136
+2025-09-05 19:23:13,419 [INFO] PARSED KPRI/136 - OK (no_lagu=136, judul_text='Penuhi Cawanku')
+2025-09-05 19:23:14,020 [INFO] Fetching https://alkitab.app/KPRI/137
+2025-09-05 19:23:14,922 [INFO] PARSED KPRI/137 - OK (no_lagu=137, judul_text='Jalan Salib Perlulah Korban')
+2025-09-05 19:23:15,524 [INFO] Fetching https://alkitab.app/KPRI/138
+2025-09-05 19:23:16,465 [INFO] PARSED KPRI/138 - OK (no_lagu=138, judul_text='Hidup Bagi Yesus')
+2025-09-05 19:23:17,067 [INFO] Fetching https://alkitab.app/KPRI/139
+2025-09-05 19:23:17,269 [INFO] PARSED KPRI/139 - OK (no_lagu=139, judul_text='Memancarkan Keindahan-Mu')
+2025-09-05 19:23:17,870 [INFO] Fetching https://alkitab.app/KPRI/140
+2025-09-05 19:23:18,725 [INFO] PARSED KPRI/140 - OK (no_lagu=140, judul_text='Pakai Hidupku Ini')
+2025-09-05 19:23:19,327 [INFO] Fetching https://alkitab.app/KPRI/141
+2025-09-05 19:23:20,739 [INFO] PARSED KPRI/141 - OK (no_lagu=141, judul_text='Bagi Yesus Tuhanku')
+2025-09-05 19:23:21,341 [INFO] Fetching https://alkitab.app/KPRI/142
+2025-09-05 19:23:22,232 [INFO] PARSED KPRI/142 - OK (no_lagu=142, judul_text='Ku Mau S’perti Hu')
+2025-09-05 19:23:22,833 [INFO] Fetching https://alkitab.app/KPRI/143
+2025-09-05 19:23:23,766 [INFO] PARSED KPRI/143 - OK (no_lagu=143, judul_text='Ke Mana Saja')
+2025-09-05 19:23:24,368 [INFO] Fetching https://alkitab.app/KPRI/144
+2025-09-05 19:23:24,584 [INFO] PARSED KPRI/144 - OK (no_lagu=144, judul_text='Utus Aku dalam Misi-Mu')
+2025-09-05 19:23:25,185 [INFO] Fetching https://alkitab.app/KPRI/145
+2025-09-05 19:23:25,988 [INFO] PARSED KPRI/145 - OK (no_lagu=145, judul_text='Pimpinlah Niat Hamba')
+2025-09-05 19:23:26,601 [INFO] Fetching https://alkitab.app/KPRI/146
+2025-09-05 19:23:26,811 [INFO] PARSED KPRI/146 - OK (no_lagu=146, judul_text='Sukacita dalam Melayani Raja')
+2025-09-05 19:23:27,413 [INFO] Fetching https://alkitab.app/KPRI/147
+2025-09-05 19:23:29,626 [INFO] PARSED KPRI/147 - OK (no_lagu=147, judul_text='Pakailah Ku Bagai Pelita')
+2025-09-05 19:23:30,228 [INFO] Fetching https://alkitab.app/KPRI/148
+2025-09-05 19:23:30,449 [INFO] PARSED KPRI/148 - OK (no_lagu=148, judul_text='Korban Hidup')
+2025-09-05 19:23:31,050 [INFO] Fetching https://alkitab.app/KPRI/149
+2025-09-05 19:23:32,624 [INFO] PARSED KPRI/149 - OK (no_lagu=149, judul_text='Angkat Suaramu')
+2025-09-05 19:23:33,225 [INFO] Fetching https://alkitab.app/KPRI/150
+2025-09-05 19:23:33,438 [INFO] PARSED KPRI/150 - OK (no_lagu=150, judul_text='Api Roh Suci')
+2025-09-05 19:23:34,039 [INFO] Fetching https://alkitab.app/KPRI/151
+2025-09-05 19:23:34,256 [INFO] PARSED KPRI/151 - OK (no_lagu=151, judul_text='Tunaikan Tugasnya')
+2025-09-05 19:23:34,857 [INFO] Fetching https://alkitab.app/KPRI/152
+2025-09-05 19:23:35,080 [INFO] PARSED KPRI/152 - OK (no_lagu=152, judul_text='B’rilah T’rang')
+2025-09-05 19:23:35,680 [INFO] Fetching https://alkitab.app/KPRI/153
+2025-09-05 19:23:36,980 [INFO] PARSED KPRI/153 - OK (no_lagu=153, judul_text='Hai, Bangkit bagi Yesus')
+2025-09-05 19:23:37,580 [INFO] Fetching https://alkitab.app/KPRI/154
+2025-09-05 19:23:38,473 [INFO] PARSED KPRI/154 - OK (no_lagu=154, judul_text='Api Zaman')
+2025-09-05 19:23:39,073 [INFO] Fetching https://alkitab.app/KPRI/155
+2025-09-05 19:23:40,725 [INFO] PARSED KPRI/155 - OK (no_lagu=155, judul_text='Dari Kutub ke Kutub')
+2025-09-05 19:23:41,327 [INFO] Fetching https://alkitab.app/KPRI/156
+2025-09-05 19:23:41,566 [INFO] PARSED KPRI/156 - OK (no_lagu=156, judul_text='Jadikan Aku Saluran Berkat')
+2025-09-05 19:23:42,168 [INFO] Fetching https://alkitab.app/KPRI/157
+2025-09-05 19:23:43,516 [INFO] PARSED KPRI/157 - OK (no_lagu=157, judul_text='Kabarkan Kristus')
+2025-09-05 19:23:44,117 [INFO] Fetching https://alkitab.app/KPRI/158
+2025-09-05 19:23:44,337 [INFO] PARSED KPRI/158 - OK (no_lagu=158, judul_text='Lihatlah Ladang sudah Menguning')
+2025-09-05 19:23:44,937 [INFO] Fetching https://alkitab.app/KPRI/159
+2025-09-05 19:23:45,750 [INFO] PARSED KPRI/159 - OK (no_lagu=159, judul_text='Kita Harus Membawa Berita')
+2025-09-05 19:23:46,350 [INFO] Fetching https://alkitab.app/KPRI/160
+2025-09-05 19:23:47,482 [INFO] PARSED KPRI/160 - OK (no_lagu=160, judul_text='I Will Serve Thee')
+2025-09-05 19:23:48,083 [INFO] Fetching https://alkitab.app/KPRI/161
+2025-09-05 19:23:48,922 [INFO] PARSED KPRI/161 - OK (no_lagu=161, judul_text='Aku Tuhan Semesta')
+2025-09-05 19:23:49,523 [INFO] Fetching https://alkitab.app/KPRI/162
+2025-09-05 19:23:49,750 [INFO] PARSED KPRI/162 - OK (no_lagu=162, judul_text='Shine, Jesus, Shine')
+2025-09-05 19:23:50,351 [INFO] Fetching https://alkitab.app/KPRI/163
+2025-09-05 19:23:50,581 [INFO] PARSED KPRI/163 - OK (no_lagu=163, judul_text='Bangkit bagi Kristus')
+2025-09-05 19:23:51,182 [INFO] Fetching https://alkitab.app/KPRI/164
+2025-09-05 19:23:52,195 [INFO] PARSED KPRI/164 - OK (no_lagu=164, judul_text='The Gift Of Love')
+2025-09-05 19:23:52,796 [INFO] Fetching https://alkitab.app/KPRI/165
+2025-09-05 19:23:53,971 [INFO] PARSED KPRI/165 - OK (no_lagu=165, judul_text='Song For The Nations')
+2025-09-05 19:23:54,573 [INFO] Fetching https://alkitab.app/KPRI/166
+2025-09-05 19:23:54,794 [INFO] PARSED KPRI/166 - OK (no_lagu=166, judul_text='Hujan Berkat')
+2025-09-05 19:23:55,395 [INFO] Fetching https://alkitab.app/KPRI/167
+2025-09-05 19:23:56,252 [INFO] PARSED KPRI/167 - OK (no_lagu=167, judul_text='Bila Kau Pernah Cinta Yesus')
+2025-09-05 19:23:56,853 [INFO] Fetching https://alkitab.app/KPRI/168
+2025-09-05 19:23:57,125 [INFO] PARSED KPRI/168 - OK (no_lagu=168, judul_text='Tuhan Ampuni Dosaku')
+2025-09-05 19:23:57,727 [INFO] Fetching https://alkitab.app/KPRI/169
+2025-09-05 19:23:59,033 [INFO] PARSED KPRI/169 - OK (no_lagu=169, judul_text='Waktu Namaku Dipanggil')
+2025-09-05 19:23:59,635 [INFO] Fetching https://alkitab.app/KPRI/170
+2025-09-05 19:24:00,019 [INFO] PARSED KPRI/170 - OK (no_lagu=170, judul_text='When We All Get To Heaven')
+2025-09-05 19:24:00,621 [INFO] Fetching https://alkitab.app/KPRI/171
+2025-09-05 19:24:02,051 [INFO] PARSED KPRI/171 - OK (no_lagu=171, judul_text='Battle Hymn Of The Republic')
+2025-09-05 19:24:02,652 [INFO] Done. Database written to kppk_lagu.sqlite, logs in scraper.log

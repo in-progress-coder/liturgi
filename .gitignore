@@ -1,8 +1,5 @@
-# Ignore Microsoft Excel files
-*.xlsx
-
 # Ignore Microsoft Word files
-*.docx
+Liturgi*.docx
 
 # Ignore Python virtual environment directory
 .venv/
@@ -21,3 +18,5 @@ __pycache__/
 
 # Ignore VS Code workspace settings
 .vscode/
+
+.tmp_*/

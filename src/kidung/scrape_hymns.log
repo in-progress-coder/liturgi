@@ -1,0 +1,1337 @@
+2025-09-05 22:25:47,213 | INFO | [KJ] TESTING mode: sampling 5 links
+2025-09-05 22:25:47,213 | INFO | [KJ] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-313-hai-berdandanlah-jiwaku/
+2025-09-05 22:25:49,277 | INFO | [KJ] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-296-anak-anak-puji-nama-allah/
+2025-09-05 22:25:49,919 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-296-anak-anak-puji-nama-allah/: No lyrics (bait) found
+2025-09-05 22:25:49,920 | WARNING | [KJ] Saved with warnings: No lyrics (bait) found
+2025-09-05 22:25:50,721 | INFO | [KJ] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-473-haleluya/#respond
+2025-09-05 22:25:51,153 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-473-haleluya/#respond: No lyrics (bait) found
+2025-09-05 22:25:51,154 | WARNING | [KJ] Saved with warnings: No lyrics (bait) found
+2025-09-05 22:25:51,955 | INFO | [KJ] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-145-mari-tuturkan-kembali/
+2025-09-05 22:25:53,167 | INFO | [KJ] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-426-kita-harus-membawa-berita/
+2025-09-05 22:25:54,356 | INFO | [KJ] Done. OK=5, ERR=0
+2025-09-05 22:25:54,375 | INFO | [PKJ] TESTING mode: sampling 5 links
+2025-09-05 22:25:54,375 | INFO | [PKJ] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-300-datanglah-ya-roh-kudus/feed/
+2025-09-05 22:25:54,746 | ERROR | [PKJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-300-datanglah-ya-roh-kudus/feed/: Article element not found with expected selectors.
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 330, in process_file
+    data = scrape_url(session, url)
+  File ".\kjpkjnkb.py", line 255, in scrape_url
+    parsed = extract_structured(html)
+  File ".\kjpkjnkb.py", line 166, in extract_structured
+    raise ValueError("Article element not found with expected selectors.")
+ValueError: Article element not found with expected selectors.
+2025-09-05 22:25:55,548 | INFO | [PKJ] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-025-muliakan-nama-tuhan/
+2025-09-05 22:25:56,965 | INFO | [PKJ] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-169-surya-kencana-riang-dan-ramah/
+2025-09-05 22:25:58,664 | INFO | [PKJ] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-302-jangan-kuatir/
+2025-09-05 22:25:59,320 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-302-jangan-kuatir/: No lyrics (bait) found
+2025-09-05 22:25:59,321 | WARNING | [PKJ] Saved with warnings: No lyrics (bait) found
+2025-09-05 22:26:00,122 | INFO | [PKJ] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-308-yesus-terangmu-pelita-hatiku/
+2025-09-05 22:26:00,782 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-308-yesus-terangmu-pelita-hatiku/: No lyrics (bait) found
+2025-09-05 22:26:00,783 | WARNING | [PKJ] Saved with warnings: No lyrics (bait) found
+2025-09-05 22:26:01,583 | INFO | [PKJ] Done. OK=4, ERR=1
+2025-09-05 22:26:01,603 | INFO | [NKB] TESTING mode: sampling 5 links
+2025-09-05 22:26:01,604 | INFO | [NKB] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-013-o-allahku-jenguklah-diriku/
+2025-09-05 22:26:03,331 | INFO | [NKB] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-177-ku-cari-suatu-panji/
+2025-09-05 22:26:04,777 | INFO | [NKB] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-210-ku-utus-kau/
+2025-09-05 22:26:06,213 | INFO | [NKB] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-206-mercusuar-kasih-bapa/
+2025-09-05 22:26:07,657 | INFO | [NKB] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-081-pancaran-air-miliknya/
+2025-09-05 22:26:09,322 | INFO | [NKB] Done. OK=5, ERR=0
+2025-09-05 22:26:09,322 | INFO | ALL DONE. TOTAL OK=14, ERR=1. DB=hymns.sqlite3, LOG=scrape_hymns.log
+2025-09-05 23:07:02,845 | INFO | [KJ] TESTING mode: sampling 5 links
+2025-09-05 23:07:02,846 | INFO | [KJ] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-163-damai-sejahtera-kutinggalkan-bagimu/
+2025-09-05 23:07:04,498 | ERROR | [KJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-163-damai-sejahtera-kutinggalkan-bagimu/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:05,302 | INFO | [KJ] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-074-seisi-padang-belantara/
+2025-09-05 23:07:06,663 | ERROR | [KJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-074-seisi-padang-belantara/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:07,465 | INFO | [KJ] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-460-jika-jiwaku-berdoa/
+2025-09-05 23:07:08,188 | ERROR | [KJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-460-jika-jiwaku-berdoa/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:08,990 | INFO | [KJ] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-381-yang-mahakasih/
+2025-09-05 23:07:10,526 | ERROR | [KJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-381-yang-mahakasih/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:11,328 | INFO | [KJ] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-240-datanglah-ya-sumber-rahmat/
+2025-09-05 23:07:12,337 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-240-datanglah-ya-sumber-rahmat/: No lirik found
+2025-09-05 23:07:12,337 | ERROR | [KJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-240-datanglah-ya-sumber-rahmat/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:13,139 | INFO | [KJ] Done. OK=0, ERR=5
+2025-09-05 23:07:13,141 | INFO | [PKJ] TESTING mode: sampling 5 links
+2025-09-05 23:07:13,141 | INFO | [PKJ] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-159-ya-tuhan-pada-hari-ini/
+2025-09-05 23:07:13,858 | ERROR | [PKJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-159-ya-tuhan-pada-hari-ini/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:14,659 | INFO | [PKJ] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-183-mari-sebarkan-injil/
+2025-09-05 23:07:15,358 | ERROR | [PKJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-183-mari-sebarkan-injil/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:16,159 | INFO | [PKJ] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-033-pujilah-allah-pujilah/
+2025-09-05 23:07:16,855 | ERROR | [PKJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-033-pujilah-allah-pujilah/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:17,656 | INFO | [PKJ] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-025-muliakan-nama-tuhan/
+2025-09-05 23:07:18,355 | ERROR | [PKJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-025-muliakan-nama-tuhan/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:19,156 | INFO | [PKJ] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-212-ya-allah-kasihmu-besar/
+2025-09-05 23:07:20,718 | ERROR | [PKJ] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-212-ya-allah-kasihmu-besar/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:21,520 | INFO | [PKJ] Done. OK=0, ERR=5
+2025-09-05 23:07:21,521 | INFO | [NKB] TESTING mode: sampling 5 links
+2025-09-05 23:07:21,522 | INFO | [NKB] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-228-amin/
+2025-09-05 23:07:23,040 | ERROR | [NKB] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-228-amin/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:23,841 | INFO | [NKB] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-098-roh-kudus-ilhami-kami/
+2025-09-05 23:07:25,242 | ERROR | [NKB] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-098-roh-kudus-ilhami-kami/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:26,043 | INFO | [NKB] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-141-kasihku-padamu-tambahkanlah/
+2025-09-05 23:07:27,442 | ERROR | [NKB] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-141-kasihku-padamu-tambahkanlah/: NOT NULL constraint failed: hymns.lyrics
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 388, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.lyrics
+2025-09-05 23:07:28,244 | INFO | [NKB] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-031-kami-naikkan-puji-dan-syukur/
+2025-09-05 23:07:44,939 | INFO | [KJ] TESTING mode: sampling 5 links
+2025-09-05 23:07:44,940 | INFO | [KJ] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-150-tiap-hari-bergembira/
+2025-09-05 23:07:47,155 | INFO | [KJ] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-442-tenteramlah-hai-jiwaku/
+2025-09-05 23:07:49,747 | INFO | [KJ] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-184-yesus-sayang-padaku/
+2025-09-05 23:07:51,048 | INFO | [KJ] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-213-hai-bangun-kau-yang-tidur/
+2025-09-05 23:07:53,115 | INFO | [KJ] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-179-yesus-kau-kehidupanku/
+2025-09-05 23:07:54,414 | INFO | [KJ] Done. OK=5, ERR=0
+2025-09-05 23:07:54,416 | INFO | [PKJ] TESTING mode: sampling 5 links
+2025-09-05 23:07:54,417 | INFO | [PKJ] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-006-bersoraklah-hai-alam-semesta/
+2025-09-05 23:07:55,704 | INFO | [PKJ] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-113-kelak-akan-berjumpa/
+2025-09-05 23:07:58,364 | INFO | [PKJ] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-009-dengan-malaikat-angkatlah/
+2025-09-05 23:07:59,655 | INFO | [PKJ] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-109-segala-bangsa-marilah/
+2025-09-05 23:08:02,664 | INFO | [PKJ] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-106-satukan-kami-ya-tuhan/
+2025-09-05 23:08:03,919 | INFO | [PKJ] Done. OK=5, ERR=0
+2025-09-05 23:08:03,921 | INFO | [NKB] TESTING mode: sampling 5 links
+2025-09-05 23:08:03,921 | INFO | [NKB] (1/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-142-aku-rindu-ke-rumahku/
+2025-09-05 23:08:06,270 | INFO | [NKB] (2/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-212-sungguh-inginkah-engkau-lakukan/
+2025-09-05 23:08:10,143 | INFO | [NKB] (3/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-182-ku-rindu-mengiringmu/
+2025-09-05 23:08:12,543 | INFO | [NKB] (4/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-204-di-dunia-yang-penuh-cemar/
+2025-09-05 23:08:14,022 | INFO | [NKB] (5/5) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-117-bersabdalah-tuhanku/
+2025-09-05 23:08:15,939 | INFO | [NKB] Done. OK=5, ERR=0
+2025-09-05 23:08:15,939 | INFO | ALL DONE. TOTAL OK=15, ERR=0. DB=hymns.sqlite3, LOG=scrape_hymns.log
+2025-09-05 23:09:23,470 | INFO | [KJ] Processing 478 links
+2025-09-05 23:09:23,470 | INFO | [KJ] (1/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-001-haleluya-pujilah/
+2025-09-05 23:09:25,890 | INFO | [KJ] (2/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-002-suci-suci-suci/
+2025-09-05 23:09:27,421 | INFO | [KJ] (3/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-003-kami-puji-dengan-riang/
+2025-09-05 23:09:28,980 | INFO | [KJ] (4/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-004-hai-mari-sembah/
+2025-09-05 23:09:30,545 | INFO | [KJ] (5/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-005-tuhan-allah-namamu/
+2025-09-05 23:09:32,122 | INFO | [KJ] (6/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-006-hai-masyurkanlah/
+2025-09-05 23:09:33,642 | INFO | [KJ] (7/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-007-ya-tuhan-kami-puji-namamu-besar/
+2025-09-05 23:09:35,251 | INFO | [KJ] (8/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-008-bagimu-tuhan-nyanyianku/
+2025-09-05 23:09:36,789 | INFO | [KJ] (9/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-009-puji-hai-jiwaku-puji-tuhan/
+2025-09-05 23:09:39,055 | INFO | [KJ] (10/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-010-pujilah-tuhan-sang-raja/
+2025-09-05 23:09:40,600 | INFO | [KJ] (11/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-011-anak-anak-mari-nyanyi/
+2025-09-05 23:09:42,154 | INFO | [KJ] (12/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-012-anak-anak-pujilah/
+2025-09-05 23:09:43,738 | INFO | [KJ] (13/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-013-allah-bapa-tuhan/
+2025-09-05 23:09:45,314 | INFO | [KJ] (14/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-014-muliakan-tuhan-allah/
+2025-09-05 23:09:46,853 | INFO | [KJ] (15/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-015-berhimpun-semua/
+2025-09-05 23:09:48,386 | INFO | [KJ] (16/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-016-ya-khalik-semesta/
+2025-09-05 23:09:51,511 | INFO | [KJ] (17/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-017-tuhan-allah-hadir/
+2025-09-05 23:09:53,040 | INFO | [KJ] (18/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-018-allah-hadir-bagi-kita/
+2025-09-05 23:09:54,888 | INFO | [KJ] (19/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-019-tuhanku-yesus/
+2025-09-05 23:09:56,733 | INFO | [KJ] (20/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-020-o-hari-istirahat/
+2025-09-05 23:10:00,565 | INFO | [KJ] (21/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-021-hari-minggu-hari-yang-mulia/
+2025-09-05 23:10:02,341 | INFO | [KJ] (22/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-022-mari-bersukaria-datang-kepadanya/
+2025-09-05 23:10:03,910 | INFO | [KJ] (23/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-023-ya-allah-bapa/
+2025-09-05 23:10:05,498 | INFO | [KJ] (24/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-024-dari-lembah-sengsaraku/
+2025-09-05 23:10:07,421 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-024-dari-lembah-sengsaraku/: No lirik found
+2025-09-05 23:10:07,422 | WARNING | [KJ] Saved with warnings: No lirik found; no .lagu/.lirik found at alkitab.app
+2025-09-05 23:10:08,222 | INFO | [KJ] (25/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-025-ya-allahku-di-cahyamu/
+2025-09-05 23:10:10,831 | INFO | [KJ] (26/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-026-mampirlah-dengar-doaku/
+2025-09-05 23:10:12,382 | INFO | [KJ] (27/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-027-meski-tak-layak-diriku/
+2025-09-05 23:10:13,922 | INFO | [KJ] (28/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-028-ya-yesus-tolonglah/
+2025-09-05 23:10:15,508 | INFO | [KJ] (29/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-029-di-muka-tuhan-yesus/
+2025-09-05 23:10:17,258 | INFO | [KJ] (30/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-030-angin-ribut-menyerang/
+2025-09-05 23:10:18,404 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-030-angin-ribut-menyerang/: No lirik found
+2025-09-05 23:10:18,405 | WARNING | [KJ] Saved with warnings: No lirik found; no .lagu/.lirik found at alkitab.app
+2025-09-05 23:10:19,206 | INFO | [KJ] (31/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-031-mungkinkah-aku-pun-serta/
+2025-09-05 23:10:20,124 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-031-mungkinkah-aku-pun-serta/: No lirik found
+2025-09-05 23:10:20,125 | WARNING | [KJ] Saved with warnings: No lirik found; no .lagu/.lirik found at alkitab.app
+2025-09-05 23:10:20,926 | INFO | [KJ] (32/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-032-kulihat-salibmu/
+2025-09-05 23:10:22,433 | INFO | [KJ] (33/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-033-suaramu-kudengar/
+2025-09-05 23:10:24,043 | INFO | [KJ] (34/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-034-di-salib-yesus-di-kalvari/
+2025-09-05 23:10:25,549 | INFO | [KJ] (35/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-035-tercurah-darah-tuhanku/
+2025-09-05 23:10:27,154 | INFO | [KJ] (36/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-036-dihapuskan-dosaku/
+2025-09-05 23:10:28,656 | INFO | [KJ] (37/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-037-batu-karang-yang-teguh/
+2025-09-05 23:10:29,612 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-037-batu-karang-yang-teguh/: No lirik found
+2025-09-05 23:10:29,613 | WARNING | [KJ] Saved with warnings: No lirik found; no .lagu/.lirik found at alkitab.app
+2025-09-05 23:10:30,413 | INFO | [KJ] (38/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-038-tlah-kutemukan-dasar-kuat/
+2025-09-05 23:10:31,938 | INFO | [KJ] (39/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-039-ku-diberi-belas-kasihan/
+2025-09-05 23:10:33,492 | INFO | [KJ] (40/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-040-ajaib-benar-anugerah/
+2025-09-05 23:10:35,023 | INFO | [KJ] (41/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-041-terbukalah-sorga/
+2025-09-05 23:10:36,621 | INFO | [KJ] (42/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-042-tuhan-kasihani/
+2025-09-05 23:10:39,111 | INFO | [KJ] (43/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-043-tuhan-kasihani-kami/
+2025-09-05 23:10:41,982 | INFO | [KJ] (44/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-044-tuhan-kasihanilah/
+2025-09-05 23:10:43,520 | INFO | [KJ] (45/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-045-muliakan-allah-yang-esa/
+2025-09-05 23:10:45,047 | INFO | [KJ] (46/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-046-besarkan-nama-tuhan/
+2025-09-05 23:10:46,682 | INFO | [KJ] (47/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-047-pujilah/
+2025-09-05 23:10:48,033 | INFO | [KJ] (48/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-048-kemuliaan-bagi-bapa/
+2025-09-05 23:10:49,330 | INFO | [KJ] (49/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-049-firman-allah-jayalah/
+2025-09-05 23:10:51,095 | INFO | [KJ] (50/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-050-sabdamu-abadi/
+2025-09-05 23:10:53,034 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-050-sabdamu-abadi/: No lirik found
+2025-09-05 23:10:53,034 | WARNING | [KJ] Saved with warnings: No lirik found; no .lagu/.lirik found at alkitab.app
+2025-09-05 23:10:53,836 | INFO | [KJ] (51/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-051-kitab-suci-hartaku/
+2025-09-05 23:10:55,121 | INFO | [KJ] (52/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-052-sabda-tuhan-allah/
+2025-09-05 23:10:56,913 | INFO | [KJ] (53/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-053-tuhan-allah-tlah-berfirman/
+2025-09-05 23:10:58,695 | INFO | [KJ] (54/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-054-tak-kita-menyerahkan/
+2025-09-05 23:11:00,347 | INFO | [KJ] (55/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-055-ya-sumber-kasih-roh-kudus/
+2025-09-05 23:11:03,069 | INFO | [KJ] (56/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-056-datanglah-kepadaku-ya-roh-kudus/
+2025-09-05 23:11:06,440 | INFO | [KJ] (57/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-057-yesus-lihat-umatmu/
+2025-09-05 23:11:07,837 | INFO | [KJ] (58/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-058-mahakasih-yang-ilahi/
+2025-09-05 23:11:09,276 | INFO | [KJ] (59/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-059-bersabdalah-tuhan/
+2025-09-05 23:11:11,035 | INFO | [KJ] (60/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-060-hai-makhluk-alam-semesta/
+2025-09-05 23:11:13,402 | INFO | [KJ] (61/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-061-sungguh-indah-alam/
+2025-09-05 23:11:15,683 | INFO | [KJ] (62/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-062-allahkulah-kuatku-dan-mazmurku/
+2025-09-05 23:11:18,284 | INFO | [KJ] (63/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-063-tuhan-karyamu-sungguh-besar/
+2025-09-05 23:11:20,740 | INFO | [KJ] (64/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-064-bila-kulihat-bintang-gemerlapan/
+2025-09-05 23:11:22,305 | INFO | [KJ] (65/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-065-cakrawala-dan-malaikat/
+2025-09-05 23:11:24,095 | INFO | [KJ] (66/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-066-di-gunung-dan-di-lurah/
+2025-09-05 23:11:26,163 | INFO | [KJ] (67/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-067-hai-anak-anak-muda-dan-belia/
+2025-09-05 23:11:27,744 | INFO | [KJ] (68/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-068-tahukah-kamu-jumlah-bintang/
+2025-09-05 23:11:29,511 | INFO | [KJ] (69/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-069-pada-mulanya/
+2025-09-05 23:11:32,359 | INFO | [KJ] (70/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-070-hujan-hujan/
+2025-09-05 23:11:35,381 | INFO | [KJ] (71/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-071-abraham-abraham/
+2025-09-05 23:11:37,675 | INFO | [KJ] (72/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-072-agungkan-allahmu/
+2025-09-05 23:11:39,266 | INFO | [KJ] (73/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-073-hai-langit-pasanglah-telingamu/
+2025-09-05 23:11:42,101 | INFO | [KJ] (74/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-074-seisi-padang-belantara/
+2025-09-05 23:11:43,637 | INFO | [KJ] (75/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-075-raja-daud-yang-agung/
+2025-09-05 23:11:45,196 | INFO | [KJ] (76/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-076-kau-yang-lama-dinantikan/
+2025-09-05 23:11:47,503 | INFO | [KJ] (77/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-077-hatiku-bersukaria/
+2025-09-05 23:11:50,266 | INFO | [KJ] (78/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-078-waktu-herodes-raja-di-yudea/
+2025-09-05 23:11:52,673 | INFO | [KJ] (79/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-079-mahaterpuji-allahku/
+2025-09-05 23:11:55,578 | INFO | [KJ] (80/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-080-kiranya-langit-terbelah/
+2025-09-05 23:11:58,010 | INFO | [KJ] (81/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-081-o-datanglah-imanuel/
+2025-09-05 23:12:08,870 | INFO | [KJ] (82/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-082-juruslamat-datanglah/
+2025-09-05 23:12:11,854 | INFO | [KJ] (83/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-083-terbitlah-bintang-timur/
+2025-09-05 23:12:13,409 | INFO | [KJ] (84/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-084-ya-yesus-dikau-kurindukan/
+2025-09-05 23:12:15,218 | INFO | [KJ] (85/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-085-kusongsong-bagaimana/
+2025-09-05 23:12:16,970 | INFO | [KJ] (86/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-086-pencipta-bintang-semesta/
+2025-09-05 23:12:19,582 | INFO | [KJ] (87/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-087-gapuramu-lapangkanlah/
+2025-09-05 23:12:21,114 | INFO | [KJ] (88/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-088-hai-waris-kerajaan/
+2025-09-05 23:12:22,669 | INFO | [KJ] (89/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-089-berlayar-bahtra-rahmat/
+2025-09-05 23:12:24,978 | INFO | [KJ] (90/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-090-bernyanyilah-puteri-sion/
+2025-09-05 23:12:27,506 | INFO | [KJ] (91/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-091-putri-sion-nyanyilah/
+2025-09-05 23:12:29,020 | INFO | [KJ] (92/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-092-malam-kudus/
+2025-09-05 23:17:20,398 | INFO | [KJ] Processing 478 links
+2025-09-05 23:17:20,398 | INFO | [KJ] (1/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-001-haleluya-pujilah/
+2025-09-05 23:17:22,876 | INFO | [KJ] (2/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-002-suci-suci-suci/
+2025-09-05 23:17:24,408 | INFO | [KJ] (3/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-003-kami-puji-dengan-riang/
+2025-09-05 23:17:25,977 | INFO | [KJ] (4/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-004-hai-mari-sembah/
+2025-09-05 23:17:27,520 | INFO | [KJ] (5/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-005-tuhan-allah-namamu/
+2025-09-05 23:17:29,081 | INFO | [KJ] (6/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-006-hai-masyurkanlah/
+2025-09-05 23:17:30,598 | INFO | [KJ] (7/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-007-ya-tuhan-kami-puji-namamu-besar/
+2025-09-05 23:17:32,165 | INFO | [KJ] (8/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-008-bagimu-tuhan-nyanyianku/
+2025-09-05 23:17:33,451 | INFO | [KJ] (9/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-009-puji-hai-jiwaku-puji-tuhan/
+2025-09-05 23:17:34,822 | INFO | [KJ] (10/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-010-pujilah-tuhan-sang-raja/
+2025-09-05 23:17:36,123 | INFO | [KJ] (11/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-011-anak-anak-mari-nyanyi/
+2025-09-05 23:17:37,428 | INFO | [KJ] (12/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-012-anak-anak-pujilah/
+2025-09-05 23:17:38,718 | INFO | [KJ] (13/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-013-allah-bapa-tuhan/
+2025-09-05 23:17:40,041 | INFO | [KJ] (14/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-014-muliakan-tuhan-allah/
+2025-09-05 23:17:41,321 | INFO | [KJ] (15/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-015-berhimpun-semua/
+2025-09-05 23:17:42,597 | INFO | [KJ] (16/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-016-ya-khalik-semesta/
+2025-09-05 23:17:43,961 | INFO | [KJ] (17/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-017-tuhan-allah-hadir/
+2025-09-05 23:17:45,257 | INFO | [KJ] (18/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-018-allah-hadir-bagi-kita/
+2025-09-05 23:17:46,552 | INFO | [KJ] (19/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-019-tuhanku-yesus/
+2025-09-05 23:17:47,863 | INFO | [KJ] (20/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-020-o-hari-istirahat/
+2025-09-05 23:17:49,147 | INFO | [KJ] (21/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-021-hari-minggu-hari-yang-mulia/
+2025-09-05 23:17:50,426 | INFO | [KJ] (22/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-022-mari-bersukaria-datang-kepadanya/
+2025-09-05 23:17:51,726 | INFO | [KJ] (23/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-023-ya-allah-bapa/
+2025-09-05 23:17:53,044 | INFO | [KJ] (24/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-024-dari-lembah-sengsaraku/
+2025-09-05 23:17:53,581 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:17:54,383 | INFO | [KJ] (25/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-025-ya-allahku-di-cahyamu/
+2025-09-05 23:17:55,664 | INFO | [KJ] (26/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-026-mampirlah-dengar-doaku/
+2025-09-05 23:17:56,962 | INFO | [KJ] (27/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-027-meski-tak-layak-diriku/
+2025-09-05 23:17:58,328 | INFO | [KJ] (28/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-028-ya-yesus-tolonglah/
+2025-09-05 23:17:59,668 | INFO | [KJ] (29/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-029-di-muka-tuhan-yesus/
+2025-09-05 23:18:00,960 | INFO | [KJ] (30/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-030-angin-ribut-menyerang/
+2025-09-05 23:18:01,507 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:18:02,309 | INFO | [KJ] (31/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-031-mungkinkah-aku-pun-serta/
+2025-09-05 23:18:03,882 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:18:04,683 | INFO | [KJ] (32/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-032-kulihat-salibmu/
+2025-09-05 23:18:05,975 | INFO | [KJ] (33/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-033-suaramu-kudengar/
+2025-09-05 23:18:07,305 | INFO | [KJ] (34/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-034-di-salib-yesus-di-kalvari/
+2025-09-05 23:18:08,836 | INFO | [KJ] (35/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-035-tercurah-darah-tuhanku/
+2025-09-05 23:18:10,386 | INFO | [KJ] (36/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-036-dihapuskan-dosaku/
+2025-09-05 23:18:11,895 | INFO | [KJ] (37/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-037-batu-karang-yang-teguh/
+2025-09-05 23:18:12,412 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:18:13,214 | INFO | [KJ] (38/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-038-tlah-kutemukan-dasar-kuat/
+2025-09-05 23:18:14,491 | INFO | [KJ] (39/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-039-ku-diberi-belas-kasihan/
+2025-09-05 23:18:15,782 | INFO | [KJ] (40/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-040-ajaib-benar-anugerah/
+2025-09-05 23:18:17,078 | INFO | [KJ] (41/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-041-terbukalah-sorga/
+2025-09-05 23:18:18,394 | INFO | [KJ] (42/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-042-tuhan-kasihani/
+2025-09-05 23:18:19,681 | INFO | [KJ] (43/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-043-tuhan-kasihani-kami/
+2025-09-05 23:18:20,988 | INFO | [KJ] (44/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-044-tuhan-kasihanilah/
+2025-09-05 23:18:22,285 | INFO | [KJ] (45/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-045-muliakan-allah-yang-esa/
+2025-09-05 23:18:23,803 | INFO | [KJ] (46/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-046-besarkan-nama-tuhan/
+2025-09-05 23:18:25,327 | INFO | [KJ] (47/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-047-pujilah/
+2025-09-05 23:18:26,875 | INFO | [KJ] (48/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-048-kemuliaan-bagi-bapa/
+2025-09-05 23:18:28,450 | INFO | [KJ] (49/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-049-firman-allah-jayalah/
+2025-09-05 23:18:30,047 | INFO | [KJ] (50/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-050-sabdamu-abadi/
+2025-09-05 23:18:30,838 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:18:31,639 | INFO | [KJ] (51/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-051-kitab-suci-hartaku/
+2025-09-05 23:18:32,922 | INFO | [KJ] (52/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-052-sabda-tuhan-allah/
+2025-09-05 23:18:34,305 | INFO | [KJ] (53/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-053-tuhan-allah-tlah-berfirman/
+2025-09-05 23:18:35,668 | INFO | [KJ] (54/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-054-tak-kita-menyerahkan/
+2025-09-05 23:18:36,986 | INFO | [KJ] (55/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-055-ya-sumber-kasih-roh-kudus/
+2025-09-05 23:18:38,376 | INFO | [KJ] (56/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-056-datanglah-kepadaku-ya-roh-kudus/
+2025-09-05 23:18:39,906 | INFO | [KJ] (57/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-057-yesus-lihat-umatmu/
+2025-09-05 23:18:41,731 | INFO | [KJ] (58/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-058-mahakasih-yang-ilahi/
+2025-09-05 23:18:43,572 | INFO | [KJ] (59/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-059-bersabdalah-tuhan/
+2025-09-05 23:18:45,072 | INFO | [KJ] (60/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-060-hai-makhluk-alam-semesta/
+2025-09-05 23:18:46,599 | INFO | [KJ] (61/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-061-sungguh-indah-alam/
+2025-09-05 23:18:48,111 | INFO | [KJ] (62/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-062-allahkulah-kuatku-dan-mazmurku/
+2025-09-05 23:18:49,611 | INFO | [KJ] (63/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-063-tuhan-karyamu-sungguh-besar/
+2025-09-05 23:18:51,197 | INFO | [KJ] (64/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-064-bila-kulihat-bintang-gemerlapan/
+2025-09-05 23:18:52,712 | INFO | [KJ] (65/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-065-cakrawala-dan-malaikat/
+2025-09-05 23:18:54,288 | INFO | [KJ] (66/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-066-di-gunung-dan-di-lurah/
+2025-09-05 23:18:55,779 | INFO | [KJ] (67/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-067-hai-anak-anak-muda-dan-belia/
+2025-09-05 23:18:57,296 | INFO | [KJ] (68/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-068-tahukah-kamu-jumlah-bintang/
+2025-09-05 23:18:58,859 | INFO | [KJ] (69/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-069-pada-mulanya/
+2025-09-05 23:19:00,393 | INFO | [KJ] (70/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-070-hujan-hujan/
+2025-09-05 23:19:01,693 | INFO | [KJ] (71/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-071-abraham-abraham/
+2025-09-05 23:19:03,021 | INFO | [KJ] (72/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-072-agungkan-allahmu/
+2025-09-05 23:19:04,649 | INFO | [KJ] (73/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-073-hai-langit-pasanglah-telingamu/
+2025-09-05 23:19:06,241 | INFO | [KJ] (74/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-074-seisi-padang-belantara/
+2025-09-05 23:19:07,787 | INFO | [KJ] (75/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-075-raja-daud-yang-agung/
+2025-09-05 23:19:09,290 | INFO | [KJ] (76/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-076-kau-yang-lama-dinantikan/
+2025-09-05 23:19:10,795 | INFO | [KJ] (77/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-077-hatiku-bersukaria/
+2025-09-05 23:19:12,878 | INFO | [KJ] (78/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-078-waktu-herodes-raja-di-yudea/
+2025-09-05 23:19:14,445 | INFO | [KJ] (79/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-079-mahaterpuji-allahku/
+2025-09-05 23:19:15,981 | INFO | [KJ] (80/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-080-kiranya-langit-terbelah/
+2025-09-05 23:19:17,546 | INFO | [KJ] (81/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-081-o-datanglah-imanuel/
+2025-09-05 23:19:19,096 | INFO | [KJ] (82/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-082-juruslamat-datanglah/
+2025-09-05 23:19:20,396 | INFO | [KJ] (83/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-083-terbitlah-bintang-timur/
+2025-09-05 23:19:21,749 | INFO | [KJ] (84/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-084-ya-yesus-dikau-kurindukan/
+2025-09-05 23:19:23,040 | INFO | [KJ] (85/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-085-kusongsong-bagaimana/
+2025-09-05 23:19:24,355 | INFO | [KJ] (86/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-086-pencipta-bintang-semesta/
+2025-09-05 23:19:25,655 | INFO | [KJ] (87/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-087-gapuramu-lapangkanlah/
+2025-09-05 23:19:26,940 | INFO | [KJ] (88/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-088-hai-waris-kerajaan/
+2025-09-05 23:19:28,949 | INFO | [KJ] (89/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-089-berlayar-bahtra-rahmat/
+2025-09-05 23:19:30,597 | INFO | [KJ] (90/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-090-bernyanyilah-puteri-sion/
+2025-09-05 23:19:32,124 | INFO | [KJ] (91/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-091-putri-sion-nyanyilah/
+2025-09-05 23:19:33,644 | INFO | [KJ] (92/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-092-malam-kudus/
+2025-09-05 23:19:35,250 | INFO | [KJ] (93/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-093-tumbuhlah-tunas-baru/
+2025-09-05 23:19:38,534 | INFO | [KJ] (94/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-094-hai-kota-mungil-betlehem/
+2025-09-05 23:19:40,350 | INFO | [KJ] (95/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-095-gembala-waktu-malam-glap/
+2025-09-05 23:19:42,340 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:19:43,140 | INFO | [KJ] (96/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-096-di-malam-sunyi-bergema/
+2025-09-05 23:19:45,346 | INFO | [KJ] (97/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-097-hai-malaikat-dari-sorga/
+2025-09-05 23:19:47,563 | INFO | [KJ] (98/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-098-jauh-dari-sorga-datangku/
+2025-09-05 23:19:50,053 | INFO | [KJ] (99/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-099-gita-sorga-bergema/
+2025-09-05 23:19:51,813 | INFO | [KJ] (100/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-100-muliakanlah/
+2025-09-05 23:19:54,562 | INFO | [KJ] (101/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-101-alam-raya-berkumandang/
+2025-09-05 23:19:56,110 | INFO | [KJ] (102/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-102-di-dalam-palungan/
+2025-09-05 23:19:58,571 | INFO | [KJ] (103/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-103-dengarlah-kidung/
+2025-09-05 23:20:00,847 | INFO | [KJ] (104/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-104-hai-dengar-tembang-malaikat/
+2025-09-05 23:20:03,365 | INFO | [KJ] (105/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-105-ya-anak-kecil/
+2025-09-05 23:20:04,930 | INFO | [KJ] (106/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-106-bernyanyilah-merdu/
+2025-09-05 23:20:07,295 | INFO | [KJ] (107/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-107-terbitlah-dalam-kegelapan/
+2025-09-05 23:20:09,552 | INFO | [KJ] (108/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-108-takhta-mulia-di-tempat-baka/
+2025-09-05 23:20:12,346 | INFO | [KJ] (109/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-109-hai-mari-berhimpun/
+2025-09-05 23:20:14,143 | INFO | [KJ] (110/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-110-di-betlehem-tlah-lahir-seorang-putera/
+2025-09-05 23:20:16,374 | INFO | [KJ] (111/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-111-di-palungan-dibaringkan/
+2025-09-05 23:20:19,426 | INFO | [KJ] (112/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-112-anak-maria-dalam-palungan/
+2025-09-05 23:20:21,966 | INFO | [KJ] (113/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-113-dalam-kota-raja-daud/
+2025-09-05 23:20:24,225 | INFO | [KJ] (114/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-114-mari-lihatlah-semua/
+2025-09-05 23:20:27,106 | INFO | [KJ] (115/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-115-berlutut-di-palunganmu/
+2025-09-05 23:20:29,363 | INFO | [KJ] (116/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-116-yang-dipuji-kaum-gembala/
+2025-09-05 23:20:30,900 | INFO | [KJ] (117/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-117-hai-anak-semua/
+2025-09-05 23:20:33,544 | INFO | [KJ] (118/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-118-sungguh-mulia/
+2025-09-05 23:20:35,097 | INFO | [KJ] (119/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-119-hai-dunia-gembiralah/
+2025-09-05 23:20:37,286 | INFO | [KJ] (120/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-120-hai-siarkan-di-gunung/
+2025-09-05 23:20:38,875 | INFO | [KJ] (121/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-121-dunia-kedinginan/
+2025-09-05 23:20:40,423 | INFO | [KJ] (122/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-122-anak-yang-dijanji/
+2025-09-05 23:20:42,683 | INFO | [KJ] (123/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-123-slamat-slamat-datang/
+2025-09-05 23:20:44,431 | INFO | [KJ] (124/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-124-siapakah-yang-menerima/
+2025-09-05 23:20:46,709 | INFO | [KJ] (125/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-125-lahir-kristus-di-dunia/
+2025-09-05 23:20:48,256 | INFO | [KJ] (126/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-126-tiap-tahun-kembali/
+2025-09-05 23:20:49,815 | INFO | [KJ] (127/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-127-kandang-domba-itu-rumahnya/
+2025-09-05 23:20:51,355 | INFO | [KJ] (128/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-128-sekarang-tuhanku/
+2025-09-05 23:20:53,722 | INFO | [KJ] (129/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-129-dari-timur-jauh-benar/
+2025-09-05 23:20:56,418 | INFO | [KJ] (130/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-130-datang-orang-asing/
+2025-09-05 23:20:59,392 | INFO | [KJ] (131/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-131-hai-bintang-betlehem/
+2025-09-05 23:21:00,690 | INFO | [KJ] (132/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-132-lahir-putra-mulia/
+2025-09-05 23:21:03,400 | INFO | [KJ] (133/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-133-hai-bintang-timur/
+2025-09-05 23:21:04,693 | INFO | [KJ] (134/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-134-yerusalem-o-kota-daud/
+2025-09-05 23:21:07,417 | INFO | [KJ] (135/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-135-bukan-oleh-raja-roma/
+2025-09-05 23:21:09,600 | INFO | [KJ] (136/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-136-sebelum-semua-jadi/
+2025-09-05 23:21:11,953 | INFO | [KJ] (137/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-137-dari-terbitnya-surya-trang/
+2025-09-05 23:21:13,468 | INFO | [KJ] (138/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-138-yesus-tlah-datang/
+2025-09-05 23:21:16,302 | INFO | [KJ] (139/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-139-trang-bintang-fajar-berseri/
+2025-09-05 23:21:18,826 | INFO | [KJ] (140/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-140-o-yesus-kristus-trang-baka/
+2025-09-05 23:21:20,808 | INFO | [KJ] (141/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-141-yesus-tuhan-engkaulah-mesias/
+2025-09-05 23:21:23,128 | INFO | [KJ] (142/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-142-jurang-di-hati-lekas-timbuni/
+2025-09-05 23:21:25,135 | INFO | [KJ] (143/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-143-lihat-anakdomba-allah/
+2025-09-05 23:21:27,283 | INFO | [KJ] (144/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-144-suara-yesus-kudengar/
+2025-09-05 23:21:28,993 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:21:29,794 | INFO | [KJ] (145/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-145-mari-tuturkan-kembali/
+2025-09-05 23:21:31,079 | INFO | [KJ] (146/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-146-hai-kamu-sekalian-yang-berdahaga/
+2025-09-05 23:21:32,485 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:21:33,286 | INFO | [KJ] (147/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-147-petugas-di-pabean/
+2025-09-05 23:21:35,731 | INFO | [KJ] (148/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-148-tatkala-hari-pun-senja/
+2025-09-05 23:21:37,006 | INFO | [KJ] (149/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-149-sang-maha-tabib-tlah-dekat/
+2025-09-05 23:21:38,303 | INFO | [KJ] (150/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-150-tiap-hari-bergembira/
+2025-09-05 23:21:39,645 | INFO | [KJ] (151/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-151-ada-seorang-gembala/
+2025-09-05 23:21:40,978 | INFO | [KJ] (152/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-152-yesus-katakan-akulah/
+2025-09-05 23:21:42,257 | INFO | [KJ] (153/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-153-dengarlah-kata-yesus/
+2025-09-05 23:21:44,300 | INFO | [KJ] (154/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-154-biarlah-semua-anak/
+2025-09-05 23:21:46,596 | INFO | [KJ] (155/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-155-yerusalem-pusaka-daud/
+2025-09-05 23:21:47,875 | INFO | [KJ] (156/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-156-kita-anak-adam/
+2025-09-05 23:21:49,886 | INFO | [KJ] (157/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-157-insan-tangisi-dosamu/
+2025-09-05 23:21:52,399 | INFO | [KJ] (158/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-158-ku-ingin-menghayati/
+2025-09-05 23:21:53,733 | INFO | [KJ] (159/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-159-yesus-mesias-israel/
+2025-09-05 23:21:55,005 | INFO | [KJ] (160/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-160-sang-anakdomba-yang-kudus/
+2025-09-05 23:21:56,308 | INFO | [KJ] (161/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-161-segala-kemuliaan/
+2025-09-05 23:21:57,662 | INFO | [KJ] (162/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-162-hosiana-putra-daud/
+2025-09-05 23:21:58,942 | INFO | [KJ] (163/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-163-damai-sejahtera-kutinggalkan-bagimu/
+2025-09-05 23:22:00,235 | INFO | [KJ] (164/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-164-di-larut-malam-yang-gelap/
+2025-09-05 23:22:01,505 | INFO | [KJ] (165/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-165-juruslamat-dunia/
+2025-09-05 23:22:02,824 | INFO | [KJ] (166/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-166-tersalib-dan-sengsara/
+2025-09-05 23:22:04,794 | INFO | [KJ] (167/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-167-yesus-tuhanku-apakah-dosamu/
+2025-09-05 23:22:06,799 | INFO | [KJ] (168/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-168-hai-dunia-lihat-tuhan/
+2025-09-05 23:22:07,862 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:22:08,663 | INFO | [KJ] (169/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-169-memandang-salib-rajaku/
+2025-09-05 23:22:09,940 | INFO | [KJ] (170/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-170-kepala-yang-berdarah/
+2025-09-05 23:22:11,952 | INFO | [KJ] (171/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-171-pataka-raja-majulah/
+2025-09-05 23:22:13,991 | INFO | [KJ] (172/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-172-lihat-bunda-yang-berduka/
+2025-09-05 23:22:16,178 | INFO | [KJ] (173/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-173-siapa-tergantung-di-salib-di-sana/
+2025-09-05 23:22:18,135 | INFO | [KJ] (174/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-174-ku-heran-juruslamatku/
+2025-09-05 23:22:19,225 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:22:20,026 | INFO | [KJ] (175/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-175-penebusku-disalib/
+2025-09-05 23:22:21,954 | INFO | [KJ] (176/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-176-di-luar-tembok-negeri/
+2025-09-05 23:22:24,013 | INFO | [KJ] (177/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-177-golgota-tempat-tuhanku-disalib/
+2025-09-05 23:22:25,884 | INFO | [KJ] (178/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-178-karna-kasihnya-padaku/
+2025-09-05 23:22:28,447 | INFO | [KJ] (179/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-179-yesus-kau-kehidupanku/
+2025-09-05 23:22:29,743 | INFO | [KJ] (180/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-180-lihatlah-kayu-salib/
+2025-09-05 23:22:31,064 | INFO | [KJ] (181/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-181-yang-sengsara-itulah/
+2025-09-05 23:22:33,025 | INFO | [KJ] (182/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-182-lihat-salib-di-atas-bukit-golgota/
+2025-09-05 23:22:34,992 | INFO | [KJ] (183/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-183-menjulang-nyata-atas-bukit-kala/
+2025-09-05 23:22:36,299 | INFO | [KJ] (184/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-184-yesus-sayang-padaku/
+2025-09-05 23:22:37,654 | INFO | [KJ] (185/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-185-kasih-tuhanku-sungguh-besar/
+2025-09-05 23:22:40,113 | INFO | [KJ] (186/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-186-saat-sedih/
+2025-09-05 23:22:42,112 | INFO | [KJ] (187/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-187-yesus-bangkit-nyanyilah/
+2025-09-05 23:22:44,293 | INFO | [KJ] (188/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-188-kristus-bangkit-soraklah/
+2025-09-05 23:22:45,658 | INFO | [KJ] (189/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-189-yerusalem-bersoraklah/
+2025-09-05 23:22:47,719 | INFO | [KJ] (190/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-190-dari-kubur-yang-kelam/
+2025-09-05 23:22:49,761 | INFO | [KJ] (191/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-191-hari-minggu-hari-kebangkitan/
+2025-09-05 23:22:51,837 | INFO | [KJ] (192/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-192-meski-dijaga-kuburnya/
+2025-09-05 23:22:54,703 | INFO | [KJ] (193/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-193-yesus-bangkit-haleluya/
+2025-09-05 23:22:58,485 | INFO | [KJ] (194/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-194-dikau-yang-bangkit-mahamulia/
+2025-09-05 23:22:59,750 | INFO | [KJ] (195/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-195-di-makam-yang-gelap/
+2025-09-05 23:23:01,984 | INFO | [KJ] (196/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-196-kristus-sudah-bangkit/
+2025-09-05 23:23:04,199 | INFO | [KJ] (197/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-197-allah-dimuliakanlah/
+2025-09-05 23:23:06,166 | INFO | [KJ] (198/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-198-kini-sang-putra-tlah-menang/
+2025-09-05 23:23:08,732 | INFO | [KJ] (199/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-199-hai-umat-tuhan-nyanyilah/
+2025-09-05 23:23:11,205 | INFO | [KJ] (200/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-200-mari-bersukacita/
+2025-09-05 23:23:13,467 | INFO | [KJ] (201/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-201-kini-berakhirlah-perang/
+2025-09-05 23:23:15,393 | INFO | [KJ] (202/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-202-maut-sudah-menyerah/
+2025-09-05 23:23:17,577 | INFO | [KJ] (203/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-203-haleluya-bernyanyilah/
+2025-09-05 23:23:20,143 | INFO | [KJ] (204/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-204-sang-kristus-bangkit-nyanyilah/
+2025-09-05 23:23:21,652 | INFO | [KJ] (205/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-205-gembira-dan-bernyanyilah/
+2025-09-05 23:23:23,920 | INFO | [KJ] (206/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-206-kibarkan-panji-rajamu/
+2025-09-05 23:23:26,944 | INFO | [KJ] (207/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-207-ku-berseru-hai-dunia/
+2025-09-05 23:23:29,082 | INFO | [KJ] (208/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-208-fajar-hidup-merekah/
+2025-09-05 23:23:31,290 | INFO | [KJ] (209/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-209-yang-turun-ke-kubur/
+2025-09-05 23:23:32,831 | INFO | [KJ] (210/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-210-yesus-hidup-dan-menang/
+2025-09-05 23:23:34,400 | INFO | [KJ] (211/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-211-tuhanku-bangkit-nyanyilah/
+2025-09-05 23:23:35,958 | INFO | [KJ] (212/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-212-tuhanku-bangkit-pusara-terbuka/
+2025-09-05 23:23:38,208 | INFO | [KJ] (213/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-213-hai-bangun-kau-yang-tidur/
+2025-09-05 23:23:39,574 | INFO | [KJ] (214/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-214-tuhan-melawat-umatnya/
+2025-09-05 23:23:42,497 | INFO | [KJ] (215/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-215-yesus-kini-kataku/
+2025-09-05 23:23:44,230 | INFO | [KJ] (216/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-216-sang-kristus-tlah-bangkit/
+2025-09-05 23:23:45,773 | INFO | [KJ] (217/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-217-yesus-sumber-penghiburan/
+2025-09-05 23:23:47,327 | INFO | [KJ] (218/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-218-naik-ke-sorga-cemerlang/
+2025-09-05 23:23:49,893 | INFO | [KJ] (219/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-219-mahkota-duri-yang-kejam/
+2025-09-05 23:23:51,409 | INFO | [KJ] (220/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-220-yesus-kristus-memerintah/
+2025-09-05 23:23:52,976 | INFO | [KJ] (221/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-221-arah-ke-sorga-cemerlang/
+2025-09-05 23:23:55,685 | INFO | [KJ] (222/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-222-agungkan-kuasa-namanya/
+2025-09-05 23:23:57,902 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:23:58,702 | INFO | [KJ] (223/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-223-nyanyian-malaikat-nyaring-bergema/
+2025-09-05 23:24:00,693 | INFO | [KJ] (224/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-224-masyhurkan-rajamu/
+2025-09-05 23:24:02,609 | INFO | [KJ] (225/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-225-berkereta-awan-putih/
+2025-09-05 23:24:05,261 | INFO | [KJ] (226/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-226-dia-nobatkanlah/
+2025-09-05 23:24:06,600 | INFO | [KJ] (227/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-227-umatmu-bersembah-sujud/
+2025-09-05 23:24:09,626 | INFO | [KJ] (228/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-228-datanglah-ya-roh-kudus/
+2025-09-05 23:24:10,965 | INFO | [KJ] (229/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-229-o-roh-pencipta-datanglah/
+2025-09-05 23:24:13,132 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:24:13,934 | INFO | [KJ] (230/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-230-kami-berdoa-ya-roh-kudus/
+2025-09-05 23:24:16,434 | INFO | [KJ] (231/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-231-o-roh-kudus-ilahi/
+2025-09-05 23:24:18,365 | INFO | [KJ] (232/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-232-hai-umat-nyanyilah/
+2025-09-05 23:24:19,668 | INFO | [KJ] (233/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-233-roh-kudus-turunlah/
+2025-09-05 23:24:21,892 | INFO | [KJ] (234/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-234-di-hari-pentakosta/
+2025-09-05 23:24:23,163 | INFO | [KJ] (235/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-235-kudengar-berkatmu-turun/
+2025-09-05 23:24:24,434 | INFO | [KJ] (236/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-236-roh-kudus-sinarilah/
+2025-09-05 23:24:26,506 | INFO | [KJ] (237/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-237-roh-kudus-tetap-teguh/
+2025-09-05 23:24:27,780 | INFO | [KJ] (238/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-238-ya-roh-kudus-berkurnia/
+2025-09-05 23:24:30,090 | INFO | [KJ] (239/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-239-turun-roh-allah-dalam-hatiku/
+2025-09-05 23:24:32,127 | INFO | [KJ] (240/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-240-datanglah-ya-sumber-rahmat/
+2025-09-05 23:24:33,728 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:24:34,530 | INFO | [KJ] (241/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-241-inilah-hari-kelimapuluh/
+2025-09-05 23:24:36,483 | INFO | [KJ] (242/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-242-muliakan-allah-bapa/
+2025-09-05 23:24:37,768 | INFO | [KJ] (243/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-243-haleluya-terpujilah/
+2025-09-05 23:24:39,991 | INFO | [KJ] (244/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-244-puji-allah-pencipta/
+2025-09-05 23:24:41,498 | INFO | [KJ] (245/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-245-tritunggal-sinar-abadi/
+2025-09-05 23:24:43,754 | INFO | [KJ] (246/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-246-ya-allah-yang-mahatinggi/
+2025-09-05 23:24:45,899 | INFO | [KJ] (247/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-247-sungguh-kerajaan-allah-di-bumi-tak-kalah/
+2025-09-05 23:24:47,151 | INFO | [KJ] (248/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-248-yesuslah-raja-yang-menang/
+2025-09-05 23:24:49,150 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:24:49,951 | INFO | [KJ] (249/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-249-serikat-persaudaraan/
+2025-09-05 23:24:51,271 | INFO | [KJ] (250/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-250-allahmu-benteng-yang-teguh/
+2025-09-05 23:24:53,247 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:24:54,047 | INFO | [KJ] (251/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-251-maju-berjuanglah-terus/
+2025-09-05 23:24:56,200 | INFO | [KJ] (252/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-252-batu-penjuru-gereja/
+2025-09-05 23:24:57,707 | INFO | [KJ] (253/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-253-majulah-majulah/
+2025-09-05 23:24:59,220 | INFO | [KJ] (254/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-254-kristus-penolong-umat-yang-percaya/
+2025-09-05 23:25:01,590 | INFO | [KJ] (255/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-255-di-seluruh-dunia/
+2025-09-05 23:25:03,785 | INFO | [KJ] (256/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-256-kita-satu-di-dalam-tuhan/
+2025-09-05 23:25:05,313 | INFO | [KJ] (257/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-257-aku-gereja-kau-pun-gereja/
+2025-09-05 23:25:06,891 | INFO | [KJ] (258/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-258-satu-tubuh-kita/
+2025-09-05 23:25:09,084 | INFO | [KJ] (259/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-259-di-dalam-kristus-bertemu/
+2025-09-05 23:25:10,660 | INFO | [KJ] (260/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-260-dalam-dunia-penuh-kerusuhan/
+2025-09-05 23:25:12,411 | INFO | [KJ] (261/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-261-yerusalem-mulia-dan-kudus/
+2025-09-05 23:25:14,610 | INFO | [KJ] (262/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-262-kota-sion-kota-allah/
+2025-09-05 23:25:16,136 | INFO | [KJ] (263/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-263-yang-tlah-menang/
+2025-09-05 23:25:18,339 | INFO | [KJ] (264/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-264-karna-jemaat-di-sorga-mulia/
+2025-09-05 23:25:19,956 | INFO | [KJ] (265/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-265-bila-tugasku-kelak-selesai/
+2025-09-05 23:25:21,753 | INFO | [KJ] (266/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-266-ada-kota-yang-indah-cerah/
+2025-09-05 23:25:23,334 | INFO | [KJ] (267/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-267-bila-muka-dengan-muka/
+2025-09-05 23:25:25,751 | INFO | [KJ] (268/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-268-aku-tahu-satu-kota/
+2025-09-05 23:25:27,265 | INFO | [KJ] (269/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-269-hai-musafir-mau-ke-mana/
+2025-09-05 23:25:28,840 | INFO | [KJ] (270/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-270-berlaksa-laksa-orang/
+2025-09-05 23:25:31,898 | INFO | [KJ] (271/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-271-kabar-yang-indah-benar/
+2025-09-05 23:25:34,241 | INFO | [KJ] (272/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-272-sekawanan-yang-esa/
+2025-09-05 23:25:36,598 | INFO | [KJ] (273/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-273-datanglah-ya-yesus/
+2025-09-05 23:25:38,821 | INFO | [KJ] (274/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-274-bila-nanti-yesus-datang/
+2025-09-05 23:25:40,375 | INFO | [KJ] (275/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-275-tuhan-yesus-juruslamat/
+2025-09-05 23:25:42,975 | INFO | [KJ] (276/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-276-bangunlah-dengar-suara/
+2025-09-05 23:25:44,509 | INFO | [KJ] (277/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-277-tuhanku-segra-kan-kembali/
+2025-09-05 23:25:46,807 | INFO | [KJ] (278/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-278-bila-sangkakala-menggegap/
+2025-09-05 23:25:48,362 | INFO | [KJ] (279/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-279-bunga-kan-layu-kering/
+2025-09-05 23:25:50,595 | INFO | [KJ] (280/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-280-aku-percaya/
+2025-09-05 23:25:52,122 | INFO | [KJ] (281/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-281-segala-benua-dan-langit-penuh/
+2025-09-05 23:25:54,322 | INFO | [KJ] (282/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-282-seluruh-umat-tuhan-olehnya-dikenal/
+2025-09-05 23:25:55,873 | INFO | [KJ] (283/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-283-gembalaku-tuhan/
+2025-09-05 23:25:57,418 | INFO | [KJ] (284/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-284-pengikut-kristus-nyanyilah/
+2025-09-05 23:25:58,932 | INFO | [KJ] (285/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-285-tuhankulah-gembalaku/
+2025-09-05 23:26:00,206 | INFO | [KJ] (286/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-286-bumi-dan-langit-pujilah/
+2025-09-05 23:26:01,528 | INFO | [KJ] (287/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-287-sekarang-bri-syukur/
+2025-09-05 23:26:02,540 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:26:03,341 | INFO | [KJ] (288/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-288-mari-puji-raja-sorga/
+2025-09-05 23:26:04,893 | INFO | [KJ] (289/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-289-tuhan-pencipta-semesta/
+2025-09-05 23:26:06,428 | INFO | [KJ] (290/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-290-takkah-patut-ku-bernyanyi/
+2025-09-05 23:26:07,910 | INFO | [KJ] (291/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-291-mari-bersyukur-semua/
+2025-09-05 23:26:09,190 | INFO | [KJ] (292/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-292-tabuh-gendang/
+2025-09-05 23:26:10,451 | INFO | [KJ] (293/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-293-puji-yesus/
+2025-09-05 23:26:11,736 | INFO | [KJ] (294/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-294-beribu-lidah-patutlah/
+2025-09-05 23:26:13,003 | INFO | [KJ] (295/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-295-andai-ku-punya-banyak-lidah/
+2025-09-05 23:26:14,251 | INFO | [KJ] (296/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-296-anak-anak-puji-nama-allah/
+2025-09-05 23:26:16,283 | INFO | [KJ] (297/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-297-kau-yesus-raja-mahakaya/
+2025-09-05 23:26:17,558 | INFO | [KJ] (298/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-298-selama-bumi-didiami/
+2025-09-05 23:26:18,898 | INFO | [KJ] (299/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-299-bersyukur-kepada-tuhan/
+2025-09-05 23:26:20,160 | INFO | [KJ] (300/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-300-andaikan-yesus-kau-bukan-milikku/
+2025-09-05 23:26:21,466 | INFO | [KJ] (301/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-301-aku-bawa-dan-berikan/
+2025-09-05 23:26:22,767 | INFO | [KJ] (302/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-302-kubri-persembahan/
+2025-09-05 23:26:24,021 | INFO | [KJ] (303/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-303-pujilah-khalik-semesta/
+2025-09-05 23:26:26,148 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:26:26,949 | INFO | [KJ] (304/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-304-pandang-ya-bapa-dalam-rahmatmu/
+2025-09-05 23:26:28,217 | INFO | [KJ] (305/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-305-ku-mengasihi-yesus-tuhanku/
+2025-09-05 23:26:30,486 | INFO | [KJ] (306/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-306-ku-tahu-tuhanku/
+2025-09-05 23:26:32,685 | INFO | [KJ] (307/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-307-ya-tuhan-pada-saat-dibaptiskan/
+2025-09-05 23:26:35,100 | INFO | [KJ] (308/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-308-tuhan-kau-kekal-raja-hati-kami/
+2025-09-05 23:26:36,636 | INFO | [KJ] (309/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-309-biar-ku-tumbuh-di-batangmu/
+2025-09-05 23:26:39,735 | INFO | [KJ] (310/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-310-kudus-kudus-kuduslah/
+2025-09-05 23:26:41,936 | INFO | [KJ] (311/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-311-o-anakdomba-allah/
+2025-09-05 23:26:43,683 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:26:44,483 | INFO | [KJ] (312/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-312-anakdomba-allah/
+2025-09-05 23:26:47,219 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:26:48,021 | INFO | [KJ] (313/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-313-hai-berdandanlah-jiwaku/
+2025-09-05 23:26:50,208 | INFO | [KJ] (314/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-314-pujilah-sumber-hidupmu/
+2025-09-05 23:26:54,085 | INFO | [KJ] (315/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-315-pujilah-tuhan-muliakan-dia/
+2025-09-05 23:26:56,395 | INFO | [KJ] (316/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-316-berkatilah-ya-tuhan-nikah-ini/
+2025-09-05 23:26:58,580 | INFO | [KJ] (317/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-317-hari-ini-tuhan-berkati/
+2025-09-05 23:26:59,861 | INFO | [KJ] (318/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-318-berbahagia-tiap-rumah-tangga/
+2025-09-05 23:27:01,397 | INFO | [KJ] (319/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-319-padamu-yesus-kami-serahkan/
+2025-09-05 23:27:02,657 | INFO | [KJ] (320/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-320-syukur-kami-padamu/
+2025-09-05 23:27:03,938 | INFO | [KJ] (321/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-321-setiap-pagi-rahmatmu/
+2025-09-05 23:27:05,215 | INFO | [KJ] (322/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-322-terang-matahari/
+2025-09-05 23:27:06,496 | INFO | [KJ] (323/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-323-sinar-fajar-yang-baka/
+2025-09-05 23:27:08,509 | INFO | [KJ] (324/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-324-kau-mutiara-hatiku/
+2025-09-05 23:27:09,771 | INFO | [KJ] (325/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-325-bila-ku-tertidur-nanti/
+2025-09-05 23:27:11,911 | INFO | [KJ] (326/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-326-pujian-malam-kunyanyikan/
+2025-09-05 23:27:14,799 | INFO | [KJ] (327/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-327-hari-pun-berlalu/
+2025-09-05 23:27:16,720 | INFO | [KJ] (328/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-328-ya-tuhan-hari-tlah-berakhir/
+2025-09-05 23:27:18,675 | INFO | [KJ] (329/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-329-tinggal-sertaku/
+2025-09-05 23:27:20,804 | INFO | [KJ] (330/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-330-kau-allah-benteng-yang-baka/
+2025-09-05 23:27:24,038 | INFO | [KJ] (331/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-331-siang-malam-musim-tahun/
+2025-09-05 23:27:25,361 | INFO | [KJ] (332/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-332-kekuatan-serta-penghiburan/
+2025-09-05 23:27:26,924 | INFO | [KJ] (333/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-333-sayur-kubis-jatuh-harga/
+2025-09-05 23:27:28,186 | INFO | [KJ] (334/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-334-jangan-takut-hai-tanah/
+2025-09-05 23:27:29,508 | INFO | [KJ] (335/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-335-manusia-yang-meluku/
+2025-09-05 23:27:31,359 | INFO | [KJ] (336/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-336-indonesia-negaraku/
+2025-09-05 23:27:34,068 | INFO | [KJ] (337/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-337-betapa-kita-tidak-bersyukur/
+2025-09-05 23:27:35,598 | INFO | [KJ] (338/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-338-marilah-marilah-hai-saudara/
+2025-09-05 23:27:37,098 | INFO | [KJ] (339/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-339-maju-laskar-kristus/
+2025-09-05 23:27:38,669 | INFO | [KJ] (340/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-340-hai-bangkit-bagi-yesus/
+2025-09-05 23:27:40,168 | INFO | [KJ] (341/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-341-kuasamu-dan-namamulah/
+2025-09-05 23:27:41,665 | INFO | [KJ] (342/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-342-keluar-dari-kaum/
+2025-09-05 23:27:43,825 | INFO | [KJ] (343/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-343-dunia-dalam-rawa-paya/
+2025-09-05 23:27:46,097 | INFO | [KJ] (344/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-344-ingat-akan-nama-yesus/
+2025-09-05 23:27:47,613 | INFO | [KJ] (345/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-345-sertai-kami-tuhan/
+2025-09-05 23:27:50,081 | INFO | [KJ] (346/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-346-tuhan-allah-beserta-engkau/
+2025-09-05 23:27:51,602 | INFO | [KJ] (347/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-347-haleluya-hormat-sepenuhnya/
+2025-09-05 23:27:53,834 | INFO | [KJ] (348/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-348-anugrah-tuhan-kita-yesus-kristus/
+2025-09-05 23:27:57,700 | INFO | [KJ] (349/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-349-haleluya-pujilah-tuhanmu/
+2025-09-05 23:28:00,408 | INFO | [KJ] (350/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-350-o-berkati-kami/
+2025-09-05 23:28:01,986 | INFO | [KJ] (351/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-351-pintu-satu-satunya/
+2025-09-05 23:28:03,623 | INFO | [KJ] (352/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-352-hai-jangan-sendirian/
+2025-09-05 23:28:05,247 | INFO | [KJ] (353/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-353-sungguh-lembut-tuhan-yesus-memanggil/
+2025-09-05 23:28:06,866 | INFO | [KJ] (354/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-354-dengan-lembut-tuhanku/
+2025-09-05 23:28:08,419 | INFO | [KJ] (355/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-355-yesus-memanggil/
+2025-09-05 23:28:10,041 | INFO | [KJ] (356/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-356-tinggallah-dalam-yesus/
+2025-09-05 23:28:11,585 | INFO | [KJ] (357/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-357-dengar-panggilan-tuhan/
+2025-09-05 23:28:13,259 | INFO | [KJ] (358/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-358-semua-yang-letih-lesu/
+2025-09-05 23:28:15,620 | INFO | [KJ] (359/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-359-marilah-datang-kepadaku/
+2025-09-05 23:28:18,188 | INFO | [KJ] (360/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-360-biar-kanak-kanak-datang-kepadaku/
+2025-09-05 23:28:19,474 | INFO | [KJ] (361/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-361-di-salibmu-ku-sujud/
+2025-09-05 23:28:23,090 | INFO | [KJ] (362/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-362-aku-milikmu-yesus-tuhanku/
+2025-09-05 23:28:24,378 | INFO | [KJ] (363/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-363-bagi-yesus-kuserahkan/
+2025-09-05 23:28:25,675 | INFO | [KJ] (364/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-364-berserah-kepada-yesus/
+2025-09-05 23:28:27,298 | INFO | [KJ] (365/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-365-tuhan-ambil-hidupku/
+2025-09-05 23:28:28,316 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:28:29,118 | INFO | [KJ] (366/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-366-ya-kasih-yang-merangkulku/
+2025-09-05 23:28:31,094 | INFO | [KJ] (367/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-367-padamu-tuhan-dan-allahku/
+2025-09-05 23:28:32,522 | INFO | [KJ] (368/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-368-pada-kaki-salibmu/
+2025-09-05 23:28:33,831 | INFO | [KJ] (369/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-369-ya-yesus-ku-berjanji/
+2025-09-05 23:28:34,675 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:28:35,476 | INFO | [KJ] (370/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-370-ku-mau-berjalan-dengan-juruslamatku/
+2025-09-05 23:28:36,766 | INFO | [KJ] (371/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-371-aku-rindu-pada-yesus/
+2025-09-05 23:28:38,115 | INFO | [KJ] (372/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-372-inginkah-kau-ikut-tuhan/
+2025-09-05 23:28:39,412 | INFO | [KJ] (373/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-373-aku-mau-mengerti/
+2025-09-05 23:28:40,728 | INFO | [KJ] (374/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-374-ku-bersandar-padanya/
+2025-09-05 23:28:42,594 | INFO | [KJ] (375/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-375-saya-mau-ikut-yesus/
+2025-09-05 23:28:43,852 | INFO | [KJ] (376/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-376-ikut-dikau-saja-tuhan/
+2025-09-05 23:28:45,159 | INFO | [KJ] (377/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-377-sang-rajalah-gembalaku/
+2025-09-05 23:28:47,132 | INFO | [KJ] (378/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-378-yang-diperbuat-allahku/
+2025-09-05 23:28:48,412 | INFO | [KJ] (379/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-379-yang-mau-dibimbing-oleh-tuhan/
+2025-09-05 23:28:49,697 | INFO | [KJ] (380/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-380-asal-yesus-jua-tuhan-hidupku/
+2025-09-05 23:28:51,896 | INFO | [KJ] (381/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-381-yang-mahakasih/
+2025-09-05 23:28:53,949 | INFO | [KJ] (382/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-382-ya-yesus-terkasih/
+2025-09-05 23:28:56,211 | INFO | [KJ] (383/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-383-sungguh-indah-kabar-mulia/
+2025-09-05 23:28:57,714 | INFO | [KJ] (384/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-384-allah-bapa-melindungi/
+2025-09-05 23:28:59,603 | INFO | [KJ] (385/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-385-burung-pipit-yang-kecil/
+2025-09-05 23:29:01,118 | INFO | [KJ] (386/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-386-manisnya-nama-penebus/
+2025-09-05 23:29:03,428 | INFO | [KJ] (387/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-387-ku-heran-allah-mau-membri/
+2025-09-05 23:29:04,803 | INFO | [KJ] (388/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-388-slamat-di-tangan-yesus/
+2025-09-05 23:29:06,092 | INFO | [KJ] (389/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-389-besarlah-kasih-bapaku/
+2025-09-05 23:29:07,374 | INFO | [KJ] (390/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-390-tuhan-tidak-lupa/
+2025-09-05 23:29:09,372 | INFO | [KJ] (391/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-391-puji-tuhan-haleluya/
+2025-09-05 23:29:10,741 | INFO | [KJ] (392/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-392-ku-berbahagia/
+2025-09-05 23:29:12,058 | INFO | [KJ] (393/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-393-tuhan-betapa-banyaknya/
+2025-09-05 23:29:13,388 | INFO | [KJ] (394/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-394-salib-kristus-kubanggakan/
+2025-09-05 23:29:14,646 | INFO | [KJ] (395/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-395-betapa-indah-harinya/
+2025-09-05 23:29:15,926 | INFO | [KJ] (396/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-396-yesus-segala-galanya/
+2025-09-05 23:29:17,256 | INFO | [KJ] (397/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-397-terpuji-engkau-allah-mahabesar/
+2025-09-05 23:29:18,538 | INFO | [KJ] (398/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-398-sukacita-hatiku/
+2025-09-05 23:29:20,547 | INFO | [KJ] (399/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-399-bersukacitalah/
+2025-09-05 23:29:21,808 | INFO | [KJ] (400/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-400-kudaki-jalan-mulia/
+2025-09-05 23:29:23,159 | INFO | [KJ] (401/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-401-makin-dekat-tuhan/
+2025-09-05 23:29:24,441 | INFO | [KJ] (402/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-402-kuperlukan-juruslamat/
+2025-09-05 23:29:26,055 | INFO | [KJ] (403/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-403-hujan-berkat-kan-tercurah/
+2025-09-05 23:29:27,337 | INFO | [KJ] (404/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-404-ku-disalibkan-dengan-tuhanku/
+2025-09-05 23:29:28,611 | INFO | [KJ] (405/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-405-kaulah-ya-tuhan-surya-hidupku/
+2025-09-05 23:29:30,155 | INFO | [KJ] (406/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-406-ya-tuhan-bimbing-aku/
+2025-09-05 23:29:31,694 | INFO | [KJ] (407/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-407-tuhan-kau-gembala-kami/
+2025-09-05 23:29:33,293 | INFO | [KJ] (408/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-408-di-jalanku-ku-diiring/
+2025-09-05 23:29:34,643 | INFO | [KJ] (409/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-409-yesus-kau-nahkodaku/
+2025-09-05 23:29:35,905 | INFO | [KJ] (410/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-410-tenanglah-kini-hatiku/
+2025-09-05 23:29:37,250 | INFO | [KJ] (411/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-411-ya-cahya-kasih-jalanku-kelam/
+2025-09-05 23:29:38,602 | INFO | [KJ] (412/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-412-tuntun-aku-tuhan-allah/
+2025-09-05 23:29:39,911 | INFO | [KJ] (413/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-413-tuhan-pimpin-anakmu/
+2025-09-05 23:29:41,229 | INFO | [KJ] (414/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-414-yesus-pimpin-langkahku/
+2025-09-05 23:29:42,585 | INFO | [KJ] (415/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-415-gembala-baik-bersuling-nan-merdu/
+2025-09-05 23:29:44,143 | INFO | [KJ] (416/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-416-tersembunyi-ujung-jalan/
+2025-09-05 23:29:45,687 | INFO | [KJ] (417/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-417-serahkan-pada-tuhan/
+2025-09-05 23:29:47,269 | INFO | [KJ] (418/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-418-bahtra-yang-dipandu-yesus/
+2025-09-05 23:29:49,716 | INFO | [KJ] (419/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-419-yesus-pimpinlah/
+2025-09-05 23:29:51,243 | INFO | [KJ] (420/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-420-yesus-kawan-anak-anak/
+2025-09-05 23:29:53,539 | INFO | [KJ] (421/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-421-yesus-saja-kawanku-musafir/
+2025-09-05 23:29:55,147 | INFO | [KJ] (422/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-422-yesus-berpesan/
+2025-09-05 23:29:57,101 | INFO | [KJ] (423/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-423-aku-dapat-di-hatiku/
+2025-09-05 23:29:59,103 | INFO | [KJ] (424/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-424-yesus-menginginkan-daku/
+2025-09-05 23:30:00,667 | INFO | [KJ] (425/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-425-berkumandang-suara-dari-seberang/
+2025-09-05 23:30:02,198 | INFO | [KJ] (426/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-426-kita-harus-membawa-berita/
+2025-09-05 23:30:03,805 | INFO | [KJ] (427/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-427-ku-suka-menuturkan/
+2025-09-05 23:30:05,114 | INFO | [KJ] (428/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-428-lihatlah-sekelilingmu/
+2025-09-05 23:30:06,413 | INFO | [KJ] (429/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-429-masih-banyak-orang-berjalan/
+2025-09-05 23:30:08,608 | INFO | [KJ] (430/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-430-haruskah-hanya-penebus/
+2025-09-05 23:30:10,585 | INFO | [KJ] (431/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-431-mari-menjadi-penjala-orang/
+2025-09-05 23:30:12,508 | INFO | [KJ] (432/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-432-jika-padaku-ditanyakan/
+2025-09-05 23:30:14,540 | INFO | [KJ] (433/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-433-aku-suka-membagi/
+2025-09-05 23:30:16,606 | INFO | [KJ] (434/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-434-allah-adalah-kasih-dan-sumber-kasih/
+2025-09-05 23:30:18,133 | INFO | [KJ] (435/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-435-ketika-tuhanku-disalib/
+2025-09-05 23:30:20,194 | INFO | [KJ] (436/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-436-lawanlah-godaan/
+2025-09-05 23:30:21,514 | INFO | [KJ] (437/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-437-kucoba/
+2025-09-05 23:30:23,512 | INFO | [KJ] (438/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-438-apapun-juga-menimpamu/
+2025-09-05 23:30:25,029 | INFO | [KJ] (439/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-439-bila-topan-kras-melanda-hidupmu/
+2025-09-05 23:30:27,231 | INFO | [KJ] (440/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-440-di-badai-topan-dunia/
+2025-09-05 23:30:28,760 | INFO | [KJ] (441/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-441-ku-ingin-menyerahkan/
+2025-09-05 23:30:30,071 | INFO | [KJ] (442/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-442-tenteramlah-hai-jiwaku/
+2025-09-05 23:30:31,585 | INFO | [KJ] (443/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-443-kau-sukacita/
+2025-09-05 23:30:33,805 | INFO | [KJ] (444/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-444-mengucap-syukurlah/
+2025-09-05 23:30:36,534 | INFO | [KJ] (445/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-445-harap-akan-tuhan/
+2025-09-05 23:30:38,066 | INFO | [KJ] (446/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-446-setialah/
+2025-09-05 23:30:39,661 | INFO | [KJ] (447/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-447-dalam-rumah-yang-gembira/
+2025-09-05 23:30:42,001 | INFO | [KJ] (448/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-448-alangkah-indahnya/
+2025-09-05 23:30:43,505 | INFO | [KJ] (449/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-449-tuhan-dalam-sorga/
+2025-09-05 23:30:45,506 | INFO | [KJ] (450/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-450-hidup-kita-yang-benar/
+2025-09-05 23:30:47,030 | INFO | [KJ] (451/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-451-bila-yesus-berada-di-tengah-keluarga/
+2025-09-05 23:30:48,309 | INFO | [KJ] (452/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-452-naikkan-doa-tak-enggan/
+2025-09-05 23:30:49,585 | INFO | [KJ] (453/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-453-yesus-kawan-yang-sejati/
+2025-09-05 23:30:50,898 | INFO | [KJ] (454/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-454-indahnya-saat-yang-teduh/
+2025-09-05 23:30:52,332 | INFO | [KJ] (455/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-455-mintalah/
+2025-09-05 23:30:54,315 | INFO | [KJ] (456/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-456-bapa-kami-yang-di-sorga/
+2025-09-05 23:30:55,673 | INFO | [KJ] (457/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-457-ya-tuhan-tiap-jam/
+2025-09-05 23:30:57,022 | INFO | [KJ] (458/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-458-ya-tuhan-dalam-sorga-trang/
+2025-09-05 23:30:58,318 | INFO | [KJ] (459/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-459-ya-bapa-jamah-anakmu/
+2025-09-05 23:31:00,734 | INFO | [KJ] (460/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-460-jika-jiwaku-berdoa/
+2025-09-05 23:31:02,072 | INFO | [KJ] (461/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-461-dengan-kasihmu-ya-tuhan/
+2025-09-05 23:31:04,473 | INFO | [KJ] (462/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-462-tolong-aku-tuhan/
+2025-09-05 23:31:06,494 | INFO | [KJ] (463/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-463-tuhan-datang-segera/
+2025-09-05 23:31:07,795 | INFO | [KJ] (464/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-464-tuhan-pecahkanlah-roti-hayat/
+2025-09-05 23:31:09,700 | INFO | [KJ] (465/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-465-syukur-kupanjatkan/
+2025-09-05 23:31:11,699 | INFO | [KJ] (466/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-466-ya-tuhan-isi-hidupku/
+2025-09-05 23:31:13,817 | WARNING | [KJ] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:31:14,619 | INFO | [KJ] (467/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-467-tuhanku-bila-hati-kawanku/
+2025-09-05 23:31:16,219 | INFO | [KJ] (468/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-468-brilah-bapa-hari-ini/
+2025-09-05 23:31:18,240 | INFO | [KJ] (469/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-469-ya-tuhan-trima-kasih/
+2025-09-05 23:31:20,891 | INFO | [KJ] (470/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-470-puji-syukur-hormat/
+2025-09-05 23:31:24,022 | INFO | [KJ] (471/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-471-atas-makananku-ini/
+2025-09-05 23:31:26,014 | INFO | [KJ] (472/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-472-haleluya-haleluya/
+2025-09-05 23:31:28,715 | INFO | [KJ] (473/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-473-haleluya/
+2025-09-05 23:31:29,997 | INFO | [KJ] (474/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-474-kepadamu-puji-pujian/
+2025-09-05 23:31:31,337 | INFO | [KJ] (475/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-475-karna-engkaulah/
+2025-09-05 23:31:33,351 | INFO | [KJ] (476/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-476-amin/
+2025-09-05 23:31:37,016 | INFO | [KJ] (477/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-477-amin-amin/
+2025-09-05 23:31:39,007 | INFO | [KJ] (478/478) https://www.gkiharapanindah.org/nyanyian-jemaat/kidung-jemaat/kj-478-amin-amin-amin/
+2025-09-05 23:31:40,978 | INFO | [KJ] Done. OK=478, ERR=0
+2025-09-05 23:31:40,980 | INFO | [PKJ] Processing 308 links
+2025-09-05 23:31:40,980 | INFO | [PKJ] (1/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-001-abadi-tak-nampak/
+2025-09-05 23:31:42,237 | INFO | [PKJ] (2/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-002-mulia-mulia-namanya/
+2025-09-05 23:31:43,516 | INFO | [PKJ] (3/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-003-ajaib-namanya/
+2025-09-05 23:31:44,767 | INFO | [PKJ] (4/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-004-angkatlah-hatimu-pada-tuhan/
+2025-09-05 23:31:46,032 | INFO | [PKJ] (5/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-005-bersoraklah-dan-puji-tuhan/
+2025-09-05 23:31:48,089 | INFO | [PKJ] (6/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-006-bersoraklah-hai-alam-semesta/
+2025-09-05 23:31:49,347 | INFO | [PKJ] (7/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-007-bersyukurlah-pada-tuhan/
+2025-09-05 23:31:50,623 | INFO | [PKJ] (8/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-008-bukalah-gapura-indah/
+2025-09-05 23:31:53,292 | INFO | [PKJ] (9/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-009-dengan-malaikat-angkatlah/
+2025-09-05 23:31:54,633 | INFO | [PKJ] (10/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-010-dengan-semarak-majulah/
+2025-09-05 23:31:55,881 | INFO | [PKJ] (11/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-011-inilah-hari-minggu/
+2025-09-05 23:31:57,146 | INFO | [PKJ] (12/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-012-kami-muliakan-namamu/
+2025-09-05 23:31:58,409 | INFO | [PKJ] (13/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-013-kita-masuk-rumahnya/
+2025-09-05 23:31:59,704 | INFO | [PKJ] (14/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-014-kunyanyikan-kasih-setia-tuhan/
+2025-09-05 23:32:00,983 | INFO | [PKJ] (15/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-015-kusiapkan-hatiku-tuhan/
+2025-09-05 23:32:02,252 | INFO | [PKJ] (16/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-016-mari-kawan-kawan-nyanyi-gembira/
+2025-09-05 23:32:04,286 | INFO | [PKJ] (17/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-017-mari-kita-puji/
+2025-09-05 23:32:05,564 | INFO | [PKJ] (18/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-018-mari-masuk-ke-rumahnya/
+2025-09-05 23:32:06,834 | INFO | [PKJ] (19/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-019-mari-sembah/
+2025-09-05 23:32:08,080 | INFO | [PKJ] (20/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-020-mari-semua-mari-sembah-tuhan/
+2025-09-05 23:32:09,393 | INFO | [PKJ] (21/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-021-mari-semua-kini-bernyanyilah/
+2025-09-05 23:32:10,701 | INFO | [PKJ] (22/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-022-marilah-kita-siapkan-hati-kita/
+2025-09-05 23:32:12,706 | INFO | [PKJ] (23/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-023-marilah-memuji/
+2025-09-05 23:32:13,972 | INFO | [PKJ] (24/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-024-marilah-pujilah-allah/
+2025-09-05 23:32:15,266 | INFO | [PKJ] (25/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-025-muliakan-nama-tuhan/
+2025-09-05 23:32:16,526 | INFO | [PKJ] (26/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-026-nyanyikanlah-haleluya/
+2025-09-05 23:32:17,766 | INFO | [PKJ] (27/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-027-nyanyikanlah-nyanyian-baru/
+2025-09-05 23:32:19,689 | INFO | [PKJ] (28/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-028-nyanyikan-tuhanmu-haleluya/
+2025-09-05 23:32:20,982 | INFO | [PKJ] (29/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-029-patut-segenap-yang-ada/
+2025-09-05 23:32:22,243 | INFO | [PKJ] (30/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-030-puji-tuhan-allah/
+2025-09-05 23:32:23,534 | INFO | [PKJ] (31/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-031-puji-tuhan-pujilah-namanya/
+2025-09-05 23:32:25,593 | INFO | [PKJ] (32/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-032-puji-tuhan-pujilah-namanya/
+2025-09-05 23:32:27,063 | INFO | [PKJ] (33/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-033-pujilah-allah-pujilah/
+2025-09-05 23:32:28,545 | INFO | [PKJ] (34/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-034-soraklah-hai-umatnya/
+2025-09-05 23:32:30,824 | INFO | [PKJ] (35/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-035-suci-suci-suci/
+2025-09-05 23:32:32,081 | INFO | [PKJ] (36/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-036-yesus-raja-damai/
+2025-09-05 23:32:33,331 | INFO | [PKJ] (37/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-037-bila-kurenung-dosaku/
+2025-09-05 23:32:34,579 | INFO | [PKJ] (38/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-038-dosa-dunia-hapuslah/
+2025-09-05 23:32:35,836 | INFO | [PKJ] (39/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-039-jikalau-tuhan-tidak-menebusku/
+2025-09-05 23:32:37,073 | INFO | [PKJ] (40/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-040-kasihanilah-aku-yang-lemah/
+2025-09-05 23:32:38,308 | INFO | [PKJ] (41/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-041-ku-datang-kepadamu/
+2025-09-05 23:32:39,547 | INFO | [PKJ] (42/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-042-kumohon-pengampunan/
+2025-09-05 23:32:43,088 | INFO | [PKJ] (43/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-043-tuhan-kami-berlumuran-dosa/
+2025-09-05 23:32:44,568 | INFO | [PKJ] (44/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-044-ya-tuhan-dengarkanlah-permohonan/
+2025-09-05 23:32:46,473 | INFO | [PKJ] (45/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-045-tuhan-allah-janganlah/
+2025-09-05 23:32:49,136 | INFO | [PKJ] (46/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-046-dari-kungkungan-duka-kelam/
+2025-09-05 23:32:50,439 | INFO | [PKJ] (47/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-047-buatlah-hatiku-lapang-dan-bersih/
+2025-09-05 23:32:51,717 | INFO | [PKJ] (48/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-048-kasihani-kami/
+2025-09-05 23:32:52,989 | INFO | [PKJ] (49/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-049-kasihanilah-aku/
+2025-09-05 23:32:54,906 | INFO | [PKJ] (50/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-050-kasihanilah-kami/
+2025-09-05 23:32:56,822 | INFO | [PKJ] (51/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-051-gloria/
+2025-09-05 23:32:59,094 | INFO | [PKJ] (52/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-052-ajari-kami-umatmu/
+2025-09-05 23:33:00,365 | INFO | [PKJ] (53/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-053-alkitab-pedoman-yang-berharga/
+2025-09-05 23:33:01,629 | INFO | [PKJ] (54/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-054-atas-bumi-nan-permai/
+2025-09-05 23:33:03,603 | INFO | [PKJ] (55/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-055-hai-puji-namanya/
+2025-09-05 23:33:04,986 | INFO | [PKJ] (56/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-056-lihatlah-pohon-pohon/
+2025-09-05 23:33:07,304 | INFO | [PKJ] (57/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-057-mahamulia-namamu/
+2025-09-05 23:33:08,626 | INFO | [PKJ] (58/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-058-semua-yang-tercipta/
+2025-09-05 23:33:09,920 | INFO | [PKJ] (59/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-059-besarlah-tuhan/
+2025-09-05 23:33:11,241 | INFO | [PKJ] (60/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-060-hai-umat-manusia/
+2025-09-05 23:33:13,218 | INFO | [PKJ] (61/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-061-anak-di-palungan/
+2025-09-05 23:33:15,078 | INFO | [PKJ] (62/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-062-bayi-mungil/
+2025-09-05 23:33:17,181 | INFO | [PKJ] (63/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-063-berkumandang-di-angkasa-raya/
+2025-09-05 23:33:19,192 | INFO | [PKJ] (64/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-064-di-saat-malam-sunyi-senyap/
+2025-09-05 23:33:21,184 | INFO | [PKJ] (65/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-065-hai-gembala-efrata/
+2025-09-05 23:33:23,394 | INFO | [PKJ] (66/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-066-hai-umat-puji-allahmu/
+2025-09-05 23:33:25,598 | INFO | [PKJ] (67/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-067-itulah-natal-pertama/
+2025-09-05 23:33:27,606 | INFO | [PKJ] (68/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-068-o-tuhanku-yesus/
+2025-09-05 23:33:29,625 | INFO | [PKJ] (69/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-069-rombongan-hewan-mencari-bayi/
+2025-09-05 23:33:31,484 | INFO | [PKJ] (70/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-070-slamat-datang-kami-ucapkan/
+2025-09-05 23:33:33,893 | INFO | [PKJ] (71/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-071-waktu-malam-penuh-bintang-terang/
+2025-09-05 23:33:35,178 | INFO | [PKJ] (72/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-072-siapa-gerangan-sang-raja/
+2025-09-05 23:33:37,392 | INFO | [PKJ] (73/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-073-tlah-turun-ke-dunia/
+2025-09-05 23:33:39,377 | INFO | [PKJ] (74/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-074-waktu-malam-yang-sepi/
+2025-09-05 23:33:41,289 | INFO | [PKJ] (75/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-075-tuhanku-biarlah-kini-hambamu-pergi/
+2025-09-05 23:33:43,194 | INFO | [PKJ] (76/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-076-ku-sangat-suka-mendengar-namanya/
+2025-09-05 23:33:45,215 | INFO | [PKJ] (77/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-077-talita-kum-anak-bangkitlah/
+2025-09-05 23:33:47,225 | INFO | [PKJ] (78/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-078-talita-kum/
+2025-09-05 23:33:49,377 | INFO | [PKJ] (79/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-079-hosana-untuk-raja-damai/
+2025-09-05 23:33:51,274 | INFO | [PKJ] (80/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-080-getsemani-tempat-yesus-berdoa/
+2025-09-05 23:33:53,282 | INFO | [PKJ] (81/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-081-kisah-nyata/
+2025-09-05 23:33:55,191 | INFO | [PKJ] (82/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-082-lihatlah-anak-insan/
+2025-09-05 23:33:57,492 | INFO | [PKJ] (83/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-083-pada-malam-sunyi-di-getsemani/
+2025-09-05 23:33:59,364 | INFO | [PKJ] (84/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-084-tatkala-kau-kan-ditawan/
+2025-09-05 23:34:00,666 | INFO | [PKJ] (85/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-085-terpancang-salib-di-bukit-gersang/
+2025-09-05 23:34:02,687 | INFO | [PKJ] (86/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-086-yesus-telah-bangkit/
+2025-09-05 23:34:04,549 | INFO | [PKJ] (87/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-087-trang-paskah-berseri/
+2025-09-05 23:34:06,490 | INFO | [PKJ] (88/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-088-di-pagi-hari-yang-sunyi/
+2025-09-05 23:34:08,611 | INFO | [PKJ] (89/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-089-langit-dan-bumi-cerah-dan-terang/
+2025-09-05 23:34:10,506 | INFO | [PKJ] (90/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-090-siapa-yang-kau-cari/
+2025-09-05 23:34:12,391 | INFO | [PKJ] (91/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-091-tuhan-tlah-bangkit/
+2025-09-05 23:34:14,372 | INFO | [PKJ] (92/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-092-di-atas-bukit-yang-sepi/
+2025-09-05 23:34:16,789 | INFO | [PKJ] (93/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-093-sungguh-agunglah-rahasia-ibadah/
+2025-09-05 23:34:18,809 | INFO | [PKJ] (94/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-094-hendaklah-kamu-penuh-dengan-roh/
+2025-09-05 23:34:21,071 | INFO | [PKJ] (95/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-095-datang-ya-roh-kudus/
+2025-09-05 23:34:23,199 | INFO | [PKJ] (96/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-096-datang-ya-datang-roh-kudus/
+2025-09-05 23:34:25,210 | INFO | [PKJ] (97/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-097-roh-kudus-kuatkanlah-kami/
+2025-09-05 23:34:27,792 | INFO | [PKJ] (98/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-098-ya-roh-kudus-baharuilah/
+2025-09-05 23:34:29,966 | INFO | [PKJ] (99/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-099-ya-roh-kudus-sinarilah/
+2025-09-05 23:34:32,332 | INFO | [PKJ] (100/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-100-syaranam/
+2025-09-05 23:34:34,423 | INFO | [PKJ] (101/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-101-ya-allah-yang-mahatinggi/
+2025-09-05 23:34:36,404 | INFO | [PKJ] (102/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-102-amanat-yesus-menuntun-kita/
+2025-09-05 23:34:37,743 | INFO | [PKJ] (103/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-103-carilah-dahulu-kerajaan-allah/
+2025-09-05 23:34:39,066 | INFO | [PKJ] (104/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-104-esa-tuhan-kita-yesus-putra-allah/
+2025-09-05 23:34:41,000 | INFO | [PKJ] (105/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-105-gereja-bagai-bahtera/
+2025-09-05 23:34:42,343 | INFO | [PKJ] (106/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-106-satukan-kami-ya-tuhan/
+2025-09-05 23:34:43,643 | INFO | [PKJ] (107/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-107-satukanlah-kami-tuhan/
+2025-09-05 23:34:44,953 | INFO | [PKJ] (108/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-108-segala-bangsa-dunia/
+2025-09-05 23:34:47,440 | INFO | [PKJ] (109/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-109-segala-bangsa-marilah/
+2025-09-05 23:34:48,701 | INFO | [PKJ] (110/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-110-seperti-tuhan-yesus-di-dalam-allah-bapa/
+2025-09-05 23:34:50,676 | INFO | [PKJ] (111/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-111-diriku-tak-betah-di-dalam-dunia/
+2025-09-05 23:34:52,593 | INFO | [PKJ] (112/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-112-hai-dengar-nyanyian-suci/
+2025-09-05 23:34:54,475 | INFO | [PKJ] (113/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-113-kelak-akan-berjumpa/
+2025-09-05 23:34:55,753 | INFO | [PKJ] (114/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-114-ku-ini-adalah-musafir/
+2025-09-05 23:34:58,194 | INFO | [PKJ] (115/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-115-kami-menanti-kedatanganmu/
+2025-09-05 23:35:02,925 | INFO | [PKJ] (116/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-116-nyanyikan-baginya-nyanyian-baru/
+2025-09-05 23:35:04,720 | INFO | [PKJ] (117/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-117-ada-yang-tanya/
+2025-09-05 23:35:06,278 | INFO | [PKJ] (118/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-118-agar-semua-orang-percaya/
+2025-09-05 23:35:08,388 | INFO | [PKJ] (119/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-119-ya-tuhan-allah/
+2025-09-05 23:35:09,936 | INFO | [PKJ] (120/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-120-allah-bapa-kami-puji-engkau/
+2025-09-05 23:35:11,216 | INFO | [PKJ] (121/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-121-andaikan-kasihmu-tidak-merangkulku/
+2025-09-05 23:35:14,362 | INFO | [PKJ] (122/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-122-dalam-nama-yesus-kita-bertelut/
+2025-09-05 23:35:16,493 | INFO | [PKJ] (123/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-123-dengan-yesus-di-dalam-prahu/
+2025-09-05 23:35:18,689 | INFO | [PKJ] (124/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-124-di-saat-ini-kau-perlu-tuhan/
+2025-09-05 23:35:20,691 | INFO | [PKJ] (125/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-125-dia-sanggup/
+2025-09-05 23:35:22,607 | INFO | [PKJ] (126/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-126-hanyalah-yesus-juruselamat/
+2025-09-05 23:35:24,687 | INFO | [PKJ] (127/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-127-jadilah-tuhan-kehendakmu/
+2025-09-05 23:35:26,903 | INFO | [PKJ] (128/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-128-kasih-tuhan-yesus-tiada-bertepi/
+2025-09-05 23:35:28,426 | INFO | [PKJ] (129/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-129-kau-perkasa-ku-lemah/
+2025-09-05 23:35:29,727 | INFO | [PKJ] (130/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-130-kita-kan-menang/
+2025-09-05 23:35:31,683 | INFO | [PKJ] (131/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-131-ku-yakin-tuhan-tuntun-langkahku/
+2025-09-05 23:35:33,006 | INFO | [PKJ] (132/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-132-langit-menceritakan/
+2025-09-05 23:35:34,273 | INFO | [PKJ] (133/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-133-lautan-rahmat-abadi/
+2025-09-05 23:35:37,204 | INFO | [PKJ] (134/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-134-menakjubkan-benar/
+2025-09-05 23:35:39,359 | INFO | [PKJ] (135/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-135-o-sungai-rahmat/
+2025-09-05 23:35:41,596 | INFO | [PKJ] (136/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-136-pada-bintang-nyata-karyanya/
+2025-09-05 23:35:43,620 | INFO | [PKJ] (137/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-137-pujilah-tuhan-hai-jiwaku/
+2025-09-05 23:35:44,915 | INFO | [PKJ] (138/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-138-setiamu-tuhanku-tiada-bertara/
+2025-09-05 23:35:46,190 | INFO | [PKJ] (139/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-139-tuhan-ya-allahku/
+2025-09-05 23:35:48,092 | INFO | [PKJ] (140/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-140-tuhanku-berjanji/
+2025-09-05 23:35:49,981 | INFO | [PKJ] (141/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-141-tuhanku-besar/
+2025-09-05 23:35:52,237 | INFO | [PKJ] (142/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-142-untuk-apa-susah-hati/
+2025-09-05 23:35:54,198 | INFO | [PKJ] (143/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-143-yesus-tetap-mengasihi-aku/
+2025-09-05 23:35:55,443 | INFO | [PKJ] (144/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-144-dia-kristus/
+2025-09-05 23:35:57,390 | INFO | [PKJ] (145/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-145-aku-melangkah-ke-rumah-tuhan/
+2025-09-05 23:35:59,330 | INFO | [PKJ] (146/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-146-bawa-persembahanmu/
+2025-09-05 23:36:00,839 | INFO | [PKJ] (147/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-147-di-sini-aku-bawa/
+2025-09-05 23:36:02,131 | INFO | [PKJ] (148/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-148-trima-kasih-ya-tuhanku/
+2025-09-05 23:36:03,499 | INFO | [PKJ] (149/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-149-ucap-syukur-pada-tuhan/
+2025-09-05 23:36:04,797 | INFO | [PKJ] (150/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-150-ya-tuhan-hanya-inilah/
+2025-09-05 23:36:06,746 | INFO | [PKJ] (151/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-151-padamu-tuhanku-kubawa-dosaku/
+2025-09-05 23:36:08,787 | INFO | [PKJ] (152/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-152-padamu-tuhan-kuserahkan-jiwa-ragaku/
+2025-09-05 23:36:10,053 | INFO | [PKJ] (153/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-153-pakailah-seluruh-hidupmu/
+2025-09-05 23:36:11,324 | INFO | [PKJ] (154/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-154-setiakah-diriku-padamu/
+2025-09-05 23:36:14,388 | INFO | [PKJ] (155/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-155-ambillah-roti-ini/
+2025-09-05 23:36:16,301 | INFO | [PKJ] (156/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-156-anakdomba-allah/
+2025-09-05 23:36:17,571 | INFO | [PKJ] (157/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-157-perjamuan-yang-kudus/
+2025-09-05 23:36:18,926 | INFO | [PKJ] (158/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-158-tuhan-brilah-rahmatmu/
+2025-09-05 23:36:20,255 | INFO | [PKJ] (159/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-159-ya-tuhan-pada-hari-ini/
+2025-09-05 23:36:21,502 | INFO | [PKJ] (160/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-160-bangkit-ya-ku-bangkitlah-kelak/
+2025-09-05 23:36:22,760 | INFO | [PKJ] (161/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-161-beristirahat-orang-yang-beriman/
+2025-09-05 23:36:23,994 | INFO | [PKJ] (162/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-162-ada-saatnya-kita-jumpa/
+2025-09-05 23:36:25,268 | INFO | [PKJ] (163/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-163-bila-duka-menerpa/
+2025-09-05 23:36:26,524 | INFO | [PKJ] (164/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-164-jalan-hidup-tak-selalu/
+2025-09-05 23:36:28,024 | INFO | [PKJ] (165/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-165-janji-yang-manis/
+2025-09-05 23:36:29,286 | INFO | [PKJ] (166/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-166-tenang-dan-sabarlah/
+2025-09-05 23:36:30,555 | INFO | [PKJ] (167/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-167-burung-murai-bernyanyi/
+2025-09-05 23:36:31,831 | INFO | [PKJ] (168/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-168-pada-pagi-ini-yang-cerah/
+2025-09-05 23:36:33,119 | INFO | [PKJ] (169/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-169-surya-kencana-riang-dan-ramah/
+2025-09-05 23:36:34,414 | INFO | [PKJ] (170/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-170-terbitlah-kini-sang-matahari/
+2025-09-05 23:36:35,679 | INFO | [PKJ] (171/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-171-di-bawah-sinar-bulan/
+2025-09-05 23:36:36,989 | INFO | [PKJ] (172/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-172-di-heningnya-malam-ini/
+2025-09-05 23:36:38,296 | INFO | [PKJ] (173/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-173-nyanyian-malam-yang-teduh/
+2025-09-05 23:36:39,577 | INFO | [PKJ] (174/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-174-sudah-waktunya/
+2025-09-05 23:36:41,985 | INFO | [PKJ] (175/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-175-satu-tanah-air/
+2025-09-05 23:36:43,243 | INFO | [PKJ] (176/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-176-tuhan-memberikan-kita-tanah-air/
+2025-09-05 23:36:44,500 | INFO | [PKJ] (177/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-177-aku-tuhan-semesta/
+2025-09-05 23:36:45,771 | INFO | [PKJ] (178/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-178-allah-mengutus/
+2025-09-05 23:36:47,708 | INFO | [PKJ] (179/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-179-kasih-paling-agung/
+2025-09-05 23:36:48,980 | INFO | [PKJ] (180/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-180-kasih-tuhan-mengiringimu/
+2025-09-05 23:36:50,999 | INFO | [PKJ] (181/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-181-kautrima-kuasa-roh-kudus/
+2025-09-05 23:36:52,281 | INFO | [PKJ] (182/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-182-kuutus-kau/
+2025-09-05 23:36:53,585 | INFO | [PKJ] (183/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-183-mari-sebarkan-injil/
+2025-09-05 23:36:54,882 | INFO | [PKJ] (184/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-184-nama-yesus-termulia/
+2025-09-05 23:36:56,171 | INFO | [PKJ] (185/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-185-tuhan-mengutus-kita/
+2025-09-05 23:36:57,486 | INFO | [PKJ] (186/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-186-damai-sejahtera-allah/
+2025-09-05 23:36:58,757 | INFO | [PKJ] (187/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-187-kudengar-suara-yesus/
+2025-09-05 23:37:00,039 | INFO | [PKJ] (188/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-188-lihatlah-aku-berdiri/
+2025-09-05 23:37:01,311 | INFO | [PKJ] (189/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-189-mari-datanglah/
+2025-09-05 23:37:02,654 | INFO | [PKJ] (190/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-190-sampai-kapan-engkau-mengeluh/
+2025-09-05 23:37:04,598 | INFO | [PKJ] (191/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-191-tuhan-memanggil-datang-segra/
+2025-09-05 23:37:06,488 | INFO | [PKJ] (192/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-192-dengar-panggilan-tuhanmu/
+2025-09-05 23:37:08,415 | INFO | [PKJ] (193/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-193-aku-anak-sekolah-minggu-himne-sekolah-minggu/
+2025-09-05 23:37:09,966 | INFO | [PKJ] (194/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-194-aku-jalan-sendiri/
+2025-09-05 23:37:12,128 | INFO | [PKJ] (195/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-195-bagai-bumi-yang-kauhias/
+2025-09-05 23:37:13,642 | INFO | [PKJ] (196/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-196-bapa-kau-kupuji/
+2025-09-05 23:37:14,898 | INFO | [PKJ] (197/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-197-buka-mataku/
+2025-09-05 23:37:16,921 | INFO | [PKJ] (198/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-198-di-hatiku-ya-yesus/
+2025-09-05 23:37:18,313 | INFO | [PKJ] (199/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-199-dulu-ku-tertindih-dosa/
+2025-09-05 23:37:20,295 | INFO | [PKJ] (200/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-200-ku-diubahnya/
+2025-09-05 23:37:21,555 | INFO | [PKJ] (201/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-201-sering-kutanya-pada-diriku/
+2025-09-05 23:37:22,820 | INFO | [PKJ] (202/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-202-yesusku-juruslamatku/
+2025-09-05 23:37:24,100 | INFO | [PKJ] (203/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-203-ada-damai-sejahtra-allah/
+2025-09-05 23:37:25,398 | INFO | [PKJ] (204/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-204-adapun-manusia/
+2025-09-05 23:37:26,679 | INFO | [PKJ] (205/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-205-alangkah-indahnya-kasih-setiamu/
+2025-09-05 23:37:27,940 | INFO | [PKJ] (206/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-206-allah-itu-mahakasih/
+2025-09-05 23:37:29,258 | INFO | [PKJ] (207/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-207-halelu-halelu/
+2025-09-05 23:37:31,387 | INFO | [PKJ] (208/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-208-karuniamu-tuhan/
+2025-09-05 23:37:32,644 | INFO | [PKJ] (209/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-209-kasih-setiamu/
+2025-09-05 23:37:33,914 | INFO | [PKJ] (210/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-210-kita-ini-seperti-bunga-bunga/
+2025-09-05 23:37:35,168 | INFO | [PKJ] (211/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-211-tuhanku-yesus-kristus/
+2025-09-05 23:37:36,420 | INFO | [PKJ] (212/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-212-ya-allah-kasihmu-besar/
+2025-09-05 23:37:37,709 | INFO | [PKJ] (213/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-213-apakah-yang-kaulakukan/
+2025-09-05 23:37:38,979 | INFO | [PKJ] (214/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-214-bahagia-di-hatiku/
+2025-09-05 23:37:40,226 | INFO | [PKJ] (215/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-215-berbahagialah-orang-miskin/
+2025-09-05 23:37:41,513 | INFO | [PKJ] (216/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-216-berlimpah-sukacita-di-hatiku/
+2025-09-05 23:37:42,790 | INFO | [PKJ] (217/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-217-bernyanyilah-bagi-tuhan/
+2025-09-05 23:37:44,035 | INFO | [PKJ] (218/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-218-bersukacita-senantiasa/
+2025-09-05 23:37:45,383 | INFO | [PKJ] (219/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-219-di-saat-ini-kuangkat-tembang/
+2025-09-05 23:37:46,665 | INFO | [PKJ] (220/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-220-jiwaku-mari-nyanyi/
+2025-09-05 23:37:47,948 | INFO | [PKJ] (221/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-221-kasih-allah-pengikatnya/
+2025-09-05 23:37:49,291 | INFO | [PKJ] (222/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-222-ku-ingin-menghayati/
+2025-09-05 23:37:50,604 | INFO | [PKJ] (223/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-223-ku-ini-seorang-musafir/
+2025-09-05 23:37:51,880 | INFO | [PKJ] (224/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-224-ucapkan-syukur-pada-allah/
+2025-09-05 23:37:53,158 | INFO | [PKJ] (225/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-225-adalah-hal-yang-tak-ku-tahu/
+2025-09-05 23:37:54,450 | INFO | [PKJ] (226/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-226-adalah-seorang-menaburkan-benih/
+2025-09-05 23:37:55,696 | INFO | [PKJ] (227/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-227-andaikan-surya-pagi-tersembunyi/
+2025-09-05 23:37:56,966 | INFO | [PKJ] (228/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-228-bapa-sorgawi/
+2025-09-05 23:37:58,241 | INFO | [PKJ] (229/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-229-berbahagialah-orang-orang/
+2025-09-05 23:37:59,557 | INFO | [PKJ] (230/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-230-berkilat-halilintar/
+2025-09-05 23:38:00,880 | INFO | [PKJ] (231/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-231-di-dalam-suka-di-dalam-duka/
+2025-09-05 23:38:02,140 | INFO | [PKJ] (232/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-232-di-kala-hidupku-tentram/
+2025-09-05 23:38:03,460 | INFO | [PKJ] (233/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-233-imanuel-imanuel/
+2025-09-05 23:38:04,747 | INFO | [PKJ] (234/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-234-jangan-kuatir-kan-hari-esok/
+2025-09-05 23:38:06,019 | INFO | [PKJ] (235/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-235-janganlah-takut/
+2025-09-05 23:38:08,342 | INFO | [PKJ] (236/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-236-jikalau-kristus-penolongku/
+2025-09-05 23:38:09,634 | INFO | [PKJ] (237/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-237-kenapa-timbul-perpecahan/
+2025-09-05 23:38:10,898 | INFO | [PKJ] (238/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-238-kita-dirangkul-oleh-kuasa-kasih/
+2025-09-05 23:38:12,148 | INFO | [PKJ] (239/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-239-perubahan-besar/
+2025-09-05 23:38:13,664 | INFO | [PKJ] (240/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-240-salib-kudus/
+2025-09-05 23:38:14,945 | INFO | [PKJ] (241/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-241-tak-ku-tahu-kan-hari-esok/
+2025-09-05 23:38:16,491 | INFO | [PKJ] (242/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-242-seindah-siang-disinari-terang/
+2025-09-05 23:38:17,808 | INFO | [PKJ] (243/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-243-sejahtera-tuhan/
+2025-09-05 23:38:19,070 | INFO | [PKJ] (244/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-244-sejenak-aku-menoleh/
+2025-09-05 23:38:20,335 | INFO | [PKJ] (245/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-245-seperti-wanita-di-pinggir-sumur/
+2025-09-05 23:38:21,615 | INFO | [PKJ] (246/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-246-waktu-fajar-di-taman-sepi/
+2025-09-05 23:38:22,885 | INFO | [PKJ] (247/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-247-walau-tak-dapat-mata-memandang/
+2025-09-05 23:38:24,204 | INFO | [PKJ] (248/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-248-ya-tuhan-engkau-perlindunganku/
+2025-09-05 23:38:26,279 | INFO | [PKJ] (249/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-249-ya-tuhan-kuatkan-imanku/
+2025-09-05 23:38:27,538 | INFO | [PKJ] (250/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-250-ya-tuhan-ya-allahku/
+2025-09-05 23:38:28,806 | INFO | [PKJ] (251/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-251-bagai-kapal-yang-berlayar/
+2025-09-05 23:38:30,136 | INFO | [PKJ] (252/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-252-bimbing-aku-ya-tuhan/
+2025-09-05 23:38:31,400 | INFO | [PKJ] (253/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-253-di-saat-angin-topan/
+2025-09-05 23:38:32,711 | INFO | [PKJ] (254/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-254-di-saat-murid-yesus/
+2025-09-05 23:38:34,055 | INFO | [PKJ] (255/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-255-firmanmu-kupegang-selalu/
+2025-09-05 23:38:35,361 | INFO | [PKJ] (256/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-256-gembala-yang-baik/
+2025-09-05 23:38:36,673 | INFO | [PKJ] (257/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-257-janganlah-gentar-hai-kawanan-kecil/
+2025-09-05 23:38:38,031 | INFO | [PKJ] (258/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-258-ku-ingin-selalu-dekat-padamu/
+2025-09-05 23:38:39,390 | INFO | [PKJ] (259/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-259-padamu-kami-datang/
+2025-09-05 23:38:41,250 | INFO | [PKJ] (260/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-260-tuhan-gembala-baik/
+2025-09-05 23:38:42,548 | INFO | [PKJ] (261/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-261-tuhan-padamu-kuharapkan-pertolongan/
+2025-09-05 23:38:43,864 | INFO | [PKJ] (262/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-262-tuhan-tinggallah-beserta-umatmu/
+2025-09-05 23:38:45,785 | INFO | [PKJ] (263/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-263-yesus-kristus-kehidupan-dunia/
+2025-09-05 23:38:47,063 | INFO | [PKJ] (264/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-264-apalah-arti-ibadahmu/
+2025-09-05 23:38:48,336 | INFO | [PKJ] (265/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-265-bukan-karna-upahmu/
+2025-09-05 23:38:49,606 | INFO | [PKJ] (266/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-266-dalam-nama-yesus-tuhanku/
+2025-09-05 23:38:50,879 | INFO | [PKJ] (267/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-267-damai-di-dunia/
+2025-09-05 23:38:53,309 | INFO | [PKJ] (268/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-268-hai-dengarlah-anakku/
+2025-09-05 23:38:54,590 | INFO | [PKJ] (269/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-269-hai-bangun-yang-tidur/
+2025-09-05 23:38:55,864 | INFO | [PKJ] (270/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-270-isilah-mataku-dengan-citra-salibmu/
+2025-09-05 23:38:58,587 | INFO | [PKJ] (271/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-271-janganlah-kumpulkan-harta/
+2025-09-05 23:39:00,077 | INFO | [PKJ] (272/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-272-kamu-adalah-garam-dunia/
+2025-09-05 23:39:01,575 | INFO | [PKJ] (273/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-273-ladang-menguning/
+2025-09-05 23:39:04,100 | INFO | [PKJ] (274/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-274-pakailah-waktu-anugrah-tuhanmu/
+2025-09-05 23:39:05,380 | INFO | [PKJ] (275/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-275-perintah-baru/
+2025-09-05 23:39:06,669 | INFO | [PKJ] (276/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-276-rasul-pergi-beribadah/
+2025-09-05 23:39:07,968 | INFO | [PKJ] (277/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-277-sekalipun-diriku-dapat-berkata-kata/
+2025-09-05 23:39:09,231 | INFO | [PKJ] (278/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-278-semua-manusia-yang-diciptakan/
+2025-09-05 23:39:10,502 | INFO | [PKJ] (279/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-279-semua-orang-inginkan-kebenaran/
+2025-09-05 23:39:11,812 | INFO | [PKJ] (280/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-280-takut-akan-tuhan/
+2025-09-05 23:39:13,101 | INFO | [PKJ] (281/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-281-tiap-orang-harus-tahu/
+2025-09-05 23:39:15,380 | INFO | [PKJ] (282/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-282-tuhan-tolonglah-bangunkan-iman/
+2025-09-05 23:39:16,724 | INFO | [PKJ] (283/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-283-wahai-anakku-janganlah-kaulupakan/
+2025-09-05 23:39:18,011 | INFO | [PKJ] (284/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-284-di-balik-malam/
+2025-09-05 23:39:19,330 | INFO | [PKJ] (285/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-285-bila-badai-hidup-menerpamu/
+2025-09-05 23:39:20,646 | INFO | [PKJ] (286/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-286-keluarga-yang-damai/
+2025-09-05 23:39:21,902 | INFO | [PKJ] (287/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-287-salam-kawanku/
+2025-09-05 23:39:23,211 | INFO | [PKJ] (288/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-288-inilah-rumah-kami/
+2025-09-05 23:39:26,014 | INFO | [PKJ] (289/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-289-keluarga-hidup-indah/
+2025-09-05 23:39:27,310 | INFO | [PKJ] (290/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-290-kurangkai-nada-menjadi-lagu/
+2025-09-05 23:39:29,197 | INFO | [PKJ] (291/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-291-mahabesar-dengarkan-ratap-umatmu/
+2025-09-05 23:39:31,250 | INFO | [PKJ] (292/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-292-amin/
+2025-09-05 23:39:33,091 | INFO | [PKJ] (293/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-293-amin/
+2025-09-05 23:39:34,363 | INFO | [PKJ] (294/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-294-haleluya-amin/
+2025-09-05 23:39:35,624 | INFO | [PKJ] (295/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-295-haleluya-pujilah-tuhanmu/
+2025-09-05 23:39:36,880 | INFO | [PKJ] (296/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-296-haleluya/
+2025-09-05 23:39:38,796 | INFO | [PKJ] (297/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-297-haleluya-tuhan-mahamulia/
+2025-09-05 23:39:40,702 | INFO | [PKJ] (298/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-298-angkatlah-gita-baru/
+2025-09-05 23:39:41,966 | INFO | [PKJ] (299/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-299-bersyukur-puji-tuhan/
+2025-09-05 23:39:43,220 | INFO | [PKJ] (300/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-300-datanglah-ya-roh-kudus/
+2025-09-05 23:39:45,159 | INFO | [PKJ] (301/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-301-di-dunia-gelap/
+2025-09-05 23:39:46,432 | INFO | [PKJ] (302/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-302-jangan-kuatir/
+2025-09-05 23:39:47,707 | INFO | [PKJ] (303/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-303-kami-akan-pergi-kepada-siapa/
+2025-09-05 23:39:49,000 | INFO | [PKJ] (304/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-304-muliakanlah-hai-jiwaku/
+2025-09-05 23:39:51,347 | INFO | [PKJ] (305/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-305-segala-suku-bangsa/
+2025-09-05 23:39:52,620 | INFO | [PKJ] (306/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-306-tuhan-kasihanilah/
+2025-09-05 23:39:53,906 | INFO | [PKJ] (307/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-307-tuhanlah-kekuatanku/
+2025-09-05 23:39:55,183 | INFO | [PKJ] (308/308) https://www.gkiharapanindah.org/nyanyian-jemaat/pelengkap-kidung-jemaat/pkj-308-yesus-terangmu-pelita-hatiku/
+2025-09-05 23:39:56,436 | INFO | [PKJ] Done. OK=308, ERR=0
+2025-09-05 23:39:56,438 | INFO | [NKB] Processing 230 links
+2025-09-05 23:39:56,438 | INFO | [NKB] (1/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-001-hai-kristen-nyanyilah/
+2025-09-05 23:39:57,692 | INFO | [NKB] (2/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-002-hai-mari-sembah/
+2025-09-05 23:39:58,942 | INFO | [NKB] (3/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-003-terpujilah-allah/
+2025-09-05 23:40:00,200 | INFO | [NKB] (4/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-004-nyanyikanlah-dengan-syukur/
+2025-09-05 23:40:01,452 | INFO | [NKB] (5/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-005-seluruh-dunia-hai-nyanyikanlah/
+2025-09-05 23:40:03,392 | INFO | [NKB] (6/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-006-patut-segenap-yang-ada/
+2025-09-05 23:40:05,320 | INFO | [NKB] (7/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-007-nyanyikanlah-nyanyian-baru/
+2025-09-05 23:40:06,595 | INFO | [NKB] (8/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-008-abadi-tak-nampak/
+2025-09-05 23:40:08,185 | INFO | [NKB] (9/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-009-engkau-sabar-menanti/
+2025-09-05 23:40:09,488 | INFO | [NKB] (10/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-010-dari-kukungan-malam-gelap/
+2025-09-05 23:40:10,757 | INFO | [NKB] (11/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-011-ya-yesus-tebuslah-segnap-dosaku/
+2025-09-05 23:40:12,932 | INFO | [NKB] (12/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-012-o-tuhanku-kau-datang-ke-dunia/
+2025-09-05 23:40:15,397 | INFO | [NKB] (13/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-013-o-allahku-jenguklah-diriku/
+2025-09-05 23:40:16,975 | INFO | [NKB] (14/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-014-jadilah-tuhan-kehendakmu/
+2025-09-05 23:40:18,228 | INFO | [NKB] (15/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-015-hidup-yang-penuh-berbeban/
+2025-09-05 23:40:19,501 | INFO | [NKB] (16/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-016-ku-amat-haus-di-gurun-dosa/
+2025-09-05 23:40:21,387 | INFO | [NKB] (17/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-017-agunglah-kasih-allahku/
+2025-09-05 23:40:22,650 | INFO | [NKB] (18/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-018-pintu-gerbang-terbukalah/
+2025-09-05 23:40:24,300 | INFO | [NKB] (19/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-019-dalam-lautan-yang-kelam/
+2025-09-05 23:40:26,289 | INFO | [NKB] (20/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-020-batu-karang-yang-teguh/
+2025-09-05 23:40:27,566 | INFO | [NKB] (21/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-021-ku-diberikan-kidung-baru/
+2025-09-05 23:40:29,111 | INFO | [NKB] (22/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-022-walau-dosamu-merah/
+2025-09-05 23:40:31,055 | INFO | [NKB] (23/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-023-di-dalam-kasih-yang-teguh/
+2025-09-05 23:40:32,303 | INFO | [NKB] (24/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-024-tuhan-kasihanilah-kami/
+2025-09-05 23:40:32,681 | WARNING | Buku missing in page, using expected from file: NKB
+2025-09-05 23:40:32,682 | WARNING | Key fields issue for https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-024-tuhan-kasihanilah-kami/: Missing no_lagu; No lirik found
+2025-09-05 23:40:32,682 | ERROR | [NKB] Failed parsing https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-024-tuhan-kasihanilah-kami/: NOT NULL constraint failed: hymns.no_lagu
+Traceback (most recent call last):
+  File ".\kjpkjnkb.py", line 427, in process_file
+    upsert_hymn(conn, row)
+  File ".\kjpkjnkb.py", line 131, in upsert_hymn
+    conn.execute(sql, row)
+sqlite3.IntegrityError: NOT NULL constraint failed: hymns.no_lagu
+2025-09-05 23:40:33,486 | INFO | [NKB] (25/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-025-tuhan-kasihani-kami/
+2025-09-05 23:40:35,499 | INFO | [NKB] (26/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-026-tuhan-ampuni-kami/
+2025-09-05 23:40:37,412 | INFO | [NKB] (27/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-027-tuhan-ampunilah/
+2025-09-05 23:40:39,306 | INFO | [NKB] (28/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-028-ya-tuhanku-kasihanilah-daku/
+2025-09-05 23:40:40,561 | INFO | [NKB] (29/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-029-ya-tuhanku-ya-tuhanku/
+2025-09-05 23:40:42,495 | INFO | [NKB] (30/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-030-hormat-bagi-sang-bapa/
+2025-09-05 23:40:44,372 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:40:45,173 | INFO | [NKB] (31/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-031-kami-naikkan-puji-dan-syukur/
+2025-09-05 23:40:47,083 | INFO | [NKB] (32/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-032-atas-bumi-nan-permai/
+2025-09-05 23:40:48,499 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:40:49,299 | INFO | [NKB] (33/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-033-agung-kasihmu-allah-bapa/
+2025-09-05 23:40:50,571 | INFO | [NKB] (34/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-034-setiamu-tuhanku-tiada-bertara/
+2025-09-05 23:40:51,836 | INFO | [NKB] (35/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-035-seluruh-alam-tak-henti/
+2025-09-05 23:40:54,513 | INFO | [NKB] (36/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-036-terang-mentari-merekah/
+2025-09-05 23:40:56,514 | INFO | [NKB] (37/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-037-terbitlah-kini-sang-mentari/
+2025-09-05 23:40:58,524 | INFO | [NKB] (38/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-038-tlah-lewat-malam-yang-gelap/
+2025-09-05 23:41:00,550 | INFO | [NKB] (39/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-039-dikau-allah-ku-sembah/
+2025-09-05 23:41:02,705 | INFO | [NKB] (40/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-040-matahari-bersinar/
+2025-09-05 23:41:04,790 | INFO | [NKB] (41/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-041-fajar-merekah/
+2025-09-05 23:41:06,888 | INFO | [NKB] (42/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-042-fajar-menyingsing/
+2025-09-05 23:41:09,383 | INFO | [NKB] (43/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-043-sinar-matahari-pagi/
+2025-09-05 23:41:11,889 | INFO | [NKB] (44/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-044-ya-tuhan-hari-tlah-berakhir/
+2025-09-05 23:41:14,398 | INFO | [NKB] (45/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-045-pujian-malam-yang-tenang/
+2025-09-05 23:41:17,109 | INFO | [NKB] (46/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-046-nyanyian-malam-yang-teduh/
+2025-09-05 23:41:19,242 | INFO | [NKB] (47/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-047-tlah-datanglah-tahun-baru/
+2025-09-05 23:41:23,315 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:41:24,115 | INFO | [NKB] (48/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-048-hanyalah-dialah-yang-tahu/
+2025-09-05 23:41:26,199 | INFO | [NKB] (49/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-049-tuhan-yang-pegang/
+2025-09-05 23:41:28,076 | INFO | [NKB] (50/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-050-fajar-yang-baru-sudah-rekah/
+2025-09-05 23:41:30,008 | INFO | [NKB] (51/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-051-hiburkanlah-hiburkan-umatku/
+2025-09-05 23:41:31,923 | INFO | [NKB] (52/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-052-hai-orang-yang-beriman/
+2025-09-05 23:41:34,101 | INFO | [NKB] (53/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-053-gapuramu-tinggikanlah/
+2025-09-05 23:41:36,083 | INFO | [NKB] (54/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-054-muliakanlah-hai-jiwaku/
+2025-09-05 23:41:37,971 | INFO | [NKB] (55/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-055-tlah-turun-ke-dunia/
+2025-09-05 23:41:39,915 | INFO | [NKB] (56/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-056-siapakah-yang-trus-berjalan/
+2025-09-05 23:41:41,809 | INFO | [NKB] (57/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-057-bintang-bintang-cemerlang/
+2025-09-05 23:41:43,829 | INFO | [NKB] (58/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-058-di-langit-berkilauan-bintang/
+2025-09-05 23:41:45,692 | INFO | [NKB] (59/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-059-di-malam-glap-sunyi-senyap/
+2025-09-05 23:41:46,994 | INFO | [NKB] (60/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-060-gerangan-bayi-apakah/
+2025-09-05 23:41:49,392 | INFO | [NKB] (61/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-061-ada-lagu-sedap/
+2025-09-05 23:41:51,625 | INFO | [NKB] (62/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-062-gembala-yang-ada-di-padang/
+2025-09-05 23:41:52,886 | INFO | [NKB] (63/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-063-mari-gembala-ke-kandang/
+2025-09-05 23:41:54,930 | INFO | [NKB] (64/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-064-angkat-hatimu-pandanglah/
+2025-09-05 23:41:56,934 | INFO | [NKB] (65/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-065-besar-kasih-allah/
+2025-09-05 23:41:58,240 | INFO | [NKB] (66/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-066-di-dalam-palungan/
+2025-09-05 23:42:00,234 | INFO | [NKB] (67/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-067-pada-hari-natal/
+2025-09-05 23:42:02,213 | INFO | [NKB] (68/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-068-yesus-berfirman/
+2025-09-05 23:42:04,215 | INFO | [NKB] (69/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-069-yesus-tlah-datang-ke-dunia-cemar/
+2025-09-05 23:42:06,096 | INFO | [NKB] (70/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-070-waktu-di-sorga-pujian-bertalun/
+2025-09-05 23:42:08,987 | INFO | [NKB] (71/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-071-sebuah-nama-yang-permai/
+2025-09-05 23:42:10,893 | INFO | [NKB] (72/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-072-nama-yesus-yang-berkumandang/
+2025-09-05 23:42:12,898 | INFO | [NKB] (73/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-073-kasih-tuhanku-lembut/
+2025-09-05 23:42:14,163 | INFO | [NKB] (74/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-074-hosana/
+2025-09-05 23:42:17,000 | INFO | [NKB] (75/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-075-ke-yerusalam-yesus-datangmu/
+2025-09-05 23:42:18,927 | INFO | [NKB] (76/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-076-dengan-megah-kau-maju-trus/
+2025-09-05 23:42:21,203 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:42:22,004 | INFO | [NKB] (77/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-077-lihatlah-anak-insan/
+2025-09-05 23:42:23,990 | INFO | [NKB] (78/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-078-hai-jangan-kau-ratapi-dia/
+2025-09-05 23:42:25,876 | INFO | [NKB] (79/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-079-sambil-kepalamu-engkau-tundukkan/
+2025-09-05 23:42:27,797 | INFO | [NKB] (80/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-080-di-bukit-golgota/
+2025-09-05 23:42:29,698 | INFO | [NKB] (81/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-081-pancaran-air-miliknya/
+2025-09-05 23:42:31,771 | INFO | [NKB] (82/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-082-tlah-terdengar-di-golgota/
+2025-09-05 23:42:33,691 | INFO | [NKB] (83/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-083-nun-di-bukit-yang-jauh/
+2025-09-05 23:42:35,641 | INFO | [NKB] (84/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-084-ku-brikan-bagimu-tubuhku-darahku/
+2025-09-05 23:42:36,933 | INFO | [NKB] (85/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-085-karna-kasihnya/
+2025-09-05 23:42:38,189 | INFO | [NKB] (86/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-086-waktu-hari-masih-glap/
+2025-09-05 23:42:40,077 | INFO | [NKB] (87/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-087-junjungan-yang-ku-pilih/
+2025-09-05 23:42:41,969 | INFO | [NKB] (88/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-088-hai-mari-nyanyi-bersenang/
+2025-09-05 23:42:44,580 | INFO | [NKB] (89/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-089-ku-tahu-mukhalisku-hidup/
+2025-09-05 23:42:46,490 | INFO | [NKB] (90/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-090-yesus-engkaulah-rajaku/
+2025-09-05 23:42:48,407 | INFO | [NKB] (91/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-091-mulia-manis-dan-lembut/
+2025-09-05 23:42:51,213 | INFO | [NKB] (92/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-092-tegak-terus-megah/
+2025-09-05 23:42:53,285 | INFO | [NKB] (93/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-093-segala-puji-namanya/
+2025-09-05 23:42:55,486 | INFO | [NKB] (94/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-094-yesus-terpuji-engkau/
+2025-09-05 23:42:57,809 | INFO | [NKB] (95/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-095-di-sorga-yang-terang/
+2025-09-05 23:42:59,791 | INFO | [NKB] (96/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-096-datang-ya-roh-kudus/
+2025-09-05 23:43:02,340 | INFO | [NKB] (97/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-097-roh-kudus-ya-turunlah/
+2025-09-05 23:43:04,291 | INFO | [NKB] (98/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-098-roh-kudus-ilhami-kami/
+2025-09-05 23:43:05,545 | INFO | [NKB] (99/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-099-o-allah-bapa-kami/
+2025-09-05 23:43:07,505 | INFO | [NKB] (100/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-100-rindukah-engkau-mendapat-berkat-tuhan/
+2025-09-05 23:43:09,641 | INFO | [NKB] (101/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-101-pada-hari-pentakosta/
+2025-09-05 23:43:11,792 | INFO | [NKB] (102/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-102-sebarkan-wartanya/
+2025-09-05 23:43:13,055 | INFO | [NKB] (103/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-103-murid-murid-tlah-berhimpun/
+2025-09-05 23:43:15,033 | INFO | [NKB] (104/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-104-apinya-berkobar-dalam-hatiku/
+2025-09-05 23:43:16,301 | INFO | [NKB] (105/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-105-kau-trima-kuasa/
+2025-09-05 23:43:18,189 | INFO | [NKB] (106/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-106-hidup-dalam-sukacita/
+2025-09-05 23:43:20,809 | INFO | [NKB] (107/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-107-bapa-anak-dan-roh/
+2025-09-05 23:43:22,809 | INFO | [NKB] (108/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-108-terpuji-allah-bapa/
+2025-09-05 23:43:24,808 | INFO | [NKB] (109/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-109-bapa-di-sorga/
+2025-09-05 23:43:27,335 | INFO | [NKB] (110/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-110-amin-puji-bapa/
+2025-09-05 23:43:29,238 | INFO | [NKB] (111/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-111-gereja-bagai-bahtera/
+2025-09-05 23:43:30,530 | INFO | [NKB] (112/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-112-kristus-yang-menjadi-dasar/
+2025-09-05 23:43:32,170 | INFO | [NKB] (113/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-113-datanglah-ya-tuhan/
+2025-09-05 23:43:34,097 | INFO | [NKB] (114/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-114-apa-kita-kan-berhimpun/
+2025-09-05 23:43:36,103 | INFO | [NKB] (115/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-115-firmanmu-tuhan-adalah-kebun/
+2025-09-05 23:43:37,366 | INFO | [NKB] (116/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-116-siapa-yang-berpegang/
+2025-09-05 23:43:38,632 | INFO | [NKB] (117/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-117-bersabdalah-tuhanku/
+2025-09-05 23:43:39,917 | INFO | [NKB] (118/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-118-sabda-kudus-menggetar/
+2025-09-05 23:43:41,896 | INFO | [NKB] (119/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-119-nyanyikan-lagi-bagiku/
+2025-09-05 23:43:43,154 | INFO | [NKB] (120/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-120-tiada-lain-landasanku/
+2025-09-05 23:43:44,421 | INFO | [NKB] (121/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-121-yesus-tuhanku-dialah-segalanya/
+2025-09-05 23:43:45,697 | INFO | [NKB] (122/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-122-ku-ingin-berperangai/
+2025-09-05 23:43:47,314 | INFO | [NKB] (123/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-123-dalam-badai-hidupku/
+2025-09-05 23:43:48,634 | INFO | [NKB] (124/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-124-yesus-memanggilmu-pulang-segra/
+2025-09-05 23:43:50,197 | INFO | [NKB] (125/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-125-ku-dengar-panggilan-tuhan/
+2025-09-05 23:43:52,096 | INFO | [NKB] (126/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-126-tuhan-memanggilmu/
+2025-09-05 23:43:53,357 | INFO | [NKB] (127/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-127-ya-tuhan-kaulah-penebus/
+2025-09-05 23:43:54,990 | INFO | [NKB] (128/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-128-ku-berserah-kepada-allahku/
+2025-09-05 23:43:56,281 | INFO | [NKB] (129/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-129-indah-mulia-bahagia-penuh/
+2025-09-05 23:43:58,197 | INFO | [NKB] (130/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-130-hidup-yang-jujur/
+2025-09-05 23:44:00,195 | INFO | [NKB] (131/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-131-tuhanku-pimpinlah/
+2025-09-05 23:44:01,445 | INFO | [NKB] (132/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-132-bersukacitalah-yang-khalis-hatinya/
+2025-09-05 23:44:02,771 | INFO | [NKB] (133/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-133-syukur-padamu-ya-allah/
+2025-09-05 23:44:04,057 | INFO | [NKB] (134/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-134-trima-kasih-ya-tuhanku/
+2025-09-05 23:44:05,349 | INFO | [NKB] (135/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-135-bernyanyilah-biduan-muda-mudi/
+2025-09-05 23:44:07,288 | INFO | [NKB] (136/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-136-bisikkanlah-trus-doamu/
+2025-09-05 23:44:09,209 | INFO | [NKB] (137/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-137-adakah-berat-beban-hidupmu/
+2025-09-05 23:44:11,400 | INFO | [NKB] (138/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-138-makin-serupa-yesus-tuhanku/
+2025-09-05 23:44:13,491 | INFO | [NKB] (139/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-139-o-tuhan-terangi-hatiku/
+2025-09-05 23:44:15,209 | INFO | [NKB] (140/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-140-bila-ku-berdoa/
+2025-09-05 23:44:17,184 | INFO | [NKB] (141/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-141-kasihku-padamu-tambahkanlah/
+2025-09-05 23:44:18,447 | INFO | [NKB] (142/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-142-aku-rindu-ke-rumahku/
+2025-09-05 23:44:19,711 | INFO | [NKB] (143/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-143-janji-yang-manis/
+2025-09-05 23:44:21,002 | INFO | [NKB] (144/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-144-aku-rindu-pulang-ke-rumah-kekal/
+2025-09-05 23:44:22,589 | INFO | [NKB] (145/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-145-hai-dengar-nyanyian-suci/
+2025-09-05 23:44:24,485 | INFO | [NKB] (146/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-146-hakim-dalam-trang-abadi/
+2025-09-05 23:44:26,410 | INFO | [NKB] (147/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-147-bagai-rusa-berteriak/
+2025-09-05 23:44:28,030 | INFO | [NKB] (148/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-148-ku-tahu-negeri-terang/
+2025-09-05 23:44:30,184 | INFO | [NKB] (149/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-149-ku-ini-adalah-musafir/
+2025-09-05 23:44:31,442 | INFO | [NKB] (150/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-150-di-sebrang-sana/
+2025-09-05 23:44:33,414 | INFO | [NKB] (151/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-151-gembala-baik-dan-tuhanku/
+2025-09-05 23:44:35,006 | INFO | [NKB] (152/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-152-juruslamat-kau-membimbing/
+2025-09-05 23:44:36,892 | INFO | [NKB] (153/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-153-hai-lihatlah-gembala-baik/
+2025-09-05 23:44:38,588 | INFO | [NKB] (154/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-154-setialah-setialah/
+2025-09-05 23:44:40,597 | INFO | [NKB] (155/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-155-juruslamatku-bertakhta-di-sorga/
+2025-09-05 23:44:42,233 | INFO | [NKB] (156/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-156-angkat-hatimu/
+2025-09-05 23:44:44,148 | INFO | [NKB] (157/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-157-di-sini-tuhan-ku-memandangmu/
+2025-09-05 23:44:45,723 | INFO | [NKB] (158/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-158-haleluya-bagi-anak-domba/
+2025-09-05 23:44:47,586 | INFO | [NKB] (159/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-159-brilah-ya-tuhan/
+2025-09-05 23:44:49,601 | INFO | [NKB] (160/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-160-segala-puji-syukur/
+2025-09-05 23:44:50,857 | INFO | [NKB] (161/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-161-kendati-lawan-menyerbu/
+2025-09-05 23:44:52,794 | INFO | [NKB] (162/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-162-meskipun-di-dalam-lembah/
+2025-09-05 23:44:54,059 | INFO | [NKB] (163/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-163-tak-mudah-jalanku/
+2025-09-05 23:44:55,334 | INFO | [NKB] (164/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-164-kidung-yang-merdu-di-hatiku/
+2025-09-05 23:44:57,004 | INFO | [NKB] (165/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-165-maukah-kau-jaya-atas-seteru/
+2025-09-05 23:44:58,620 | INFO | [NKB] (166/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-166-hai-jiwa-yang-penuh-sesal/
+2025-09-05 23:44:59,927 | INFO | [NKB] (167/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-167-tuhan-yesus-sahabatku/
+2025-09-05 23:45:01,625 | INFO | [NKB] (168/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-168-ketika-hilang-sudah-asaku/
+2025-09-05 23:45:03,517 | INFO | [NKB] (169/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-169-tenang-dan-sabarlah/
+2025-09-05 23:45:06,162 | INFO | [NKB] (170/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-170-jalan-hidup-tak-selalu/
+2025-09-05 23:45:07,423 | INFO | [NKB] (171/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-171-walau-ku-daki-gunung-yang-tinggi/
+2025-09-05 23:45:10,082 | INFO | [NKB] (172/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-172-dalam-rumah-bapaku/
+2025-09-05 23:45:12,000 | INFO | [NKB] (173/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-173-ku-tak-dapat-maju-sendiri/
+2025-09-05 23:45:14,302 | INFO | [NKB] (174/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-174-ladang-yang-terhampar-subur/
+2025-09-05 23:45:16,201 | INFO | [NKB] (175/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-175-saudaraku-selamatlah-berjuang/
+2025-09-05 23:45:17,987 | INFO | [NKB] (176/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-176-di-bawah-salib-yesus/
+2025-09-05 23:45:20,989 | INFO | [NKB] (177/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-177-ku-cari-suatu-panji/
+2025-09-05 23:45:23,209 | INFO | [NKB] (178/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-178-ambil-dunia-briku-yesus/
+2025-09-05 23:45:24,802 | INFO | [NKB] (179/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-179-lama-ku-enggan-mengikut-jalan-tuhan/
+2025-09-05 23:45:27,707 | INFO | [NKB] (180/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-180-bukanlah-ku-tetapi-hanya-kristus/
+2025-09-05 23:45:29,693 | INFO | [NKB] (181/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-181-tuhan-ambil-hidupku/
+2025-09-05 23:45:31,826 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:45:32,626 | INFO | [NKB] (182/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-182-ku-rindu-mengiringmu/
+2025-09-05 23:45:33,918 | INFO | [NKB] (183/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-183-dulu-ku-mencari/
+2025-09-05 23:45:35,174 | INFO | [NKB] (184/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-184-engkau-milikku-abadi/
+2025-09-05 23:45:37,912 | INFO | [NKB] (185/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-185-bintang-pandanganku/
+2025-09-05 23:45:39,643 | INFO | [NKB] (186/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-186-ku-cari-tuhan/
+2025-09-05 23:45:42,296 | INFO | [NKB] (187/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-187-nikmat-dunia-menggodaku/
+2025-09-05 23:45:46,010 | INFO | [NKB] (188/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-188-tiap-langkahku/
+2025-09-05 23:45:47,282 | INFO | [NKB] (189/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-189-pegang-tanganku/
+2025-09-05 23:45:49,007 | INFO | [NKB] (190/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-190-langit-bernyanyi-gembira/
+2025-09-05 23:45:50,995 | INFO | [NKB] (191/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-191-dalam-roh-yesus-kristus/
+2025-09-05 23:45:52,712 | INFO | [NKB] (192/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-192-di-dalam-kristus-bertemu/
+2025-09-05 23:45:53,793 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:45:54,594 | INFO | [NKB] (193/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-193-aku-hendak-tetap-berhati-tulus/
+2025-09-05 23:45:55,997 | INFO | [NKB] (194/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-194-kau-tetap-tuhanku-yesus/
+2025-09-05 23:45:57,910 | INFO | [NKB] (195/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-195-kendati-hidupku-tentram/
+2025-09-05 23:46:00,527 | INFO | [NKB] (196/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-196-ku-beroleh-berkat/
+2025-09-05 23:46:01,777 | INFO | [NKB] (197/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-197-besarlah-untungku/
+2025-09-05 23:46:03,117 | INFO | [NKB] (198/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-198-sahabatku-yang-paling-karib/
+2025-09-05 23:46:04,994 | INFO | [NKB] (199/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-199-sudahkah-yang-terbaik-ku-berikan/
+2025-09-05 23:46:06,900 | INFO | [NKB] (200/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-200-di-jalan-hidup-yang-lebar-sempit/
+2025-09-05 23:46:08,940 | INFO | [NKB] (201/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-201-di-jalan-hidupku/
+2025-09-05 23:46:10,240 | INFO | [NKB] (202/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-202-genta-injil-bergaung/
+2025-09-05 23:46:11,502 | INFO | [NKB] (203/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-203-adakah-tempat-baginya/
+2025-09-05 23:46:12,778 | INFO | [NKB] (204/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-204-di-dunia-yang-penuh-cemar/
+2025-09-05 23:46:14,093 | INFO | [NKB] (205/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-205-dalam-dunia-yang-gelap/
+2025-09-05 23:46:16,832 | INFO | [NKB] (206/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-206-mercusuar-kasih-bapa/
+2025-09-05 23:46:19,208 | INFO | [NKB] (207/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-207-taat-setia-bertekad-yang-bulat/
+2025-09-05 23:46:20,459 | INFO | [NKB] (208/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-208-tabur-waktu-pagi/
+2025-09-05 23:46:21,762 | INFO | [NKB] (209/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-209-simaklah-hai-pemuda/
+2025-09-05 23:46:23,403 | INFO | [NKB] (210/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-210-ku-utus-kau/
+2025-09-05 23:46:24,677 | INFO | [NKB] (211/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-211-pakailah-waktu-anugrah-tuhanmu/
+2025-09-05 23:46:25,967 | INFO | [NKB] (212/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-212-sungguh-inginkah-engkau-lakukan/
+2025-09-05 23:46:27,218 | INFO | [NKB] (213/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-213-kita-sudah-ditebus-olehnya/
+2025-09-05 23:46:28,446 | INFO | [NKB] (214/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-214-tuhan-kau-telah-kurniakan-kami/
+2025-09-05 23:46:30,868 | INFO | [NKB] (215/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-215-nyanyikanlah-kidung-baru/
+2025-09-05 23:46:32,128 | INFO | [NKB] (216/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-216-tuhan-engkaulah-hadir/
+2025-09-05 23:46:34,078 | INFO | [NKB] (217/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-217-semua-yang-tercipta/
+2025-09-05 23:46:36,941 | INFO | [NKB] (218/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-218-indonesia-tanah-airku/
+2025-09-05 23:46:38,788 | INFO | [NKB] (219/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-219-satu-tanah-air/
+2025-09-05 23:46:40,694 | INFO | [NKB] (220/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-220-utus-daku-tuhan-yesus/
+2025-09-05 23:46:42,004 | INFO | [NKB] (221/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-221-kiranya-anugrah-kristus/
+2025-09-05 23:46:43,500 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:46:44,302 | INFO | [NKB] (222/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-222-haleluya/
+2025-09-05 23:46:46,345 | INFO | [NKB] (223/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-223-haleluya/
+2025-09-05 23:46:48,015 | WARNING | [NKB] Saved with warnings: alkitab.app responded 'no such song' (base); retry with 'A' suffix.; used 'A' suffix fallback.
+2025-09-05 23:46:48,815 | INFO | [NKB] (224/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-224-haleluya-haleluya-amin/
+2025-09-05 23:46:50,797 | INFO | [NKB] (225/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-225-haleluya-amin/
+2025-09-05 23:46:52,049 | INFO | [NKB] (226/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-226-amin-haleluya/
+2025-09-05 23:46:54,609 | INFO | [NKB] (227/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-227-amin/
+2025-09-05 23:46:56,527 | INFO | [NKB] (228/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-228-amin/
+2025-09-05 23:46:57,775 | INFO | [NKB] (229/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-229-amin/
+2025-09-05 23:46:59,595 | INFO | [NKB] (230/230) https://www.gkiharapanindah.org/nyanyian-jemaat/nyanyikanlah-kidung-baru/nkb-230-berderaplah-satu-himne-gki/
+2025-09-05 23:47:01,919 | INFO | [NKB] Done. OK=229, ERR=1
+2025-09-05 23:47:01,919 | INFO | ALL DONE. TOTAL OK=1015, ERR=1. DB=hymns.sqlite3, LOG=scrape_hymns.log
